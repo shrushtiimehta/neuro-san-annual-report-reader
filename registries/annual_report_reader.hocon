@@ -130,15 +130,15 @@ Return the filtered content in full — do not drop, shorten, or summarize any r
                 "parameters": {
                     "type": "object",
                     "properties": {
-                        "linkedin_url": {
+                        "profile": {
                             "type": "string",
                             "description": "The full LinkedIn profile URL to scrape."
                         }
                     },
-                    "required": ["linkedin_url"]
+                    "required": ["profile"]
                 }
             },
-            "class": "annual_report.linkedin_profile_scraper.LinkedinProfileScraper"
+            "class": "annual_report.linkedin_profile_scraper.ApifyLinkedinProfileScraper"
         },
         {
             "name": "CognizantDocExtractor",

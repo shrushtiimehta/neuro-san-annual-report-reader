@@ -25,3 +25,6 @@ pyvis~=0.3.2
 
 # For web search tools without needing API keys, using DuckDuckGo's search results
 ddgs>=9.4.1
+
+# For HTTP requests (used by annual_report_reader tools)
+requests>=2.32.0

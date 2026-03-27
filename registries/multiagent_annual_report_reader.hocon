@@ -95,7 +95,7 @@ If none of the options below are a good fit, create your own concise category na
 
 Line 2 — Seniority level. Choose exactly one word based on the person's role and experience:
   - Executive: C-suite, VP, Director, or Partner — primarily strategic, focused on outcomes and vision
-  - Senior: Manager, Senior Manager, Principal, or Lead — balances strategy with hands-on execution
+  - Manager: Manager, Senior Manager, Principal, or Lead — balances strategy with hands-on execution
   - Practitioner: Analyst, Engineer, Consultant, or Associate — primarily hands-on and technical
             """ ${instructions_prefix} ${aaosa_instructions},
             "command": ${aaosa_command},
