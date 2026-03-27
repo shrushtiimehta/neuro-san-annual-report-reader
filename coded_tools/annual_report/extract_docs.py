@@ -142,9 +142,9 @@ class ExtractDocs(CodedTool):
                 "Error: <error message>"
         """
         app_name: str = args.get("app_name", None)
-        logger.debug("############### Doc text reader ###############")
         logger.debug("App name: %s", app_name)
         if app_name is None:
+            logger.error("No app name provided.")
             return "Error: No app name provided."
         path = self.docs_path.get(app_name, self.default_path)
 
@@ -175,9 +175,8 @@ class ExtractDocs(CodedTool):
                         rel_path = os.path.relpath(file_path, path)
                         docs[rel_path] = content
 
-        logger.debug("############### Documents extraction done ###############")
         if not docs:
-            logger.debug("No PDF or text files found in the path.")
+            logger.error("No PDF or text files found in the path: %s", path)
             return "ERROR: No PDF or text files found in the path."
         return {"files": docs}
 

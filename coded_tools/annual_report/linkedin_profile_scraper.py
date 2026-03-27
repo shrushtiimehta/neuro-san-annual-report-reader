@@ -170,6 +170,7 @@ class ApifyLinkedinProfileScraper(CodedTool):
         """
         profile_url = args.get("profile")
         if not profile_url:
+            logger.error("[LinkedIn Profile Scraper] No profile URL provided.")
             return {"success": False, "message": "A valid LinkedIn profile URL is required.", "data": {}}
 
         # In tests, sly_data may carry a mock_profile to bypass the Apify API call.
@@ -184,6 +185,7 @@ class ApifyLinkedinProfileScraper(CodedTool):
             logger.info("[LinkedIn Profile Scraper] Profile scraped: %s", result.get("data", {}).get("name"))
             return result
         except RuntimeError as exc:
+            logger.error("[LinkedIn Profile Scraper] %s", exc)
             return {"success": False, "message": str(exc), "data": {}}
 
     async def async_invoke(self, args: Dict[str, Any], sly_data: Dict[str, Any]) -> Union[Dict, str]:

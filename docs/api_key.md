@@ -10,10 +10,10 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     export OPENAI_API_KEY="XXX"
     ```
 
-- Run the script testing OpenAI API key
+- Start the server and verify the key is accepted:
 
     ```bash
-    python3 ./tests/apps/openai_api_key.py
+    python -m run --validate-keys
     ```
 
 - You will receive a message indicating success or failure.
@@ -34,10 +34,10 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     Deployment name is NOT the model name itself. It's a label you assign to the model when you deploy it. E.g., you
     may deploy a "gpt-4" model and label it "my-gpt-4".
 
-- Run the script testing Azure OpenAI API key
+- Start the server and verify the key is accepted:
 
     ```bash
-    python3 ./tests/apps/azure_openai_api_key.py
+    python -m run --validate-keys
     ```
 
 <!-- pyml disable line-length-->
@@ -54,10 +54,10 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     export ANTHROPIC_BASE_URL="https://api.anthropic.com"
     ```
 
-- Set the `model` variable in the script (e.g., to `claude-opus-4-20250514`) and run the script testing Anthropic API key
+- Start the server and verify the key is accepted:
 
     ```bash
-    python3 ./tests/apps/anthropic_api_key.py
+    python -m run --validate-keys
     ```
 
 - You will receive a message indicating success or failure.
@@ -70,10 +70,10 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     export GOOGLE_API_KEY="XXX"
     ```
 
-- Set the `model` variable in the script (e.g., to `gemini-1.5-pro`) and run the script testing Gemini API key
+- Start the server and verify the key is accepted:
 
     ```bash
-    python3 ./tests/apps/gemini_api_key.py
+    python -m run --validate-keys
     ```
 
 - You will receive a message indicating success or failure.

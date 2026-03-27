@@ -12,13 +12,13 @@ For more details about Neuro SAN, please check the [Neuro SAN](https://github.co
 Clone the repo:
 
 ```bash
-git clone https://github.com/cognizant-ai-lab/neuro-san-studio
+git clone https://github.com/shrushtiimehta/neuro-san-annual-report-reader
 ```
 
 Go to dir:
 
 ```bash
-cd neuro-san-studio
+cd neuro-san-annual-report-reader
 ```
 
 Ensure you have a supported version of python (e.g. 3.12 or 3.13):
@@ -119,7 +119,7 @@ For testing the API keys, please refer to this [documentation](./docs/api_key.md
 
 ### Run
 
-Neuro SAN Studio provides a user-friendly environment to interact with agent networks.
+Start the server and client with a single command, from the project root directory:
 
 1. Start the server and client with a single command, from the project root directory:
 

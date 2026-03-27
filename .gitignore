@@ -186,7 +186,6 @@ settings.json
 
 # macOS folder metadata
 .DS_Store
-/coded_tools/PentOps/vector_store/
 
 # Google credentials
 credentials.json
