@@ -16,7 +16,7 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     python3 ./tests/apps/openai_api_key.py
     ```
 
-- You will recieve a message indicating success or failure.
+- You will receive a message indicating success or failure.
 
 ## Azure OpenAI API Key
 
@@ -41,7 +41,7 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     ```
 
 <!-- pyml disable line-length-->
-- You will recieve a message indicating success or failure.
+- You will receive a message indicating success or failure.
 - See [Azure OpenAI Quickstart](https://learn.microsoft.com/en-us/azure/ai-services/openai/chatgpt-quickstart?tabs=keyless%2Ctypescript-keyless%2Cpython-new%2Ccommand-line&pivots=programming-language-python) for more information.
 <!-- pyml enable line-length-->
 
@@ -60,7 +60,7 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     python3 ./tests/apps/anthropic_api_key.py
     ```
 
-- You will recieve a message indicating success or failure.
+- You will receive a message indicating success or failure.
 
 ## Gemini API Key
 
@@ -76,4 +76,4 @@ Setup a virtual environment, install the dependencies, and activate the virtual 
     python3 ./tests/apps/gemini_api_key.py
     ```
 
-- You will recieve a message indicating success or failure.
+- You will receive a message indicating success or failure.

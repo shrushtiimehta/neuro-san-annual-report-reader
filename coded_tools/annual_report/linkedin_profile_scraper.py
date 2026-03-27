@@ -14,6 +14,7 @@
 #
 # END COPYRIGHT
 
+import asyncio
 import logging
 import os
 from typing import Any
@@ -189,5 +190,4 @@ class ApifyLinkedinProfileScraper(CodedTool):
         """
         Runs the synchronous invoke method in a thread to avoid blocking the event loop.
         """
-        import asyncio
         return await asyncio.to_thread(self.invoke, args, sly_data)
