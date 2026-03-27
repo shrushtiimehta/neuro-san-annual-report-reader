@@ -1,9 +1,16 @@
 # Neuro SAN Annual Report Reader
+
 Neuro SAN applied to Cognizant's 2024 Annual Report.
 
-Analyzes a LinkedIn profile URL and delivers a personalized summary of Cognizant's 2024 Annual Report — surfacing only the content most relevant to the user's industry and seniority level. The LinkedIn profile is scraped via the Apify `apimaestro/linkedin-profile-detail` actor, classified into a broad interest category and seniority level (Executive, Manager, or Practitioner), and used to filter the full report in a single agent call.
+Analyzes a LinkedIn profile URL and delivers a personalized summary of Cognizant's 2024 Annual Report —
+surfacing only the content most relevant to the user's industry and seniority level.
+The LinkedIn profile is scraped via the Apify `apimaestro/linkedin-profile-detail` actor, classified into
+a broad interest category and seniority level (Executive, Manager, or Practitioner), and used to filter
+the full report in a single agent call.
 
-For more details about Neuro SAN, please check the [Neuro SAN](https://github.com/cognizant-ai-lab/neuro-san) library and [Neuro SAN Studio](https://github.com/cognizant-ai-lab/neuro-san-studio) repository.
+For more details about Neuro SAN, please check the
+[Neuro SAN](https://github.com/cognizant-ai-lab/neuro-san) library and
+[Neuro SAN Studio](https://github.com/cognizant-ai-lab/neuro-san-studio) repository.
 
 ## Getting started
 
@@ -143,11 +150,11 @@ python -m run --help
 
 Select the `annual_report_reader` network and share a LinkedIn profile URL, for instance:
 
-> Analyze https://www.linkedin.com/in/babakhodjat/ and summarize the annual report content most relevant to their interests.
+> Analyze <https://www.linkedin.com/in/babakhodjat/> and summarize the annual report content most relevant to their interests.
 
 Or simply paste the URL and let the agent ask for it:
 
-> https://www.linkedin.com/in/shrushti-mehta/
+> <https://www.linkedin.com/in/shrushti-mehta/>
 
 The agent will scrape the profile, classify the person's interest category and seniority level, and return a
 personalized summary of Cognizant's 2024 Annual Report filtered to what is most relevant to their role.

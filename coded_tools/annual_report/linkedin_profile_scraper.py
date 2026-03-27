@@ -29,9 +29,7 @@ from requests.exceptions import Timeout
 logger = logging.getLogger(__name__)
 
 # Apify run-sync-get-dataset-items endpoint for apimaestro/linkedin-profile-detail
-APIFY_ENDPOINT = (
-    "https://api.apify.com/v2/acts/VhxlqQXRwhW8H5hNV/run-sync-get-dataset-items"
-)
+APIFY_ENDPOINT = "https://api.apify.com/v2/acts/VhxlqQXRwhW8H5hNV/run-sync-get-dataset-items"
 
 
 class ApifyLinkedinProfileScraper(CodedTool):
@@ -47,6 +45,11 @@ class ApifyLinkedinProfileScraper(CodedTool):
             logger.error("[LinkedIn Profile Scraper] APIFY_API_KEY environment variable not set")
 
     def run_actor(self, profile_url: str) -> list:
+        """Call the Apify actor synchronously and return the raw dataset items as a list.
+
+        Accepts a full LinkedIn URL, bare slug, or LinkedIn URN as the profile identifier.
+        Raises RuntimeError on timeout or any request failure.
+        """
         # Actor accepts a full URL, bare slug, or LinkedIn URN as "username"
         try:
             resp = requests.post(
@@ -66,6 +69,11 @@ class ApifyLinkedinProfileScraper(CodedTool):
         return data if isinstance(data, list) else []
 
     def extract_profile(self, raw: list) -> dict:
+        """Parse the raw Apify dataset response into a structured profile dict.
+
+        Returns a success dict with name, about, current_job, experience, education,
+        and recent_post, or a failure dict with a message if the response is empty.
+        """
         if not raw:
             return {"success": False, "message": "No profile data returned.", "data": {}}
 
@@ -87,19 +95,23 @@ class ApifyLinkedinProfileScraper(CodedTool):
         # Work experience
         experience = []
         for exp in item.get("experience") or []:
-            experience.append({
-                "title": exp.get("title"),
-                "company": exp.get("company"),
-            })
+            experience.append(
+                {
+                    "title": exp.get("title"),
+                    "company": exp.get("company"),
+                }
+            )
 
         # Education
         education = []
         for edu in item.get("education") or []:
-            education.append({
-                "school": edu.get("school"),
-                "degree": edu.get("degree_name"),
-                "major": edu.get("field_of_study"),
-            })
+            education.append(
+                {
+                    "school": edu.get("school"),
+                    "degree": edu.get("degree_name"),
+                    "major": edu.get("field_of_study"),
+                }
+            )
 
         # Most recent post that is not a repost (reposts have no original description)
         recent_post = next(

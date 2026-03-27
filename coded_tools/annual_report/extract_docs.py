@@ -30,6 +30,18 @@ logger = logging.getLogger(__name__)
 # Base path for all knowdocs
 _KNOWDOCS = "coded_tools/annual_report/knowdocs"
 
+# Section-level path aliases (keep dict entries within line-length limit)
+_10K = f"{_KNOWDOCS}/10k_front_matter_and_business_overview"
+_AR = f"{_KNOWDOCS}/annual_report_and_shareholder_letter"
+_AUD = f"{_KNOWDOCS}/auditor_report_and_financial_stmts"
+_CTL = f"{_KNOWDOCS}/controls_part_iii_and_part_iv"
+_MDA = f"{_KNOWDOCS}/md_a_margins_liquidity_and_risk"
+_NFS = f"{_KNOWDOCS}/notes_to_financial_statements"
+_RF1 = f"{_KNOWDOCS}/risk_factors_part_one"
+_RF2 = f"{_KNOWDOCS}/risk_factors_part_two_and_governance"
+_SCH = f"{_KNOWDOCS}/schedules_certifications_corp_info"
+_STK = f"{_KNOWDOCS}/stockholder_matters_and_md_a_overview"
+
 
 class ExtractDocs(CodedTool):
     """
@@ -53,64 +65,53 @@ class ExtractDocs(CodedTool):
             "Risk Factors Part Two and Governance": f"{_KNOWDOCS}/risk_factors_part_two_and_governance",
             "Schedules Certifications Corp Info": f"{_KNOWDOCS}/schedules_certifications_corp_info",
             "Stockholder Matters and MD&A Overview": f"{_KNOWDOCS}/stockholder_matters_and_md_a_overview",
-
             # File-level keys — Section 1: 10K Front Matter & Business Overview
-            "business_overview_and_segments": f"{_KNOWDOCS}/10k_front_matter_and_business_overview/business_overview_and_segments.txt",
-            "competition_ip_people_regulation": f"{_KNOWDOCS}/10k_front_matter_and_business_overview/competition_ip_people_regulation.txt",
-            "glossary_and_forward_looking": f"{_KNOWDOCS}/10k_front_matter_and_business_overview/glossary_and_forward_looking.txt",
-            "sec_filing_header_and_toc": f"{_KNOWDOCS}/10k_front_matter_and_business_overview/sec_filing_header_and_toc.txt",
-            "services_solutions_and_delivery": f"{_KNOWDOCS}/10k_front_matter_and_business_overview/services_solutions_and_delivery.txt",
-
+            "business_overview_and_segments": f"{_10K}/business_overview_and_segments.txt",
+            "competition_ip_people_regulation": f"{_10K}/competition_ip_people_regulation.txt",
+            "glossary_and_forward_looking": f"{_10K}/glossary_and_forward_looking.txt",
+            "sec_filing_header_and_toc": f"{_10K}/sec_filing_header_and_toc.txt",
+            "services_solutions_and_delivery": f"{_10K}/services_solutions_and_delivery.txt",
             # File-level keys — Section 2: Annual Report & Shareholder Letter
-            "ai_era_and_industry_expertise": f"{_KNOWDOCS}/annual_report_and_shareholder_letter/ai_era_and_industry_expertise.txt",
-            "cover_and_shareholder_letter": f"{_KNOWDOCS}/annual_report_and_shareholder_letter/cover_and_shareholder_letter.txt",
-            "financial_performance_summary": f"{_KNOWDOCS}/annual_report_and_shareholder_letter/financial_performance_summary.txt",
-            "partnerships_and_case_studies": f"{_KNOWDOCS}/annual_report_and_shareholder_letter/partnerships_and_case_studies.txt",
-
+            "ai_era_and_industry_expertise": f"{_AR}/ai_era_and_industry_expertise.txt",
+            "cover_and_shareholder_letter": f"{_AR}/cover_and_shareholder_letter.txt",
+            "financial_performance_summary": f"{_AR}/financial_performance_summary.txt",
+            "partnerships_and_case_studies": f"{_AR}/partnerships_and_case_studies.txt",
             # File-level keys — Section 3: Auditor Report & Financial Statements
-            "auditor_report_and_opinions": f"{_KNOWDOCS}/auditor_report_and_financial_stmts/auditor_report_and_opinions.txt",
-            "consolidated_financial_statements": f"{_KNOWDOCS}/auditor_report_and_financial_stmts/consolidated_financial_statements.txt",
-            "notes_acctg_policies_and_revenue": f"{_KNOWDOCS}/auditor_report_and_financial_stmts/notes_acctg_policies_and_revenue.txt",
-
+            "auditor_report_and_opinions": f"{_AUD}/auditor_report_and_opinions.txt",
+            "consolidated_financial_statements": f"{_AUD}/consolidated_financial_statements.txt",
+            "notes_acctg_policies_and_revenue": f"{_AUD}/notes_acctg_policies_and_revenue.txt",
             # File-level keys — Section 4: Controls, Part III & Part IV
-            "financial_stmts_intro_and_controls": f"{_KNOWDOCS}/controls_part_iii_and_part_iv/financial_stmts_intro_and_controls.txt",
-            "other_info_and_part_iii": f"{_KNOWDOCS}/controls_part_iii_and_part_iv/other_info_and_part_iii.txt",
-            "part_iv_exhibits_and_signatures": f"{_KNOWDOCS}/controls_part_iii_and_part_iv/part_iv_exhibits_and_signatures.txt",
-
+            "financial_stmts_intro_and_controls": f"{_CTL}/financial_stmts_intro_and_controls.txt",
+            "other_info_and_part_iii": f"{_CTL}/other_info_and_part_iii.txt",
+            "part_iv_exhibits_and_signatures": f"{_CTL}/part_iv_exhibits_and_signatures.txt",
             # File-level keys — Section 5: MD&A Margins, Liquidity & Risk
-            "critical_estimates_and_market_risk": f"{_KNOWDOCS}/md_a_margins_liquidity_and_risk/critical_estimates_and_market_risk.txt",
-            "liquidity_and_capital_resources": f"{_KNOWDOCS}/md_a_margins_liquidity_and_risk/liquidity_and_capital_resources.txt",
-            "operating_margin_and_income": f"{_KNOWDOCS}/md_a_margins_liquidity_and_risk/operating_margin_and_income.txt",
-
+            "critical_estimates_and_market_risk": f"{_MDA}/critical_estimates_and_market_risk.txt",
+            "liquidity_and_capital_resources": f"{_MDA}/liquidity_and_capital_resources.txt",
+            "operating_margin_and_income": f"{_MDA}/operating_margin_and_income.txt",
             # File-level keys — Section 6: Notes to Financial Statements
-            "benefits_stock_comp_segments": f"{_KNOWDOCS}/notes_to_financial_statements/benefits_stock_comp_segments.txt",
-            "business_combos_investments_ppe": f"{_KNOWDOCS}/notes_to_financial_statements/business_combos_investments_ppe.txt",
-            "fair_value_oci_commitments": f"{_KNOWDOCS}/notes_to_financial_statements/fair_value_oci_commitments.txt",
-            "income_taxes_and_derivatives": f"{_KNOWDOCS}/notes_to_financial_statements/income_taxes_and_derivatives.txt",
-            "leases_goodwill_accrued_debt": f"{_KNOWDOCS}/notes_to_financial_statements/leases_goodwill_accrued_debt.txt",
-
+            "benefits_stock_comp_segments": f"{_NFS}/benefits_stock_comp_segments.txt",
+            "business_combos_investments_ppe": f"{_NFS}/business_combos_investments_ppe.txt",
+            "fair_value_oci_commitments": f"{_NFS}/fair_value_oci_commitments.txt",
+            "income_taxes_and_derivatives": f"{_NFS}/income_taxes_and_derivatives.txt",
+            "leases_goodwill_accrued_debt": f"{_NFS}/leases_goodwill_accrued_debt.txt",
             # File-level keys — Section 7: Risk Factors Part One
-            "ai_and_contract_risks": f"{_KNOWDOCS}/risk_factors_part_one/ai_and_contract_risks.txt",
-            "cyber_currency_pandemic_risks": f"{_KNOWDOCS}/risk_factors_part_one/cyber_currency_pandemic_risks.txt",
-            "profitability_growth_nextgen_risks": f"{_KNOWDOCS}/risk_factors_part_one/profitability_growth_nextgen_risks.txt",
-            "risk_factors_intro_and_macro": f"{_KNOWDOCS}/risk_factors_part_one/risk_factors_intro_and_macro.txt",
-
+            "ai_and_contract_risks": f"{_RF1}/ai_and_contract_risks.txt",
+            "cyber_currency_pandemic_risks": f"{_RF1}/cyber_currency_pandemic_risks.txt",
+            "profitability_growth_nextgen_risks": f"{_RF1}/profitability_growth_nextgen_risks.txt",
+            "risk_factors_intro_and_macro": f"{_RF1}/risk_factors_intro_and_macro.txt",
             # File-level keys — Section 8: Risk Factors Part Two & Governance
-            "climate_esg_business_continuity": f"{_KNOWDOCS}/risk_factors_part_two_and_governance/climate_esg_business_continuity.txt",
-            "cybersecurity_and_properties": f"{_KNOWDOCS}/risk_factors_part_two_and_governance/cybersecurity_and_properties.txt",
-            "legal_regulatory_legislative_risks": f"{_KNOWDOCS}/risk_factors_part_two_and_governance/legal_regulatory_legislative_risks.txt",
-            "tax_litigation_ip_risks": f"{_KNOWDOCS}/risk_factors_part_two_and_governance/tax_litigation_ip_risks.txt",
-
+            "climate_esg_business_continuity": f"{_RF2}/climate_esg_business_continuity.txt",
+            "cybersecurity_and_properties": f"{_RF2}/cybersecurity_and_properties.txt",
+            "legal_regulatory_legislative_risks": f"{_RF2}/legal_regulatory_legislative_risks.txt",
+            "tax_litigation_ip_risks": f"{_RF2}/tax_litigation_ip_risks.txt",
             # File-level keys — Section 9: Schedules, Certifications & Corp Info
-            "directors_and_board_committees": f"{_KNOWDOCS}/schedules_certifications_corp_info/directors_and_board_committees.txt",
-            "executive_committee_and_corp_info": f"{_KNOWDOCS}/schedules_certifications_corp_info/executive_committee_and_corp_info.txt",
-            "valuation_accounts_certifications": f"{_KNOWDOCS}/schedules_certifications_corp_info/valuation_accounts_certifications.txt",
-
+            "directors_and_board_committees": f"{_SCH}/directors_and_board_committees.txt",
+            "executive_committee_and_corp_info": f"{_SCH}/executive_committee_and_corp_info.txt",
+            "valuation_accounts_certifications": f"{_SCH}/valuation_accounts_certifications.txt",
             # File-level keys — Section 10: Stockholder Matters & MD&A Overview
-            "equity_dividends_performance": f"{_KNOWDOCS}/stockholder_matters_and_md_a_overview/equity_dividends_performance.txt",
-            "md_a_exec_summary_and_revenues": f"{_KNOWDOCS}/stockholder_matters_and_md_a_overview/md_a_exec_summary_and_revenues.txt",
-            "results_of_operations_detail": f"{_KNOWDOCS}/stockholder_matters_and_md_a_overview/results_of_operations_detail.txt",
-
+            "equity_dividends_performance": f"{_STK}/equity_dividends_performance.txt",
+            "md_a_exec_summary_and_revenues": f"{_STK}/md_a_exec_summary_and_revenues.txt",
+            "results_of_operations_detail": f"{_STK}/results_of_operations_detail.txt",
             # Full report — single combined .txt file for single-agent access
             "annual_report_2024": "coded_tools/annual_report/complete_annual_report_2024.txt",
         }
