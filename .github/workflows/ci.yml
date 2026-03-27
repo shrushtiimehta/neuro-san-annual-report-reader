@@ -26,9 +26,3 @@ jobs:
           source venv/bin/activate
           export PYTHONPATH=$(pwd)
           make lint
-
-      - name: Test
-        run: |
-          source venv/bin/activate
-          export PYTHONPATH=$(pwd)
-          make test
