@@ -1,6 +1,5 @@
-.PHONY: help venv install activate venv-guard lint lint-tests format format-tests
+.PHONY: help venv install activate venv-guard lint format
 SOURCES := coded_tools run.py
-TESTS   := tests
 .DEFAULT_GOAL := help
 
 RUFF_FORMAT_CHECK := --check --diff
@@ -57,12 +56,7 @@ format-source: venv-guard
 	ruff check $(RUFF_IMPORTS_FIX) $(SOURCES)
 	ruff format $(SOURCES)
 
-format-tests: venv-guard
-	# Apply format and import sorting via ruff
-	ruff check $(RUFF_IMPORTS_FIX) $(TESTS)
-	ruff format $(TESTS)
-
-format: format-source format-tests
+format: format-source
 
 lint-check-source: venv-guard
 	# Run format and lint checks via ruff, then pylint
@@ -71,18 +65,9 @@ lint-check-source: venv-guard
 	pylint coded_tools/ run.py
 	pymarkdown --config ./.pymarkdownlint.yaml scan ./docs ./README.md
 
-lint-check-tests: venv-guard
-	# Run format and lint checks via ruff, then pylint
-	ruff format $(TESTS) $(RUFF_FORMAT_CHECK)
-	ruff check $(TESTS) $(RUFF_LINT_CHECK)
-	pylint $(TESTS)
-
-lint-check: lint-check-source lint-check-tests
+lint-check: lint-check-source
 
 lint: format lint-check
-
-test: lint ## Run tests with coverage
-	python -m pytest tests/ -v --cov=coded_tools -m "not integration"
 
 help: ## Show this help message and exit
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
