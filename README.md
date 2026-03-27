@@ -150,15 +150,10 @@ python -m run --help
 
 Select the `annual_report_reader` network and share a LinkedIn profile URL, for instance:
 
-> Analyze <https://www.linkedin.com/in/babakhodjat/> and summarize the annual report content most relevant to their interests.
-
-Or simply paste the URL and let the agent ask for it:
-
-> <https://www.linkedin.com/in/shrushti-mehta/>
+```Analyze <linkedin-url> and summarize the annual report content most relevant to their interests or simply paste the URL and let the agent do the rest.```
 
 The agent will scrape the profile, classify the person's interest category and seniority level, and return a
 personalized summary of Cognizant's 2024 Annual Report filtered to what is most relevant to their role.
 
 You can follow up with questions:
-
-> What does the report say about AI agent development platforms?
+```What does the report say about AI agent development platforms?```
