@@ -1,0 +1,117 @@
+## Strengthening strategic partnerships:
+
+Our collaborations with Microsoft, Google, NVIDIA, AWS, Palo Alto Networks and ServiceNow continue to fuel our ability to co-create and deliver cutting-edge AI solutions. We earned 32 partner recognitions, including Microsoft's Global Growth Champion Partner of the Year and Google's Breakthrough Partner of the Year.
+
+Innovation is at the core of Cognizant's culture and it's central to our future. As AI reshapes industries, we are committed to scaling intelligent solutions, driving realworld impact and ensuring our clients stay ahead in an era of rapid transformation.
+
+Cognizant's talented scientists, AI pioneers and PhDs are advancing the science and practice of AI. We believe our work is transforming the industries that keep the world's economies running. '
+
+## 32 partner recognitions
+
+including Microsoft's Global Growth Champion Partner of the Year and Google's Breakthrough Partner of the Year
+
+Photograph
+
+Babak Hodjat Chief Technology Officer, Artificial Intelligence
+
+[IMAGE DESCRIPTION: This is a photograph of a man speaking, likely a corporate executive or leader featured in a financial annual report. It contains no data, charts, graphs, or KPI metrics — it is a portrait/headshot image with no quantitative information to extract.]
+
+## At Cognizant,
+
+we harness deep industry and technology expertise to help our clients transform, stay ahead and lead in the AI era.
+
+AI is bigger than simply the next technology wave-we believe it's a oncein-a-generation shift that will redefine industries, reshape business models and unlock new opportunities. Cognizant is at the forefront of this transformation, helping enterprises bridge the gap between AI ambition and execution.
+
+Our AI leadership believes enterprises will integrate AI according to the following key insights:
+
+Enabling hyperproductivity: Today, 20% of our developers' written code is AI-assisted, accelerating software development and reducing technical debt. Beyond engineering, we are leveraging AI across more than 200 internal use cases, from automating operations to improving customer interactions.
+
+Industrializing AI: The next phase of AI adoption goes beyond productivity. Through our Cognizant AI Research Lab and client innovation studios, we are helping businesses build AI-powered products and services that drive revenue and enhance customer experiences.
+
+Agentifying the enterprise: AI is evolving from an analytical tool to an autonomous agent, enabling software to become the worker itself. This shift to agentification will transform how businesses operate, injecting intelligence into workflows and unlocking new efficiencies.
+
+## Case study · Healthcare
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph of a hospital corridor featuring a hospital bed/gurney in the foreground with a blurred clinical hallway in the background — it is a decorative/stock image with no data, charts, or numeric information.]
+
+## Advancing healthcare
+
+## by streamlining grievance management
+
+A leading healthcare provider came to Cognizant with the goal of improving the efficiency and accuracy of the appeals and grievance process. Historically, the manual and subjective review process led to inconsistent and erroneous categorization, high administrative costs and delays in patient care.
+
+We developed a gen AI-powered assistant to automate key tasks such as intent and detail recognition, dynamic knowledge mapping and decision support. The AI system automatically understands the intent behind appeals, extracts relevant information from various document types, and maps identified details to relevant regulations and medical records. Based on extracted information and contextual knowledge, the assistant can predict the appropriate category and subcategory and provide a summary of the case, which helps the healthcare worker make the final decision more efficiently and accurately.
+
+This comprehensive approach ensures consistent application of rules and reduces errors, leading to faster resolution, increased throughput and a reduction in administrative costs.
+
+Photograph
+
+Case study · Retail
+
+[IMAGE DESCRIPTION: This is a photograph of a grocery store aisle taken from the perspective of someone pushing a shopping cart. It shows shelves stocked with various packaged food products on both sides of the aisle. This is a decorative/illustrative image with no data, charts, or numerical information to extract.]
+
+## Driving sales
+
+by revolutionizing in-store shopping experiences
+
+To maintain its leadership, a UK supermarket chain aimed to enhance the customer shopping experience by providing an intuitive and informative product-discovery solution. The focus was on addressing customer frustrations related to locating and understanding products in-store, while also streamlining store operations and freeing up staff time for enhanced customer service.
+
+Leveraging advanced gen AI and natural language processing capabilities, Cognizant developed an app to revolutionize the product-discovery experience for our client's customers. The app understands user intent, transforms product data into a searchable format using vector embedding, matches user queries to product data and presents results in a conversational medium. User queries are captured, translated into product matches, ranked by best results and displayed through a simple interface.
+
+Now live in over 15 locations, the app is increasing sales through a product search that empowers shoppers and store associates.
+
+## Case study · Life sciences
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph showing an open-plan office environment with cubicle workstations, and it contains no financial data, charts, or numeric information—it is a decorative/illustrative image typically used in annual reports to depict the company's workplace or corporate culture.]
+
+## Transforming customer support
+
+with intelligent query resolution and ticketing
+
+A prominent life sciences organization sought to streamline customer support by automating routine queries and optimizing the ticket-escalation process. The manual handling of these tasks was timeconsuming, often leading to delays and inconsistent responses. Addressing these issues would not only boost user engagement and enhance overall efficiency, it also would transform the customer support function.
+
+Cognizant developed a robust, scalable and flexible gen AI solution that automates routine queries and optimizes the ticket-escalation process. Our solution integrates an agentic LLM model and vector databases to provide accurate responses and resolve user queries in real time. When queries require human intervention, the system automates ticket creation through REST API integration, improving support escalation.
+
+Utilizing AWS cloud infrastructure, the solution enables scalable deployment and cost-effective handling of increased user demand. As a result, users are more satisfied, resolutions are more accurate and the whole process is more seamlessfrom automated response to ticket creation.
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a group photograph of approximately 20 people posing together in front of the **UN City** building, making heart shapes with their hands. It is a decorative/illustrative photograph with no financial data, charts, or numerical information.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a group photograph of employees or associates posing together at a **Cognizant** exhibition booth/trade show, and contains no financial data, charts, or KPI metrics.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph of a group of approximately six people posing together in what appears to be Times Square, New York City, with digital billboards visible in the background (including what appears to be a "Godzilla" movie advertisement). It contains no data, charts, or numerical information — it is a decorative/corporate photograph likely depicting company executives or leadership, as commonly included in financial annual reports.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph showing a person taking a selfie in front of what appears to be a United Nations building entrance, identifiable by the UN emblem/logo visible above. It contains no financial data, charts, or numerical information.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph showing a group of people posing together at what appears to be an indoor event or convention venue with purple/blue lighting in the ceiling structure. It is a decorative/editorial photograph with no financial data, charts, or KPI metrics.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph of five people wearing matching dark blue Cognizant-branded t-shirts, posing together on what appears to be a golf course or park setting. It is a decorative/corporate culture image with no data or charts to extract.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph showing a group of people celebrating on stage at the **Cognizant Social Impact Award 2025**, honoring **Bala Prasad Devaragattu & Hyderabad Outreach Team**. It is a ceremonial/recognition photo with no financial data, charts, or numeric information.]
+
+Photograph
+
+[IMAGE DESCRIPTION: This is a photograph of a group of professionals posing together in Times Square, New York City, in front of the Nasdaq building, with a Cognizant logo/signage visible on the digital billboard above. It contains no data, charts, or numeric information.]
+
+As we enter 2025, we do so with a clear vision, strong momentum and an unwavering commitment to our people, clients and communities around the world.
+
+We will continue strengthening our applications, infrastructure, operations and engineering capabilities, deepening our client relationships and expanding our leadership in key industries to accelerate growth. In our pursuit of strategies that amplify our talent, we are making Cognizant the premier destination for top technology and business professionals, enhancing AI-driven productivity and expanding our workforce strategy. By pioneering new capabilities and partnerships, we continue to strengthen and scale our innovation muscle, driving AI adoption across industries and ever deeper into the fabric of enterprise operations.
+
+In this next chapter of growth and transformation, we will remain true to our heritage of sensing, adapting and leading as we create value for our clients, associates and shareholders.

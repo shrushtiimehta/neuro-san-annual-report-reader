@@ -1,0 +1,139 @@
+## Note 16 - Employee Benefits
+
+## Defined Contribution Plans
+
+We contribute to defined contribution plans, including 401(k) savings and supplemental retirement plans in the United States. Total expenses for our contributions to our U.S. plans were $115 million, $117 million  and $112 million  for the years ended December 31, 2024, 2023 and 2022, respectively.
+
+In  addition,  we  maintain  employee  benefit  plans  that  cover  substantially  all  India-based  employees.  The  employees' provident fund, pension and family pension plans are statutorily defined contribution retirement benefit plans. Under the plans, employees contribute up to 12.0% of their eligible compensation, which is matched by an equal contribution by the Company. For  these  plans,  we  recognized  a  contribution  expense  of  $151  million,  $149  million  and  $143  million  for  the  years  ended December 31, 2024, 2023 and 2022, respectively.
+
+Outside of the United States and India, we incurred expenses of $104 million, $107 million and $99 million for the years ended December 31, 2024, 2023 and 2022, respectively, related to our contributions to defined contribution plans.
+
+## Defined Benefit Pension Plans
+
+We sponsor defined benefit pension plans that are statutorily required and primarily cover employees in certain European countries.  Our  primary  plan  is  in  Switzerland,  which  provides  pension  benefits  based  on  a  participant's  contributions,  the Company's matching contributions and a minimum investment return guarantee. As of December 31, 2024 the net liability recognized on the balance sheet for our pension plans was $63 million and amounts recognized in prior years were immaterial. The losses recognized in other comprehensive income arose mainly due to change in discount rates used in the valuation of the defined benefit obligation of our Swiss pension plan. The net periodic pension costs recognized in the income statement for the years ended December 31, 2024, 2023 and 2022 were $21 million, $16 million, $13 million, respectively.
+
+## Post-Employment Benefit Plan
+
+We  maintain  a  gratuity  plan  in  India  that  is  a  statutory  post-employment  benefit  plan  providing  defined  lump  sum benefits.  We  make  annual  contributions  to  the  employees'  gratuity  fund  established  with  a  government-owned  insurance corporation to fund a portion of the estimated obligation. As of December 31, 2024 and 2023, the amount accrued under the gratuity plan was $80 million and $130 million, which is net of fund assets of $231 million and $221 million, respectively. Expense recognized by us was $4 million, $56 million and $45 million for the years ended December 31, 2024, 2023 and 2022, respectively.
+
+## Note 17 - Stock-Based Compensation Plans
+
+Our 2023 Incentive Plan provides for the issuance of a total of 25.0 million shares of Class A common stock to eligible employees, less (i) the number of shares granted under the 2017 Incentive Plan between March 24, 2023 and June 6, 2023, plus (ii) any shares subject to awards under the prior 2017 and 2009 Incentive Plans that are forfeited after June 6, 2023. The 2023 Incentive Plan does not affect any awards outstanding under the prior plans. The Purchase Plan provides for the issuance of up to 50.0 million shares of Class A common stock to eligible employees. As of December 31, 2024, we have 22.7 million and 10.6 million shares available for grant under the 2023 Incentive Plan and the Purchase Plan, respectively.
+
+The allocation of total stock-based compensation expense between cost of revenues, selling, general and administrative expenses  and  restructuring  charges  as  well  as  the  related  income  tax  benefit  were  as  follows  for  the  three  years  ended December 31:
+
+| (in millions)                          | 2024   | 2023   | 2022   |
+|----------------------------------------|--------|--------|--------|
+| Cost of revenues                       | $ 26   | $ 30   | $ 33   |
+| SG&A expenses                          | 150    | 153    | 228    |
+| Restructuring charges                  | (1)    | (7)    | -      |
+| Total stock-based compensation expense | $ 175  | $ 176  | $ 261  |
+| Income tax benefit                     | $ 38   | $ 34   | $ 59   |
+
+## Restricted Stock Units and Performance Stock Units
+
+We granted RSUs that vest in quarterly or annual installments over periods of up to four years to employees, including our executive officers. A summary of the activity for RSUs granted under our stock-based compensation plans as of December 31, 2024 and changes during the year then ended is presented below:
+
+|                               | Number of Units (in millions)   | Weighted Average Grant Date Fair Value (in dollars)   |
+|-------------------------------|---------------------------------|-------------------------------------------------------|
+| Unvested at January 1, 2024   | 3.3                             | $ 69.10                                               |
+| Granted                       | 2.5                             | 77.66                                                 |
+| Vested                        | (2.3)                           | 72.04                                                 |
+| Forfeited                     | (0.7)                           | 73.06                                                 |
+| Unvested at December 31, 2024 | 2.8                             | $ 73.47                                               |
+
+The total vesting date fair value of vested RSUs was $172 million, $176 million and $207 million for the years ended December 31, 2024, 2023 and 2022, respectively. The weighted-average grant date fair value of RSUs granted in 2024, 2023 and 2022 was $77.66, $65.95 and $78.20, respectively. As of December 31, 2024, $146 million of total remaining unrecognized stock-based compensation cost related to RSUs is expected to be recognized over the weighted-average remaining requisite service period of 1.5 years.
+
+We granted PSUs that vest over periods up to four years to employees, including our executive officers. The vesting of PSUs is contingent on meeting certain financial performance targets, market conditions and continued service. A summary of the activity for PSUs granted under our stock-based compensation plans as of December 31, 2024 and changes during the year then ended is presented below. The presentation reflects the number of PSUs at the maximum performance milestones.
+
+|                                                                    | Number of Units (in millions)   | Weighted Average Grant Date Fair Value (in dollars)   |
+|--------------------------------------------------------------------|---------------------------------|-------------------------------------------------------|
+| Unvested at January 1, 2024                                        | 1.5                             | $ 74.13                                               |
+| Granted                                                            | 0.9                             | 83.63                                                 |
+| Vested                                                             | (0.2)                           | 72.80                                                 |
+| Forfeited                                                          | (0.4)                           | 78.42                                                 |
+| Adjustment at the conclusion of the performance measurement period | (0.3)                           | 86.87                                                 |
+| Unvested at December 31, 2024                                      | 1.5                             | $ 76.76                                               |
+
+The  total  vesting  date  fair  value  of  vested  PSUs  was  $15  million,  $22  million  and  $8  million  for  the  years  ended December  31,  2024,  2023  and  2022,  respectively.  The  weighted-average  grant  date  fair  value  of  PSUs  granted  in  2024,  2023 and  2022  was  $83.63,  $67.82  and  $90.92,  respectively.  As  of  December  31,  2024,  $21  million  of  the  total  remaining unrecognized stock-based compensation cost related to PSUs is expected to be recognized over the weighted-average remaining requisite service period of 1.5 years.
+
+All RSUs and PSUs have dividend equivalent rights, which entitle holders to the same dividend value per share as holders of  common  stock.  Dividend  equivalent  rights  are  subject  to  the  same  vesting  and  other  terms  and  conditions  as  the corresponding unvested RSUs and PSUs and are accumulated and paid when the underlying shares vest.
+
+## Purchase Plan
+
+For the years ended December 31, 2024, 2023 and 2022, the Purchase Plan provided for eligible employees to purchase shares of Class A common stock at a price equal to 95% of the fair market value per share of our Class A common stock on the last date of the purchase period. This plan has been deemed non-compensatory and, therefore, no compensation expense has been recorded. During the years ended December 31, 2024, 2023 and 2022, we issued 0.9 million shares, 1.1 million shares and 1.3 million shares, respectively, of Class A common stock under the Purchase Plan.
+
+## Note 18 - Segment Information
+
+Our chief executive officer is our chief operating decision maker. Our CODM regularly reviews the performance of our business by seven industry-based operating segments, which are aggregated into four reportable business segments:
+
+- Health Sciences, which consists of a single operating segment of the same name;
+- Financial Services, which consists of the banking and insurance operating segments;
+- Products  and  Resources,  which  consists  of  the  retail  and  consumer  goods;  manufacturing,  logistics,  energy,  and utilities; and travel and hospitality operating segments; and
+- Communications, Media and Technology, which consists of a single operating segment of the same name.
+
+We have an industry-led go-to-market strategy, with client partners, account executives and client relationship managers aligned to the specific industries they serve.
+
+Our CODM is regularly provided segment revenues and operating profit, including budget -to -actual variances in segment revenue,  to  formulate  industry-focused  strategic  priorities,  allocate  financial  resources,  set  targets  and  key  performance indicators,  and  evaluate  the  results  of  such  strategies.  These  strategic  priorities,  targets  and  key  performance  indicators  are translated  and  applied  to  each  client  account,  rolling  up  to  respective  industry-based  operating  segments.  Our  hiring  and deployment plans are devised according to the strategic priorities and targets set for the client accounts.
+
+Revenue from a client is  directly  identified  with  the  operating  segment  with  which  the  client  is  most  closely  aligned. Generally,  operating  expenses  for  each  operating  segment  have  similar  characteristics  and  are  subject  to  the  same  factors, pressures and challenges. However, the economic environment and its effects on industries served by the operating segments may affect revenues and operating expenses to differing degrees. Segment operating profit is the income from operations before unallocated costs.
+
+Our  CODM  is  not  regularly  provided  with  segment  expenses.  Corporate  expenses,  expenses  related  to  our  NextGen program, a portion of depreciation and amortization and the impact of the settlements of the cash flow hedges are not allocated to  individual  segments.  Accordingly,  such  expenses  are  excluded  from  segment  operating  profit  and  are  included  below  as 'unallocated costs' and adjusted against our total income from operations.
+
+We do not disclose assets by segment as a significant portion of the assets is used interchangeably among the segments and our CODM is not provided such information.
+
+Information by reportable segment were as follows:
+
+|                           | Year Ended December 31, 2024   | Year Ended December 31, 2024   | Year Ended December 31, 2024   | Year Ended December 31, 2024   | Year Ended December 31, 2024   |
+|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| (in millions)             | HS                             | FS                             | P&R                            | CMT                            | Total                          |
+| Revenues                  | $ 5,932                        | $ 5,753                        | $ 4,782                        | $ 3,269                        | $ 19,736                       |
+| Less: other segment items | 4,599                          | 4,512                          | 3,802                          | 2,667                          | 15,580                         |
+| Segment operating profit  | 1,333                          | 1,241                          | 980                            | 602                            | 4,156                          |
+| Less: unallocated costs   |                                |                                |                                |                                | 1,264                          |
+| Income from operations    |                                |                                |                                |                                | $ 2,892                        |
+
+Year Ended December 31, 2023
+
+| (in millions)             | HS      | FS      | P&R     | CMT     | Total    |
+|---------------------------|---------|---------|---------|---------|----------|
+| Revenues                  | $ 5,674 | $ 5,809 | $ 4,628 | $ 3,242 | $ 19,353 |
+| Less: other segment items | 4,322   | 4,653   | 3,644   | 2,617   | 15,236   |
+| Segment operating profit  | 1,352   | 1,156   | 984     | 625     | 4,117    |
+| Less: unallocated costs   |         |         |         |         | 1,428    |
+| Income from operations    |         |         |         |         | $ 2,689  |
+
+|                           | Year Ended December 31, 2022   | Year Ended December 31, 2022   | Year Ended December 31, 2022   | Year Ended December 31, 2022   | Year Ended December 31, 2022   |
+|---------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|--------------------------------|
+| (in millions)             | HS                             | FS                             | P&R                            | CMT                            | Total                          |
+| Revenues                  | $ 5,631                        | $ 6,072                        | $ 4,566                        | $ 3,159                        | $ 19,428                       |
+| Less: other segment items | 4,441                          | 4,749                          | 3,495                          | 2,390                          | 15,075                         |
+| Segment operating profit  | 1,190                          | 1,323                          | 1,071                          | 769                            | 4,353                          |
+| Less: unallocated costs   |                                |                                |                                |                                | 1,385                          |
+| Income from operations    |                                |                                |                                |                                | $ 2,968                        |
+
+Other segment items for each reportable segment primarily include employee compensation and benefits, subcontractor costs, costs of third-party products and services related to revenue and project-related travel.
+
+## Geographic Area Information
+
+Long-lived assets by geographic area are as follows:
+
+| (in millions)          | 2024   | 2023    | 2022    |
+|------------------------|--------|---------|---------|
+| Long-lived Assets: (1) |        |         |         |
+| North America (2)      | $ 338  | $ 335   | $ 354   |
+| Europe                 | 72     | 90      | 86      |
+| Rest of World (3)      | 584    | 623     | 661     |
+| Total                  | $ 994  | $ 1,048 | $ 1,101 |
+
+(1) Long-lived assets include property and equipment, net of accumulated depreciation and amortization.
+
+(2) Substantially all relates to the United States.
+
+(3) Substantially all relates to India.
+
+## Note 19 - Subsequent Events
+
+## Dividend
+
+On February 5, 2025, our Board of Directors approved the Company's declaration of a $0.31 per share dividend with a record date of February 18, 2025 and a payment date of February 26, 2025.

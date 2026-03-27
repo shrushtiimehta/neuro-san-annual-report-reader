@@ -1,0 +1,43 @@
+## Services and Solutions
+
+Our  services  include  AI  and  other  technology  services  and  solutions,  consulting,  application  development,  systems integration, quality engineering and assurance, application maintenance, infrastructure and security as well as business process services  and  automation.  Additionally,  we  develop,  license,  implement  and  support  proprietary  and  third-party  software products and platforms. Central to our strategy to align with our clients' need for continuous transformation is our sustained investment in new technologies, including new forms of AI, cloud, data modernization, automation, digital engineering and IoT.  These  capabilities  enable  clients  to  put  AI  at  the  core  of  their  operations,  improve  the  experiences  they  offer  to  their customers, tap into new revenue streams, automate operations, defend against digital- and AI-native competitors and reduce costs.
+
+In  most  cases,  our  clients  operate  in  hybrid  technology  environments,  running  critical  new  digital  initiatives  alongside essential legacy systems. In the AI era, our clients have an accelerated need to modernize their businesses, which has intensified demand  for  next-gen  capabilities  in  AI,  automation,  digital  commerce  and  secure  distributed  work.  We  believe  our  deep understanding of our clients' established systems and their digital ambitions provides us with a unique advantage as we work with them to architect solutions that are both transformative and practical.
+
+Our services and solutions are organized into six integrated practices, which help us deliver these capabilities in ways that align  with  each  client's  specific  transformation  journey.  These  practices  are  Core  Technologies  and  Insights,  Enterprise Platform Services, Industry Solutions, Intuitive Operations and Automation, Software and Platform Engineering, and Cognizant Moment,  our  new  digital  experience  practice.  Our  consulting  professionals  have  deep  industry-specific  expertise  and  work closely across our practices to create intuitive operating models that leverage a wide range of technologies across our clients' enterprises  to  deliver  higher  levels  of  efficiency,  new  value  for  their  customers  and  business  outcomes  that  align  to  their industries.
+
+## Core Technologies and Insights
+
+Our Core Technologies and Insights practice helps clients build agile and relevant organizations that apply the power of AI, cloud, data and IoT to help them perform better and innovate faster. Our clients can harness data securely in cloud-first architectures, enabling them to become highly resilient enterprises that are capable of quickly adapting to market dynamics. Areas of focus within this practice are:
+
+- AI and analytics, which helps clients identify and adopt the best AI use cases for their enterprise and formulate actionable insights from unstructured data to drive a greater understanding of their customers and operations;
+- Cloud, infrastructure and security, which helps simplify, modernize and safeguard IT environments, creating a solid foundation for AI innovation; and
+- IoT, which enables the convergence of the physical and the digital in smart products.
+
+## Enterprise Platform Services
+
+Our Enterprise Platform Services practice helps our clients transform multiple front- and back-office business processes, implementing enterprise-wide platforms that enable customer experience, customer relationship management, human capital management, supply chain management, enterprise resource planning and financial processes. Our services decrease time to market, drive efficiencies and deliver impactful experiences. Our clients can better share information, simplify IT processes, automate workflow and improve flexibility. This practice focuses on application services, which help enterprises engage their partner  ecosystems  more  productively,  and  run  their  operations  and  financial  organizations  more  efficiently  while  enabling improved employee and customer experiences. We work closely with partners including Adobe, Amazon Web Services, Cisco, Google, Microsoft, Oracle, Pegasystems, Salesforce, SAP, ServiceNow, Workday and many others.
+
+## Industry Solutions
+
+Our Industry  Solutions  practice  was  established  in  2023  as  part  of  Cognizant's  strategy  to  build  differentiation  at  the industry level. The practice integrates industry technologists and thought leaders specialized in vertical micro-segments. These teams  work  with  specialized  partners  to  develop  industry-specific  products  and  services  that  enable  clients  to  improve productivity, increase operational excellence and accelerate innovation.
+
+## Intuitive Operations and Automation
+
+Our Intuitive Operations and Automation practice helps clients build and run modern operations through two main vehicles: AI-led automation, which includes advisory and process and IT automation solutions designed to simplify and accelerate automation adoption, and business process outsourcing services, which help deliver business outcomes including revenue growth, increased customer and employee satisfaction and cost savings. Our automation advisory, implementation and managed services experts partner with clients to transform end-to-end processes, design and manage the next-generation human and digital workforce, enable seamless experiences and achieve multi-fold productivity increases. Our technology-driven business process outsourcing services help clients transform and run functions and industry-specific processes such as finance and accounting, omni-channel customer care, loan origination, annotation services, location-based services and medical data management.
+
+## Software and Platform Engineering
+
+Our  Software  and  Platform  Engineering  practice  helps  clients  develop  modern  enterprises  through  digital  software engineering products, services and solutions that support optimization and modernization of their IT estates and deliver new value for their customers. This practice manages delivery platforms that enable enterprise transformation at scale and accelerate the wide use of generative AI in the enterprise. Our clients can leverage data, technologies and our digital engineering, design and  product  development  capabilities  to  build  world-class  experiences,  and  a  responsive,  agile  and  intuitive  framework  for continuous innovation. Areas of focus are:
+
+- Digital engineering, which delivers modern business software;
+- Application development and management, which improves or reimagines applications; and
+- Quality engineering and assurance, which helps clients build and run the highest quality software.
+
+## Digital Experience Services (Cognizant Moment)
+
+Established in 2024, Cognizant Moment is our digital experience practice, designed to help clients leverage the power of AI to reimagine customer experiences and engineer innovative strategies aimed at driving growth. Cognizant Moment delivers intelligent ecosystem orchestration, connecting experiences as well as their underlying data, technology and operations across the entire enterprise. This approach enables clients to leverage generative AI's content generation capabilities alongside human ingenuity  to  innovate  and  differentiate  by  informing  and  automating  processes,  and  creating  dynamic,  hyper-personalized experiences for their customers.
+
+## Global Delivery Model
+
+We operate in an integrated global delivery model, with delivery centers worldwide to provide our full range of services to  our  clients.  Our  model  leverages  methodologies,  tools,  AI  and  other  enablers  to  optimize  delivery  by  enhancing  people's capabilities  through  technology.  We  continue  to  modernize  our  delivery  operations  through  lean  processes,  increased automation and integrated, AI-infused systems. Our employees are deployed at client sites, local or in-country delivery centers, regional delivery centers and offshore delivery centers, as required to best serve our clients. Our extensive facilities, technology and communications infrastructure are designed to enable the effective collaboration of our global workforce across locations and geographies.

@@ -1,0 +1,33 @@
+## Item 8. Financial Statements and Supplementary Data
+
+The financial statements required to be filed pursuant to this Item 8 are appended to this Annual Report on Form 10-K. A list of the financial statements filed herewith is found in Part IV, 'Item 15. Exhibits, Financial Statements and Financial Statement Schedule.'
+
+## Item 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure
+
+None.
+
+## Item 9A. Controls and Procedures
+
+## Evaluation of Disclosure Controls and Procedures
+
+Our management, under the supervision and with the participation of our chief executive officer and our chief financial officer,  evaluated  the  effectiveness  of  our  disclosure  controls  and  procedures  (as  defined  in  Rules  13a-15(e)  and  15d-15(e) under  the  Securities  Exchange  Act  of  1934,  as  amended)  as  of  December  31,  2024.  Based  on  this  evaluation,  our  chief executive  officer  and  our  chief  financial  officer  concluded  that,  as  of  December  31,  2024,  our  disclosure  controls  and procedures were effective.
+
+## Changes in Internal Control over Financial Reporting
+
+There has been no change in our internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Securities Exchange Act of 1934, as amended) that occurred during the fiscal quarter ended December 31, 2024 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting.
+
+## Management's Report on Internal Control Over Financial Reporting
+
+Our  management  is  responsible  for  establishing  and  maintaining  adequate  internal  control  over  financial  reporting. Internal control over financial reporting is defined in Rule 13a-15(f) and 15d-15(f) of the Securities Exchange Act of 1934, as amended, and is a process designed by, or under the supervision of, our chief executive and chief financial officers and effected by  our  Board  of  Directors,  management  and  other  personnel,  to  provide  reasonable  assurance  regarding  the  reliability  of financial  reporting  and  the  preparation  of  financial  statements  for  external  purposes  in  accordance  with  generally  accepted accounting principles and includes those policies and procedures that:
+
+- Pertain  to  the  maintenance  of  records  that,  in  reasonable  detail,  accurately  and  fairly  reflect  the  transactions  and dispositions of our assets;
+- Provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the Company are being made only in accordance with authorizations of our management and directors; and
+- Provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use or disposition of the Company's assets that could have a material effect on the financial statements.
+
+Our  management  assessed  the  effectiveness  of  the  Company's  internal  control  over  financial  reporting  as of December 31, 2024. In making this assessment, the Company's management used the criteria set forth by the Committee of Sponsoring Organizations of the Treadway Commission (COSO) in Internal Control-Integrated Framework (2013). The scope of management's assessment of the effectiveness of our internal control over financial reporting included all of our consolidated operations  except  for  the  operations  of  Belcan,  which  we  acquired  on  August  26,  2024.  Belcan's  operations  represented approximately  7.7%  of  our  consolidated  total  assets  and  1.5%  of  our  consolidated  revenues  as  of  and  for  the  year  ended December 31, 2024.
+
+Based on its evaluation, our management has concluded that, as of December 31, 2024, our internal control over financial reporting  was  effective.  PricewaterhouseCoopers  LLP,  the  independent  registered  public  accounting  firm  that  audited  the financial  statements  included  in  this  annual  report,  has  issued  an  attestation  report  on  our  internal  control  over  financial reporting, as stated in their report which is included on page F-2.
+
+## Inherent Limitations of Internal Controls
+
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect all misstatements. Projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.

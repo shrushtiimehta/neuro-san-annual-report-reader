@@ -1,0 +1,102 @@
+## Item 1. Business
+
+## Overview
+
+Cognizant is one of the world's leading professional services companies, engineering modern businesses and delivering strategic outcomes for our clients. We help clients modernize technology, reimagine processes and transform experiences so they can stay ahead in today's fast-changing world, where AI is beginning to reshape organizations in every field. We provide industry expertise and close client collaboration, combining critical perspective with a flexible engagement style. We tailor our services and solutions to specific industries with an integrated global delivery model that employs client service and delivery teams based at client locations and dedicated global and regional delivery centers. Our collaborative services include digital services and solutions, consulting, application development, systems integration, quality engineering and assurance, engineering research and development, application maintenance, infrastructure and security as well as business process services and automation. Digital, AI-enhanced services continue to be an important part of our portfolio, aligning with our clients' focus on becoming data-enabled, customer-centric and differentiated businesses.
+
+Our purpose, vision and values are central to Cognizant's strategic approach. We have evolved our values to prioritize those that support our vision and enhance our ability to innovate and co-create with our clients.
+
+Icon
+
+[IMAGE DESCRIPTION: This is a **logo or decorative element** — it appears to be a circular icon divided into quadrants (resembling a stylized compass, crosshair, or corporate logo mark), containing no financial data or numeric information.]
+
+Logo
+
+[IMAGE DESCRIPTION: This image appears to be a small decorative element or icon showing three rectangles of increasing height arranged in a step-like pattern, resembling a simplified bar chart icon or graphic design element. It contains no actual data, numeric values, or readable text to extract.]
+
+Icon
+
+[IMAGE DESCRIPTION: This is a decorative icon/pictogram showing a stylized human figure in a running or throwing pose, commonly used as a sports or activity symbol. It contains no financial data, charts, or numeric information.]
+
+Icon
+
+[IMAGE DESCRIPTION: This image appears to be a small icon or decorative element, likely a directional arrow or navigation symbol (an upward arrow with a turning/bent path). It contains no financial data, charts, graphs, or numeric information to extract.]
+
+Icon
+
+[IMAGE DESCRIPTION: This image appears to be a decorative element — specifically a simple line drawing or icon that resembles a stylized stethoscope or a curving line/rope design. It contains no data, charts, graphs, or numerical information to analyze.]
+
+In order to achieve this vision and support our clients, we are focusing on accelerating growth, becoming an employer of choice and simplifying our operations through modernization and an AI-enabled IT roadmap. In executing our strategy, we seek to drive organic growth through investments in our digital and AI capabilities across industries and geographies, including the extensive training and reskilling of our technical teams and the expansion of our local workforces in the United States and other markets around the world. Additionally, we pursue select strategic acquisitions to expand our talent, experience and capabilities in  key  technologies  or  in  particular  geographies  or  industries.  In  2024,  we  acquired  Belcan,  a  leading  global  supplier  of engineering research &amp; development services for the commercial aerospace, defense, space, marine and industrial verticals, and Thirdera,  an  Elite  ServiceNow  Partner  specializing  in  advisory,  implementation  and  optimization  solutions  related  to  the ServiceNow platform. See Note 3 to our consolidated financial statements for additional information.
+
+We  are  focused  on  expanding  our  partner  ecosystem  across  a  broad  range  of  technology  companies,  including hyperscalers, cloud providers, enterprise software companies, best-in-class digital software enterprises and emerging start-ups. We believe this  partner  ecosystem  will  enable  us  to  enhance  our  innovative,  integrated  offerings,  by  combining  third-party products with our service solutions, to deliver enterprise-wide digital transformation.
+
+## PART I
+
+## Reportable Business Segments
+
+In 2024, we went to market across seven industry-based operating segments, which are aggregated into four reportable business segments:
+
+- Health Sciences (HS) - This reportable business segment is comprised of a single operating segment of the same name.
+- Financial Services (FS)
+- Banking
+- Insurance
+- Products and Resources (P&amp;R)
+- Retail and Consumer Goods
+- Manufacturing, Logistics, Energy and Utilities
+- Travel and Hospitality
+- Communications, Media and Technology (CMT) -  This  reportable  business  segment  is  comprised  of  a single operating segment of the same name.
+
+Beginning in 2025, we go to market across four industry-based operating segments, which will match our four reportable business segments - (i) Health Sciences (ii) Financial Services (iii) Products and Resources and (iv) Communications, Media and Technology. These changes reflect how the operating segments will be managed and reported to the CODM but will not affect the reportable segments' financial results.
+
+Our clients seek to partner with service providers that have a deep understanding of their businesses, industry initiatives, customers,  markets  and  cultures  and  the  ability  to  create  solutions  tailored  to  meet  their  individual  business  needs.  Across industries,  our  clients  are  confronted  with  the  risk  of  being  disrupted  by  nimble,  digital-native  competitors.  Our  clients increasingly feel the need to transform and are therefore redirecting their focus and investment to new operating models and embracing DevOps, AI and other key technologies that enable quick adjustments to shifts in their markets. We believe that our deep  knowledge  of  our  clients'  businesses  and  the  industries  we  serve  has  been  central  to  our  growth  and  high  client satisfaction, and we continue to develop and deploy our client-centric culture, innovating together to produce transformative outcomes.
+
+Our  HS  segment  consists  of  healthcare  providers  and  payers,  and  life  sciences  companies,  including  pharmaceutical, biotech  and  medical  device  companies.  Demand  in  this  segment  is  driven  by  emerging  industry  trends,  including  the  shift towards consumerism, outcome-based care, digital health and delivering seamless, patient-centered experiences. These trends result  in  increased  demand  for  services  that  drive  operational  improvements  in  areas  such  as  clinical  development, pharmacovigilance and manufacturing, as well as claims processing, enrollment, membership and revenue cycle management. Demand is also  created  by  the  adoption  and  integration  of  digital  technologies  such  as  AI  and  predictive  data  analytics  to improve clinical trial designs, data security, patient engagement and care outcomes.
+
+Our FS segment includes banking, capital markets, payments and insurance companies. Demand in this segment is driven by our clients' need to modernize legacy infrastructure and adopt digital technologies to serve their customers while complying with  significant  regulatory  requirements  and  adapting  to  market  changes.  These  technologies  enable  enhanced  customer experience,  through  automation,  analytics  and  AI-driven  value  creation  in  areas  such  as  digital  lending,  hyper-personalized banking,  fraud  detection,  underwriting  and  next-generation  payments.  Clients  are  also  increasingly  leveraging  technology services  partners  as  end-to-end  orchestrators  uniting  hyperscalers,  independent  software  vendors,  fintech  players,  data providers, and enterprise and business process management platforms to deliver integrated solutions at scale and speed.
+
+Our P&amp;R segment includes manufacturers, automakers, retailers, consumer goods companies, and travel and hospitality companies,  as  well  as  businesses  providing  logistics,  energy  and  utility  services.  Demand  in  this  segment  is  driven  by  our clients'  focus  on  improving  the  efficiency  and  sustainability  of  their  operations;  the  enablement  and  integration  of  mobile platforms to support sales and customer experience enhancement initiatives; the generational shift from mechanical to softwaredefined, experience-driven vehicles; grid modernization to support a consumer-driven energy landscape that enables cleaner, more efficient  energy  use;  and  their  adoption  and  integration  of  digital  technologies,  such  as  intelligent  systems  to  manage supply chains and enhance overall customer experiences, and IoT to generate data and insights for factories, fleets, products and real estate companies.
+
+Our  CMT  segment  includes  global  communications,  media  and  entertainment,  education,  information  services  and technology companies. Demand in this segment is driven by our clients' need for services related to digital content, business
+
+process automation, AI adoption, operational efficiency, unified user experiences and the generation of new revenue streams. In response  to  this  demand,  our  focus  areas  include  network  monetization,  media  supply  chain  transformation,  product engineering, AI integration, verticalization, data modernization and customer experience design.
+
+For the year ended December 31, 2024, the distribution of our revenues across our four reportable business segments was as follows:
+
+Pie chart
+
+[IMAGE DESCRIPTION: ## Chart Analysis: Revenues by Business Segment for 2024
+
+**Chart Type:** Pie chart
+
+**Chart Title:** Revenues by business segment for 2024
+
+**Unit:** Percentages (% of total revenue)
+
+---
+
+### Segment Breakdown:
+
+| Business Segment | Revenue Share |
+|---|---|
+| Health Sciences | 30.1% |
+| Financial Services | 29.1% |
+| Products and Resources | 24.2% |
+| Communications, Media and Technology | 16.6% |
+
+---
+
+### Key Insights:
+
+- **Largest segment:** Health Sciences at 30.1%, representing nearly a third of total revenues
+- **Second largest:** Financial Services at 29.1%, virtually neck-and-neck with Health Sciences — together these two segments account for **59.2%** of total revenue (nearly 3/5 of the business)
+- **Third largest:** Products and Resources at 24.2%, representing roughly a quarter of revenues
+- **Smallest segment:** Communications, Media and Technology at 16.6%, the only segment below 20%
+- **Total:** All four segments sum to exactly **100.0%**, confirming these represent the complete revenue composition
+- **Revenue concentration:** The business is moderately diversified, with no single segment exceeding ~30%, though the top two segments dominate with nearly 60% combined
+- **Spread between largest and smallest:** 13.5 percentage points (30.1% vs. 16.6%), indicating some imbalance but no extreme dependency on a single vertical
+
+*Note: This appears to be from Cognizant Technology Solutions' 2024 annual report, based on the characteristic business segment naming conventions.*]
+
+The  services  we  provide  are  distributed  among  a  number  of  clients  in  each  of  our  reportable  business  segments.  The volume of work performed for specific clients may vary significantly from year to year. A loss of a significant client or a few significant clients in a particular segment could materially reduce revenues for that segment. The services we provide to our larger clients are often critical to their operations and termination of our services would typically require an extended transition period with gradually declining revenues.
+
+See Note 2 to our consolidated financial statements for additional information related to disaggregation of revenues by client location, service line and contract-type for each of our reportable business segments.

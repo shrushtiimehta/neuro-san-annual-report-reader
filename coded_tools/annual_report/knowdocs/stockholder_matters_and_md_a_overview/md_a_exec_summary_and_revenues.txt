@@ -1,0 +1,217 @@
+## Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Executive Summary
+
+Cognizant is one of the world's leading professional services companies, engineering modern businesses and delivering strategic outcomes for our clients. We help clients modernize technology, reimagine processes and transform experiences so they can stay ahead in today's fast-changing world, where AI is beginning to reshape organizations in every field. We provide industry expertise and close client collaboration, combining critical perspective with a flexible engagement style. We tailor our services and solutions to specific industries with an integrated global delivery model that employs client service and delivery teams based at client locations and dedicated global and regional delivery centers. Our collaborative services include digital services and solutions, consulting, application development, systems integration, quality engineering and assurance, engineering research and development, application maintenance, infrastructure and security as well as business process services and automation. Digital, AI-enhanced services continue to be an important part of our portfolio, aligning with our clients' focus on becoming data-enabled, customer-centric and differentiated businesses.
+
+At  the  end  of  2024,  we  completed  our  NextGen  program,  which  was  aimed  at  simplifying  our  operating  model, optimizing  corporate  functions  and  consolidating  and  realigning  office  space  to  reflect  the  post-pandemic  hybrid  work environment.  The  savings  generated  by  the  program  are  funding  continued  investments  in  our  people,  revenue  growth opportunities and the modernization of our office space. In 2024, we incurred $134 million of employee separation, facility exit and other costs related  to  the  program,  bringing  the  total  costs  incurred  since  inception  to  $363  million.  See  Note  4  to  our consolidated financial statements.
+
+## 2024 Financial Results
+
+## Revenues
+
+Bar chart
+
+[IMAGE DESCRIPTION: ## Chart Analysis: Bar Chart
+
+**Chart Title:** Not explicitly shown (appears to be a revenue or financial metric comparison)
+
+**Units:** Millions (M) of dollars
+
+---
+
+### Data Points:
+
+| Period | Value |
+|--------|-------|
+| FY 23 | $19,353M |
+| FY 24 | $19,736M |
+
+---
+
+### Key Insights:
+
+- **Year-over-Year Trend:** Modest **growth** from FY 23 to FY 24
+- **Increase:** $383M, representing approximately **+2.0%** year-over-year growth
+- **Most Recent Year (FY 24):** $19,736M — the higher of the two periods
+- **Visual Representation:** Both bars appear nearly equal in height (dark gray/black), consistent with the relatively small percentage change
+- **No notable spikes or dips** — this reflects stable, incremental growth
+- The metric is likely **total revenue** or a similar top-line financial figure, hovering just under $20 billion in both years]
+
+Revenue up $383 million or 2.0% from 2023; an increase of 1.9% in constant currency 1
+
+Bar chart
+
+| Fiscal Year   | GAAP   | Adjusted   |
+|---------------|--------|------------|
+| FY '23        | 2.69B  | 2.92B      |
+| FY '24        | 2.89B  | 3.03B      |
+
+[IMAGE DESCRIPTION: ## Chart Analysis: Income from Operations
+
+### Chart Title
+**Income from Operations**
+
+### Chart Type
+Bar chart with two categories: **GAAP** and **Adjusted¹**
+
+### X-Axis Periods
+- **FY '23** and **FY '24** (shown for both GAAP and Adjusted)
+
+### Data Values
+
+| Metric | FY '23 | FY '24 |
+|--------|--------|--------|
+| **GAAP** | **$2.69B** | **$2.89B** |
+| **Adjusted¹** | **$2.92B** | **$3.03B** |
+
+*All values are in billions of dollars (B).*
+
+### Year-over-Year Trends
+
+- **GAAP Income from Operations:** Grew from $2.69B to $2.89B, an increase of ~$200M or **~7.4% YoY growth**
+- **Adjusted Income from Operations:** Grew from $2.92B to $3.03B, an increase of ~$110M or **~3.8% YoY growth**
+
+### Key Observations
+
+1. **Both metrics show growth** from FY '23 to FY '24, indicating improving operational performance.
+2. **Adjusted figures exceed GAAP figures** in both years, which is typical as adjustments remove non-recurring or non-cash charges.
+3. **The GAAP-to-Adjusted gap is narrowing**: The difference was ~$230M in FY '23 but shrank to ~$140M in FY '24, suggesting fewer/smaller adjustments were needed.
+4. **GAAP growth rate (7.4%) outpaced Adjusted growth rate (3.8%)**, indicating the underlying GAAP operations improved more significantly.
+5. The most recent year (FY '24) reached **$3.03B on an adjusted basis**, crossing the $3B threshold for the first time shown.
+6. The ¹ footnote on "Adjusted" indicates these are non-GAAP measures with additional disclosures likely provided elsewhere in the report.
+
+### Summary
+The company demonstrated solid operational income growth across both GAAP and adjusted measures, with FY '24 adjusted income from operations surpassing the $3B mark. The converging GAAP and adjusted figures suggest improving quality of earnings.]
+
+Income from Operations up $203 million or 7.5% from 2023
+
+Adjusted Income from Operations 1 up $108 million or 3.7% from 2023
+
+## Operating Margin
+
+Bar chart
+
+| Fiscal Year   | Dark Gray   | Darkest Gray   |
+|---------------|-------------|----------------|
+| FY '23        | 13.9%       | 14.7%          |
+| FY '24        | 15.1%       | 15.3%          |
+
+[IMAGE DESCRIPTION: # Chart Analysis
+
+## Chart Type
+Two pairs of bar charts (appears to be two separate metrics shown side by side)
+
+## No visible chart title
+
+## Data Points
+
+### Left Pair:
+| Period | Value |
+|--------|-------|
+| FY '23 | **13.9%** |
+| FY '24 | **14.7%** |
+
+### Right Pair:
+| Period | Value |
+|--------|-------|
+| FY '23 | **15.1%** |
+| FY '24 | **15.3%** |
+
+## Units
+All values are in **percentages (%)**.
+
+## Trends
+
+- **Left metric:** Increased from 13.9% to 14.7% year-over-year — a **+0.8 percentage point increase** (~5.8% growth), showing a **growing trend**.
+
+- **Right metric:** Increased from 15.1% to 15.3% year-over-year — a **+0.2 percentage point increase** (~1.3% growth), showing a **relatively stable/modest growth trend**.
+
+## Key Insights
+
+- Both metrics improved from FY '23 to FY '24, indicating positive momentum.
+- The left metric showed more meaningful improvement compared to the right metric, which was nearly flat.
+- The right pair of bars consistently shows higher percentage values than the left pair, suggesting it may represent a different (or adjusted) version of the same margin/return metric.
+- Without axis labels or titles, these likely represent **margin ratios** (e.g., operating margin, return on equity, or similar profitability metrics) commonly found in financial annual reports.
+- The dark gray/black bar coloring is consistent across both periods, with the percentage labels displayed above each bar.]
+
+GAAP
+
+Adjusted
+
+1
+
+Operating margin up 80 basis points from 2023
+
+Adjusted Operating Margin 1 up 20 basis points from 2023
+
+Bar chart
+
+| Fiscal Year   |   Diluted EPS |
+|---------------|---------------|
+| FY '23        |          4.21 |
+| FY '24        |          4.51 |
+| FY '23        |          4.55 |
+| FY '24        |          4.75 |
+
+GAAP Adjusted 1
+
+[IMAGE DESCRIPTION: ## Chart Analysis: Diluted EPS
+
+**Chart Title:** Diluted EPS
+
+**Chart Type:** Bar chart with two pairs of bars (appears to compare two different metrics or entities across two fiscal years)
+
+---
+
+### X-Axis Periods:
+- **FY '23** (first pair)
+- **FY '24** (first pair)
+- **FY '23** (second pair)
+- **FY '24** (second pair)
+
+### Data Values:
+
+| Period | Left Pair | Right Pair |
+|--------|-----------|------------|
+| FY '23 | **$4.21** | **$4.55** |
+| FY '24 | **$4.51** | **$4.75** |
+
+**Units:** Dollars per share (EPS)
+
+---
+
+### Trend Analysis:
+- **Left pair (FY '23 → FY '24):** Increased from $4.21 to $4.51 — a **$0.30 increase (~7.1% growth)**
+- **Right pair (FY '23 → FY '24):** Increased from $4.55 to $4.75 — a **$0.20 increase (~4.4% growth)**
+- **Overall trend:** Growing in both categories year-over-year
+
+### Key Insights:
+- The two pairs likely represent **GAAP vs. Adjusted (non-GAAP) Diluted EPS**, with the right pair (higher values) being the adjusted figures
+- **Most recent FY '24 values** are $4.51 and $4.75, both representing record highs
+- Consistent upward trajectory in earnings per share demonstrates **steady profitability improvement**
+- The spread between the two metrics narrowed slightly from $0.34 in FY '23 to $0.24 in FY '24, suggesting GAAP results are converging closer to adjusted results]
+
+Diluted EPS up $0.30 or 7.1% from 2023
+
+Adjusted Diluted EPS 1 up $0.20 or 4.4% from 2023
+
+During  the  year  ended  December  31,  2024,  revenues  increased  by  $383  million  as  compared  to  the  year  ended December  31,  2023,  representing  an  increase  of  2.0%,  or  1.9%  on  a  constant  currency  basis 1 .  Our  recently  completed acquisitions contributed 200 basis points to revenue growth. Additionally, revenues were positively impacted by growth in our Health Sciences segment, partially offset by weakness primarily in our Products and Resources (excluding the impact of our recently completed acquisitions) and Financial Services segments.
+
+1 Adjusted Income From Operations, Adjusted Operating Margin, Adjusted Diluted EPS and constant currency revenue growth are not measurements of financial performance prepared in accordance with GAAP. See 'Non-GAAP Financial Measures' for more information and reconciliations to the most directly comparable GAAP financial measures.
+
+Our operating margin and Adjusted Operating Margin 2 increased to 14.7% and 15.3%, respectively, for the year ended December  31,  2024,  from  13.9%  and  15.1%,  respectively,  for  the  year  ended  December  31,  2023.  Our  2024  GAAP  and Adjusted Operating Margins were positively impacted by net savings generated from our NextGen program and the beneficial impact  of  foreign  currency  exchange  rate  movements,  while  being  negatively  impacted  by  increased  compensation  costs, primarily as a result of a merit increase cycle completed during the third quarter of 2024, and the dilutive impact of recently completed  acquisitions,  primarily  driven  by  transaction  and  integration  related  expenses  and  amortization  of  acquired intangibles. In addition, our GAAP operating margins for 2024 and 2023, were negatively impacted by the NextGen charges, as discussed in Note 4 to our consolidated financial statements, which were excluded from our Adjusted Operating Margin.
+
+As a global professional services company, we compete on the basis of the knowledge, experience, insights, skills and talent of our employees and the value they can provide to our clients. We closely monitor attrition trends focusing on the metric that we believe is most relevant to our business. For the year ended December 31, 2024 our Voluntary Attrition - Tech Services was  15.9%  as  compared  to  13.8%  for  the  year  ended  December  31,  2023.  We  finished  2024  with  approximately  336,800 employees as compared to 347,700 employees at the end of 2023.
+
+## Business Outlook
+
+See "Overview" within Part I, Item 1. Business for information on our strategic approach.
+
+We continue  to  expect  the  focus  of  our  clients  to  be  on  their  transformation  into  AI-ready,  technology-driven,  dataenabled, customer-centric and differentiated businesses. To support this transformation and drive greater business resiliency, we expect clients will continue to demand services and solutions that can enhance productivity and deliver cost savings. We believe clients  will  continue  to  contend  with  industry-specific  changes  driven  by  evolving  digital  technologies,  uncertainty  in  the regulatory environment, industry consolidation and convergence as well as international trade policies and other macroeconomic and geopolitical factors, including the uncertainty related to the global economy, which has affected and may continue to affect their demand for our services.
+
+We increasingly use AI-based technologies, including GenAI, in our client offerings and our own internal operations. AI technologies  and  services  are  part  of  a  highly  competitive  and  rapidly  evolving  market.  We  plan  to  make  significant investments in our AI capabilities to meet the needs of our clients and harness AI's value in a flexible, secure, scalable and responsible way. As AI-based technologies or other forms of automation evolve, we expect that demand for some services that we currently perform for our clients may be reduced and our ability to obtain favorable pricing or other terms for our services may be diminished.
+
+Potential tax law and other regulatory changes, including possible U.S. corporate income tax reform and the Code on Social Security, 2020 in India, among other items, may impact our future results. We expect that the Code on Social Security, 2020,  if  enacted  as  currently  written,  could  result  in  a  material  one-time  increase  to  our  post-employment  liability  for  past service and would also modestly increase our costs for employment and post-employment benefits prospectively. In addition, in March  2024,  India  and  Mauritius  signed  a  Protocol  to  amend  the  India-Mauritius  Income  Tax  Treaty.  We  are  currently evaluating the potential impact of the amendment, which, depending on its final terms when entered into force, could increase our effective income tax rate, as CTS India is a subsidiary of our wholly-owned Mauritius entity. For additional information, see Part I, Item 1A. Risk Factors.
+
+During  the  third  quarter  of  2024,  we  completed  the  acquisition  of  Belcan.  See  Note  3  to  our  consolidated  financial statements. This acquisition is expected to have a modest near-term dilutive impact to our 2025 operating margin, primarily due to integration-related expenses and amortization of acquired intangibles.
+
+2 Adjusted Operating Margin is not a measurement of financial performance prepared in accordance with GAAP. See 'NonGAAP  Financial  Measures'  for  more  information  and  reconciliations  to  the  most  directly  comparable  GAAP  financial measures.

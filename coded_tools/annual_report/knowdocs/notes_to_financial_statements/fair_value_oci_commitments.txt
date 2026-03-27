@@ -1,0 +1,154 @@
+## Note 13 - Fair Value Measurements
+
+We measure our cash equivalents, certain investments, contingent consideration liabilities and foreign exchange forward and option contracts at fair value. Fair value is the exit price, or the amount that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants as of the measurement date. The fair value hierarchy is based  on  inputs  to  valuation  techniques  that  are  used  to  measure  fair  value  that  are  either  observable  or  unobservable. Observable  inputs  reflect  assumptions  market  participants  would  use  in  pricing  an  asset  or  liability  based  on  market  data obtained from independent sources while unobservable inputs reflect a reporting entity's pricing based upon their own market assumptions.
+
+The fair value hierarchy consists of the following three levels:
+
+- Level 1 - Inputs are quoted prices in active markets for identical assets or liabilities.
+- Level 2 - Inputs are quoted prices for similar assets or liabilities in an active market, quoted prices for identical or similar  assets  or  liabilities  in  markets  that  are  not  active,  inputs  other  than  quoted  prices  that  are  observable  and market-corroborated inputs which are derived principally from or corroborated by observable market data.
+- Level 3 - Inputs are derived from valuation techniques in which one or more significant inputs or value drivers are unobservable.
+
+The following table summarizes the financial assets and (liabilities)  measured  at  fair  value  on  a  recurring  basis  as  of December 31, 2024:
+
+| (in millions)                                   | Level 1   | Level 2   | Level 3   | Total   |
+|-------------------------------------------------|-----------|-----------|-----------|---------|
+| Cash equivalents:                               |           |           |           |         |
+| Money market funds                              | $ 40      | $ -       | $ -       | $ 40    |
+| Time deposits                                   | -         | 991       | -         | 991     |
+| Short-term investments:                         |           |           |           |         |
+| Time deposits                                   | -         | 1         | -         | 1       |
+| Equity investment security                      | 11        | -         | -         | 11      |
+| Other current assets:                           |           |           |           |         |
+| Foreign exchange forward contracts              | -         | 2         | -         | 2       |
+| Accrued expenses and other current liabilities: |           |           |           |         |
+| Foreign exchange forward contracts              | -         | (24)      | -         | (24)    |
+| Other noncurrent liabilities:                   |           |           |           |         |
+| Foreign exchange forward contracts              | -         | (13)      | -         | (13)    |
+
+The following table summarizes the financial assets and (liabilities)  measured  at  fair  value  on  a  recurring  basis  as  of December 31, 2023:
+
+| (in millions)                                   | Level 1   | Level 2   | Level 3   | Total   |
+|-------------------------------------------------|-----------|-----------|-----------|---------|
+| Cash equivalents:                               |           |           |           |         |
+| Money market funds                              | $ 327     | $ -       | $ -       | $ 327   |
+| Time deposits                                   | -         | 834       | -         | 834     |
+| Short-term investments:                         |           |           |           |         |
+| Equity investment security                      | 11        | -         | -         | 11      |
+| Other current assets:                           |           |           |           |         |
+| Foreign exchange forward contracts              | -         | 15        | -         | 15      |
+| Long-term investments:                          |           |           |           |         |
+| Restricted time deposits (1)                    | -         | 355       | -         | 355     |
+| Other noncurrent assets:                        |           |           |           |         |
+| Foreign exchange forward contracts              | -         | 5         | -         | 5       |
+| Accrued expenses and other current liabilities: |           |           |           |         |
+| Foreign exchange forward contracts              | -         | (14)      | -         | (14)    |
+| Contingent consideration liabilities            | -         | -         | (30)      | (30)    |
+| Other noncurrent liabilities:                   |           |           |           |         |
+| Foreign exchange forward contracts              | -         | (1)       | -         | (1)     |
+
+(1) See Note 11
+
+The following table summarizes the changes in Level 3 contingent consideration liabilities:
+
+| (in millions)                                    | 2024   | 2023   |
+|--------------------------------------------------|--------|--------|
+| Beginning balance                                | $ 30   | $ 22   |
+| Change in fair value recognized in SG&A expenses | -      | 17     |
+| Payments and other adjustments                   | (30)   | (9)    |
+| Ending balance                                   | $ -    | $ 30   |
+
+We measure the  fair  value  of  money  market  funds  based  on  quoted  prices  in  active  markets  for  identical  assets  and measure the fair value of our equity investment security based on the published daily net asset value at which investors can freely  subscribe  to  or  redeem  from  the  fund.  The  carrying  value  of  the  time  deposits  approximated  fair  value  as  of December 31, 2024 and 2023.
+
+We estimate the fair value of each foreign exchange forward contract by using a present value of expected cash flows model. This model calculates the difference between the current market forward price and the contracted forward price for each foreign exchange forward contract and applies the difference in the rates to each outstanding contract. The market forward rates include a discount and credit risk factor. We estimate the fair value of each foreign exchange option contract by using a variant of the Black-Scholes model. This model uses present value techniques and reflects the time value and intrinsic value based on observable market rates.
+
+We estimate  the  fair  value  of  contingent  consideration  liabilities  associated  with  acquisitions  using  a  variation  of  the income approach, which utilizes one or more significant inputs that are unobservable. This approach calculates the fair value of such liabilities based on the probability-weighted expected performance of the acquired entity against the target performance metric, discounted to present value when appropriate.
+
+During the years ended December 31, 2024, 2023 and 2022 there were no transfers among Level 1, Level 2 or Level 3 financial assets and liabilities.
+
+## Note 14 - Accumulated Other Comprehensive Income (Loss)
+
+Changes  in  "Accumulated  other  comprehensive  income  (loss)"  by  component  were  as  follows  for  the  year  ended December 31, 2024:
+
+|                                                    | 2024              | 2024       | 2024              |
+|----------------------------------------------------|-------------------|------------|-------------------|
+| (in millions)                                      | Before Tax Amount | Tax Effect | Net of Tax Amount |
+| Foreign currency translation adjustments:          |                   |            |                   |
+| Beginning balance                                  | $ (109)           | $ 5        | $ (104)           |
+| Change in foreign currency translation adjustments | (152)             | 2          | (150)             |
+| Ending balance                                     | $ (261)           | $ 7        | $ (254)           |
+| Unrealized gains (losses) on cash flow hedges:     |                   |            |                   |
+| Beginning balance                                  | $ 13              | $ (3)      | $ 10              |
+| Unrealized (losses) arising during the period      | (35)              | 9          | (26)              |
+| Reclassifications of net gains to:                 |                   |            |                   |
+| Cost of revenues                                   | (11)              | 3          | (8)               |
+| SG&A expenses                                      | (1)               | -          | (1)               |
+| Net change                                         | (47)              | 12         | (35)              |
+| Ending balance                                     | $ (34)            | $ 9        | $ (25)            |
+| Losses on defined benefit plans:                   |                   |            |                   |
+| Beginning balance                                  | $ -               | $ -        | $ -               |
+| Losses on defined benefit plans                    | (20)              | 3          | (17)              |
+| Ending balance                                     | $ (20)            | $ 3        | $ (17)            |
+| Accumulated other comprehensive income (loss):     |                   |            |                   |
+| Beginning balance                                  | $ (96)            | $ 2        | $ (94)            |
+| Other comprehensive income (loss)                  | (219)             | 17         | (202)             |
+| Ending balance                                     | $ (315)           | $ 19       | $ (296)           |
+
+Changes  in  "Accumulated  other  comprehensive  income  (loss)"  by  component  were  as  follows  for  the  years  ended December 31, 2023 and 2022:
+
+|                                                     | 2023              | 2023       | 2023              | 2022              | 2022       | 2022              |
+|-----------------------------------------------------|-------------------|------------|-------------------|-------------------|------------|-------------------|
+| (in millions)                                       | Before Tax Amount | Tax Effect | Net of Tax Amount | Before Tax Amount | Tax Effect | Net of Tax Amount |
+| Foreign currency translation adjustments:           |                   |            |                   |                   |            |                   |
+| Beginning balance                                   | $ (256)           | $ 8        | $ (248)           | $ (22)            | $ 2        | $ (20)            |
+| Change in foreign currency translation adjustments  | 147               | (3)        | 144               | (234)             | 6          | (228)             |
+| Ending balance                                      | $ (109)           | $ 5        | $ (104)           | $ (256)           | $ 8        | $ (248)           |
+| Unrealized (losses) gains on cash flow hedges:      |                   |            |                   |                   |            |                   |
+| Beginning balance                                   | $ (68)            | $ 17       | $ (51)            | $ 71              | $ (14)     | $ 57              |
+| Unrealized gains (losses) arising during the period | 55                | (14)       | 41                | (153)             | 34         | (119)             |
+| Reclassifications of net losses to:                 |                   |            |                   |                   |            |                   |
+| Cost of revenues                                    | 23                | (5)        | 18                | 13                | (3)        | 10                |
+| SG&A expenses                                       | 3                 | (1)        | 2                 | 1                 | -          | 1                 |
+| Net change                                          | 81                | (20)       | 61                | (139)             | 31         | (108)             |
+| Ending balance                                      | $ 13              | $ (3)      | $ 10              | $ (68)            | $ 17       | $ (51)            |
+| Accumulated other comprehensive income (loss):      |                   |            |                   |                   |            |                   |
+| Beginning balance                                   | $ (324)           | $ 25       | $ (299)           | $ 49              | $ (12)     | $ 37              |
+| Other comprehensive income (loss)                   | 228               | (23)       | 205               | (373)             | 37         | (336)             |
+| Ending balance                                      | $ (96)            | $ 2        | $ (94)            | $ (324)           | $ 25       | $ (299)           |
+
+## Note 15 - Commitments and Contingencies
+
+We are involved in various claims and legal proceedings arising in the ordinary course of business. We accrue a liability when  a  loss  is  considered  probable  and  the  amount  can  be  reasonably  estimated.  When  a  material  loss  contingency  is reasonably possible but not probable, we do not record a liability, but instead disclose the nature and the amount of the claim, and an estimate of the loss or range of loss, if such an estimate can be made. Legal fees are expensed as incurred. While we do not expect that the ultimate resolution of any existing claims and proceedings (other than the specific matters described below, if  decided  adversely),  individually  or  in  the  aggregate,  will  have  a  material  adverse  effect  on  our  financial  position,  an unfavorable outcome in some or all of these proceedings could have a material adverse impact on results of operations or cash flows for a particular period. This assessment is based on our current understanding of relevant facts and circumstances. As such, our view of these matters is subject to inherent uncertainties and may change in the future.
+
+On January 15,  2015,  Syntel  sued  TriZetto  and  Cognizant  in  the  USDC-SDNY.  Syntel's  complaint  alleged  breach  of contract  against  TriZetto,  and  tortious  interference  and  misappropriation  of  trade  secrets  against  Cognizant  and  TriZetto, stemming from Cognizant's hiring of certain former Syntel employees. Cognizant and TriZetto countersued on March 23, 2015, for  breach  of  contract,  misappropriation  of  trade  secrets  and  tortious  interference,  based  on  Syntel's  misuse  of  TriZetto confidential  information  and  abandonment  of  contractual  obligations.  Cognizant  and  TriZetto  subsequently  added  federal DTSA and copyright infringement claims for Syntel's misuse of TriZetto's proprietary technology. The parties' claims were narrowed by the court and the case was tried before a jury, which on October 27, 2020 returned a verdict in favor of Cognizant in the amount of $855 million, including $570 million in punitive damages. On April 20, 2021, the USDC-SDNY issued a posttrial  order  that,  among  other  things,  affirmed  the  jury's  award  of  $285  million  in  actual  damages,  but  reduced  the  award  of punitive  damages  from  $570  million  to  $285  million,  thereby  reducing  the  overall  damages  award  from  $855  million  to $570 million. The USDC-SDNY subsequently issued a final judgment consistent with the April 20 th order. On May 26, 2021, Syntel filed  a  notice  of  appeal  to  the  Second  Circuit,  and  on  June  3,  2021  the  USDC-SDNY  stayed  execution  of  judgment pending appeal. On May 25, 2023, the Second Circuit issued an opinion affirming in part and vacating in part the judgment of the USDC-SDNY and remanding the case for further proceedings consistent with its opinion. The Second Circuit affirmed the judgment in all respects on liability but vacated the $570 million award that had been based on avoided development costs under  the  DTSA,  and  it  remanded  the  case  to  the  USDC-SDNY  for  further  evaluation  of  damages.  On  June  23,  2023,  the
+
+Second Circuit issued its  mandate  returning  the  case  to  the  USDC-SDNY.  On  March  13,  2024,  the  USDC-SDNY  issued  a ruling that vacates the alternate compensatory damages awards that were within the scope of the Second Circuit's remand and awards TriZetto and Cognizant approximately $15 million in attorney's fees. On October 23, 2024, the USDC-SDNY granted TriZetto and Cognizant's motion for a new trial on the amount of compensatory damages owed to TriZetto and Cognizant. On November  12,  2024,  the  USDC-SDNY  scheduled  the  trial  for  June  16,  2025.  On  November  13,  2024,  the  USDC-SDNY granted Syntel's request to certify for interlocutory appeal the question of whether the Second Circuit's mandate permits the USDC-SDNY's October 23 rd order for a new trial on compensatory damages. The parties subsequently completed briefing at the Second Circuit on December 27, 2024, regarding whether the Second Circuit should take up the interlocutory appeal, and a decision is pending. TriZetto and Cognizant will continue to vigorously pursue our claims against Syntel. We will not record any gain in our financial statements until it becomes realizable.
+
+On  February  28,  2019,  a  ruling  of  the  SCI  interpreting  the  India  Defined  Contribution  Obligation  altered  historical understandings of the obligation, extending it to cover additional portions of the employee's income. As a result, the ongoing contributions  of  our  affected  employees  and  the  Company  were  required  to  be  increased.  In  the  first  quarter  of  2019,  we accrued $117 million with respect to prior periods, assuming retroactive application of the SCI's ruling, in "Selling, general and administrative expenses" in our consolidated statement of operations. There is significant uncertainty as to how the liability should be calculated as it is impacted by multiple variables, including the period of assessment, the application with respect to certain current and former employees and whether interest and penalties may be assessed. Since the ruling, a variety of trade associations and industry groups have advocated to the Indian government, highlighting the harm to the information technology sector, other industries and job growth in India that would result from a retroactive application of the ruling. It is possible the Indian government will review the matter and there is a substantial question as to whether the Indian government will apply the SCI's ruling on a retroactive basis. As such, the ultimate amount of our obligation may be materially different from the amount accrued.
+
+On October 31, 2016, November 15, 2016 and November 18, 2016, three putative shareholder derivative complaints were filed in New Jersey Superior Court, Bergen County, naming us, all of our then current directors and certain of our current and former officers at that time as defendants. These actions were consolidated in an order dated January 24, 2017. The complaints assert claims for breach of fiduciary duty, corporate waste, unjust enrichment, abuse of control, mismanagement, and/or insider selling  by  defendants.  On  April  26,  2017,  the  New  Jersey  Superior  Court  deferred  further  proceedings  by  dismissing  the consolidated putative shareholder derivative litigation without prejudice but permitting the parties to file a motion to vacate the dismissal in the future.
+
+On February 22, 2017, April 7, 2017, May 10, 2017 and March 11, 2019, four additional putative shareholder derivative complaints were filed in the USDC-NJ, naming us and certain of our current and former directors and officers at that time as defendants.  These  actions  were  consolidated  in  an  order  dated  May  14,  2019.  On  August  3,  2020,  lead  plaintiffs  filed  a consolidated amended complaint. The consolidated amended complaint asserts claims similar to those in the previously-filed putative shareholder derivative actions. On February 14, 2022, we and certain of our current and former directors and officers moved to  dismiss  the  consolidated  amended  complaint.  On  September  27,  2022,  the  USDC-NJ  granted  those  motions  and dismissed the consolidated amended complaint in its entirety with prejudice. Plaintiffs filed a notice of appeal on October 27, 2022. On May 3, 2024, the Third Circuit affirmed the dismissal of the consolidated amended complaint.
+
+On June 1, 2021, an eighth putative shareholder derivative complaint was filed in the USDC-NJ, naming us and certain of our current and former directors and officers at that time as defendants. The complaint asserts claims similar to those in the previously-filed putative shareholder derivative actions. On March 31, 2022, we and certain of our current and former directors and officers moved to dismiss the complaint. On November 30, 2022, the USDC-NJ denied without prejudice those motions. The USDC-NJ ordered the parties to conduct limited discovery related to the issue of whether our board of directors wrongfully refused the plaintiff's earlier litigation demand and, after the conclusion of such limited discovery, to file targeted motions for summary judgment on the issue of wrongful refusal.
+
+We are presently unable to predict the duration, scope or result of the single putative shareholder derivative action that has not  been  dismissed.  Although  the  Company  continues  to  defend  that  putative  shareholder  derivative  action  vigorously,  it  is subject to inherent uncertainties, the actual cost of such litigation will depend upon many unknown factors and the outcome of the litigation is necessarily uncertain.
+
+We have indemnification and expense advancement obligations pursuant to our bylaws and indemnification agreements with respect to certain current and former members of senior management and the Company's board of directors. In connection with the matters that were the subject of our previously disclosed internal investigation, the DOJ and SEC investigations and the related litigation, we have received and expect to continue to receive requests under such indemnification agreements and our bylaws to provide funds for legal fees and other expenses. There are no amounts remaining available to us under applicable
+
+insurance  policies  for  our  ongoing  indemnification  and  advancement  obligations  with  respect  to  certain  of  our  current  and former officers and directors or incremental legal fees and other expenses related to the above matters.
+
+See Note 11 for information relating to the ITD Dispute.
+
+On September 18, 2017, three former employees filed suit against Cognizant in the USDC-CDCA, alleging that they and similarly  situated  employees  suffered  disparate  treatment  on  the  basis  of  race  in  violation  of  42  U.S.C.  §  1981.  Plaintiffs subsequently amended their complaint three times, adding a fourth former employee plaintiff and claims for both disparate treatment and disparate impact on the basis of race and national origin under Title VII of the Civil Rights Act of 1964, 42 U.S.C. § 2000e et seq. and disparate treatment and disparate impact on the basis of race and national origin under Title VII of the Civil Rights Act of 1964, 42 U.S.C. § 2000e et seq. . Plaintiffs filed the operative Third Amended Complaint-Corrected on January 19, 2021. Cognizant filed its answer on January 29, 2021.
+
+On May 13, 2022, plaintiffs filed a motion requesting that the USDC-CDCA certify the case as a class action for two putative classes of plaintiffs consisting of: (1) all individuals who are not of South Asian race or Indian national origin who applied to Cognizant in the U.S. and were not hired since September 2013 (the 'hiring class'); and (2) all individuals who are not of South Asian race or Indian national origin who have been terminated in the U.S. since September 2013 (the 'terminations class'). Cognizant opposed. On October 27, 2022, the court denied certification for the hiring class and the terminations class. However, the court granted certification for a sub-set of the terminations class limited to approximately 2,300 former employees whose employment had been terminated from the 'bench,' a designation for employees who are not allocated to an active project.  On  November 10, 2022, Cognizant filed a petition with the Ninth Circuit requesting permission to appeal the class certification order as to the bench terminations class. The Ninth Circuit denied the petition on January 26, 2023.
+
+From June 13, 2023 to June 26, 2023, the USDC-CDCA held a class action jury trial on the first phase of plaintiffs' Section  1981  claim  and  Title  VII  disparate  treatment  claim.  The  questions  presented  were  whether  Cognizant  engaged  in  a pattern or practice of discrimination against non-South Asian and non-Indian employees with respect to bench terminations, and if so, whether punitive damages are available for class members who prevail on their claims. The jury deadlocked, and the court declared a mistrial.
+
+The case proceeded to a retrial on September 24, 2024, and on October 4, 2024, the jury returned a verdict in favor of plaintiffs. The case will now proceed to the second phase to determine individualized liability and damages, if any, for each class member. As a result of the verdict, each non-South Asian and non-Indian class member who pursues claims in the second phase will be entitled to a rebuttable presumption that all termination decisions were discriminatory and to the possibility of recovering punitive damages if they prevail. The USDC-CDCA will also consider plaintiffs' claim that Cognizant policies had a disparate impact on non-South Asian and non-Indian employees. We believe that class certification was improper, and that the second  phase  of  the  case  will  confirm  that  individualized  issues  should  have  precluded  class  certification.  Cognizant  will continue to vigorously defend itself in the second phase of this case and to pursue all available appellate arguments concerning class certification and the September 24, 2024 trial at the appropriate time. Because we cannot predict the number of individual plaintiffs who will proceed to the second phase, or the outcome of those cases, and in view of the appellate arguments regarding class certification, we are unable to reasonably estimate a possible loss or range of loss. We have not recorded any accruals related to this matter.
+
+Many of our engagements involve projects that are critical to the operations of our clients' business and provide benefits that are difficult to quantify. Any failure in a client's systems or our failure to meet our contractual obligations to our clients, including any breach involving a client's confidential information or sensitive data, or our obligations under applicable laws or regulations could result in a claim for substantial damages against us, regardless of our responsibility for such failure. Although we  attempt  to  contractually  limit  our  liability  for  damages  arising  from  negligent  acts,  errors,  mistakes,  or  omissions  in rendering our services, there can be no assurance that the limitations of liability set forth in our contracts will be enforceable in all  instances or will otherwise protect us from liability for damages. Although we have general liability insurance coverage, including coverage for errors or omissions, we retain a significant portion of risk through our insurance deductibles and there can be no assurance that such coverage will cover all types of claims, continue to be available on reasonable terms or will be available in sufficient amounts to cover one or more large claims, or that the insurer will not disclaim coverage as to any future claim. The successful assertion of one or more large claims against us that exceed or are not covered by our insurance coverage or  changes  in  our  insurance  policies,  including  premium  increases  or  the  imposition  of  large  deductible  or  co-insurance requirements, could have a material adverse effect on our business, results of operations, financial position and cash flows for a particular period.
+
+In the normal course of business and in conjunction with certain client engagements, we have entered into contractual arrangements through which we may be obligated to indemnify clients or other parties with whom we conduct business with
+
+respect  to  certain  matters.  These  arrangements  can  include  provisions  whereby  we  agree  to  hold  the  indemnified  party  and certain of their affiliated entities harmless with respect to third-party claims related to such matters as our breach of certain representations or covenants, our intellectual property infringement, our gross negligence or willful misconduct or certain other claims made against certain parties. Payments by us under any of these arrangements are generally conditioned on the client making a claim and providing us with full control over the defense and settlement of such claim. It is not possible to determine the maximum potential liability under these indemnification agreements due to the unique facts and circumstances involved in each  particular  agreement.  Historically,  we  have  not  made  material  payments  under  these  indemnification  agreements  and therefore they have not had a material impact on our operating results, financial position, or cash flows. However, if events arise  requiring  us  to  make  payment  for  indemnification  claims  under  our  indemnification  obligations  in  contracts  we  have entered, such payments could have a material adverse effect on our business, results of operations, financial position and cash flows for a particular period.

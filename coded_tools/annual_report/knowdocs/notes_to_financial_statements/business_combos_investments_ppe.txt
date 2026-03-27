@@ -1,0 +1,153 @@
+## Note 3 - Business Combinations
+
+Acquisitions completed during each of the three years ended December 31, 2024, 2023 and 2022 were not individually or in  the  aggregate material to our operations. Accordingly, pro forma results have not been presented. The primary items that generated goodwill are the acquired assembled workforces and synergies between the acquired companies and us, neither of which qualify as an identifiable intangible asset.
+
+## 2024
+
+On January 22, 2024, through the execution of a share purchase agreement, we acquired 100% ownership in Thirdera, an Elite  ServiceNow  Partner  specializing  in  advisory,  implementation  and  optimization  solutions  related  to  the  ServiceNow platform.
+
+On August 26, 2024, through the execution of a merger agreement, we acquired 100% ownership in Belcan, a leading global  supplier  of  engineering  research  &amp;  development  services  for  the  commercial  aerospace,  defense,  space,  marine  and industrial verticals. We paid $1,195 million in cash, net of cash acquired, and issued 1,470,589 shares of our Class A common stock, valued at $113 million, in connection with our acquisition of Belcan.
+
+The allocations of purchase price to the fair value of the aggregate assets acquired and liabilities assumed were as follows:
+
+| (in millions)                                      | Thirdera   | Belcan   | Total   | Weighted Average Useful Life   |
+|----------------------------------------------------|------------|----------|---------|--------------------------------|
+| Cash                                               | $ 8        | $ 55     | $ 63    |                                |
+| Trade accounts receivable                          | 21         | 173      | 194     |                                |
+| Other current assets                               | 11         | 22       | 33      |                                |
+| Property and equipment and other noncurrent assets | 2          | 22       | 24      |                                |
+| Operating lease assets                             | -          | 55       | 55      |                                |
+| Non-deductible goodwill                            | 180        | 614      | 794     |                                |
+| Tax-deductible goodwill                            | 164        | -        | 164     |                                |
+| Customer relationship assets                       | 73         | 539      | 612     | 11.0 years                     |
+| Other definite-lived intangible assets             | 1          | -        | 1       | 1.0 years                      |
+| Indefinite-lived intangible assets                 | -          | 45       | 45      |                                |
+| Operating lease liabilities, current               | -          | (8)      | (8)     |                                |
+| Other current liabilities                          | (29)       | (72)     | (101)   |                                |
+| Deferred income tax liabilities, net               | (3)        | (34)     | (37)    |                                |
+| Operating lease liabilities, noncurrent            | -          | (48)     | (48)    |                                |
+| Purchase price                                     | $ 428      | $ 1,363  | $ 1,791 |                                |
+
+Goodwill from our acquisition of Thirdera is expected to benefit all of our reportable segments and has been allocated as such. Goodwill from our acquisition of Belcan has been allocated to our Product and Resources segment. For the year ended December 31, 2024,  revenues  from  acquisitions  completed  in  2024,  since  the  dates  of  acquisition,  were  $384  million.  The above allocations are preliminary and will be finalized as soon as practicable within the measurement period, but in no event later than one year following the date of acquisition.
+
+## 2023
+
+In 2023, we acquired 100% ownership in each of the following:
+
+- Certain  net  assets  of  OneSource  Virtual,  the  professional  and  application  management  services  business  of OneSource Virtual, Inc. and OneSource Virtual (UK) Ltd., a leading provider of Workday services, solutions and products,  acquired  to  complement  our  existing  finance  and  human  resources  advisory  implementation  services related to Workday (acquired January 1, 2023), and
+- Mobica, an IoT software engineering services provider, acquired to expand our IoT embedded software engineering capabilities (acquired March 10, 2023).
+
+The allocations of purchase price to the fair value of the aggregate assets acquired and liabilities assumed were as follows:
+
+| (in millions)                           | OneSource Virtual   | Mobica   | Total   | Weighted Average Useful Life   |
+|-----------------------------------------|---------------------|----------|---------|--------------------------------|
+| Cash                                    | $ -                 | $ 20     | $ 20    |                                |
+| Trade accounts receivable               | -                   | 10       | 10      |                                |
+| Other current assets                    | 4                   | 8        | 12      |                                |
+| Property and equipment and other assets | 1                   | 6        | 7       |                                |
+| Non-deductible goodwill                 | 18                  | 202      | 220     |                                |
+| Tax-deductible goodwill                 | 88                  | -        | 88      |                                |
+| Customer relationship assets            | 11                  | 120      | 131     | 10.9 years                     |
+| Current liabilities                     | (18)                | (9)      | (27)    |                                |
+| Noncurrent liabilities                  | (1)                 | (32)     | (33)    |                                |
+| Purchase price                          | $ 103               | $ 325    | $ 428   |                                |
+
+For the year ended December 31, 2023, revenues from acquisitions completed in 2023, since the dates of acquisition, were $130 million.
+
+## 2022
+
+In 2022, we acquired 100% ownership in each of the following:
+
+- AustinCSI,  a  digital  transformation  consultancy  specializing  in  enterprise  cloud  and  data  analytics  advisory services, acquired to complement our technology and industry expertise (acquired December 15, 2022), and
+- Utegration,  a  full  service  consulting  and  solutions  provider  specializing  in  SAP  technology  and  SAP-certified products for the energy and utilities sectors, acquired to expand and strengthen our industry expertise in our SAP practice (acquired December 19, 2022).
+
+The allocations of purchase price to the fair value of the assets acquired and liabilities assumed were as follows:
+
+| (dollars in millions)                   | AustinCSI   | Utegration   | Total   | Weighted Average Useful Life   |
+|-----------------------------------------|-------------|--------------|---------|--------------------------------|
+| Cash                                    | $ -         | $ 5          | $ 5     |                                |
+| Trade accounts receivable               | 9           | 19           | 28      |                                |
+| Property and equipment and other assets | 4           | 6            | 10      |                                |
+| Non-deductible goodwill                 | -           | 23           | 23      |                                |
+| Tax-deductible goodwill                 | 83          | 98           | 181     |                                |
+| Customer relationship assets            | 69          | 82           | 151     | 12.7 years                     |
+| Other intangible assets                 | -           | 2            | 2       | 6.7 years                      |
+| Current liabilities                     | (3)         | (18)         | (21)    |                                |
+| Noncurrent liabilities                  | (1)         | (3)          | (4)     |                                |
+| Purchase price                          | $ 161       | $ 214        | $ 375   |                                |
+
+For the year ended December 31, 2022, revenues from acquisitions completed in 2022, since the dates of acquisition, were immaterial.
+
+At the end of 2024, we completed our NextGen program, which began in the second quarter of 2023 and was aimed at simplifying our operating model, optimizing corporate functions and consolidating and realigning office space to reflect the post-pandemic hybrid work environment.
+
+The total costs related to our NextGen program are reported in "Restructuring charges" in our consolidated statements of operations.  We  do  not  allocate  these  charges  to  individual  segments  in  internal  management  reports  used  by  the  CODM. Accordingly, such expenses are separately disclosed in our segment reporting as 'unallocated costs.' See Note 18. The costs related to our NextGen program were as follows for the years ended December 31:
+
+| (in millions)                   | 2024   | 2023   |
+|---------------------------------|--------|--------|
+| Employee separation costs       | $ 85   | $ 115  |
+| Facility exit costs (1)         | 36     | 108    |
+| Third party and other costs (2) | 13     | 6      |
+| Total restructuring charges     | $ 134  | $ 229  |
+
+(1) For the year ended December 31, 2024, facility exit costs include lease restructuring of $23 million and accelerated depreciation  charges  of  $13  million.  For  the  year  ended  December  31,  2023,  facility  exit  costs  include  lease restructuring of $71 million, accelerated depreciation charges of $36 million and impairment of long-lived assets of $1 million.
+
+(2) Third party and other costs include certain non-facility related asset impairments and professional services fees directly related to the NextGen program.
+
+Changes in our accrued employee separation costs included in "Accrued expenses and other current liabilities" in  our consolidated statements of financial position are presented in the table below for the years ended December 31:
+
+| (in millions)                     | 2024   | 2023   |
+|-----------------------------------|--------|--------|
+| Beginning balance                 | $ 42   | $ -    |
+| Employee separation costs accrued | 85     | 115    |
+| Payments made                     | (92)   | (73)   |
+| Ending balance                    | $ 35   | $ 42   |
+
+There were no restructuring charges during 2022.
+
+## Note 5 - Investments
+
+| Our investments were as follows as of December 31: (in millions)   | 2024   | 2023   |
+|--------------------------------------------------------------------|--------|--------|
+| Short-term investments:                                            |        |        |
+| Equity investment security                                         | $ 11   | $ 11   |
+| Held-to-maturity investment securities                             | -      | 3      |
+| Time deposits                                                      | 1      | -      |
+| Total short-term investments                                       | $ 12   | $ 14   |
+| Long-term investments:                                             |        |        |
+| Other investments                                                  | $ 90   | $ 80   |
+| Restricted time deposits (1)                                       | -      | 355    |
+| Total long-term investments                                        | $ 90   | $ 435  |
+
+(1) As of December 31, 2023 the balance of restricted time deposits contained $96 million of restricted cash equivalents. See Note 11.
+
+## Equity Investment Security
+
+Our equity  investment  security  is  a  U.S.  dollar  denominated  investment  in  a  fixed  income  mutual  fund.  Realized  and unrealized gains and losses were immaterial for each of the years ended December 31, 2024, 2023 and 2022.
+
+## Other Investments
+
+As of December 31, 2024 and 2023, we had an equity method investment of $84 million and $74 million, respectively, in the  technology sector.  Additionally,  as  of  each  of  December  31,  2024  and  2023,  we  had  equity  securities  without  a  readily determinable fair value of $6 million.
+
+## Note 6 - Property and Equipment, net
+
+Property and equipment were as follows as of December 31:
+
+|                                           | Estimated Useful Life                              | 2024          | 2023          |
+|-------------------------------------------|----------------------------------------------------|---------------|---------------|
+|                                           | (in years)                                         | (in millions) | (in millions) |
+| Buildings                                 | 30                                                 | $ 736         | $ 769         |
+| Computer equipment                        | 3 - 5                                              | 811           | 794           |
+| Computer software                         | 3 - 8                                              | 1,024         | 1,007         |
+| Furniture and equipment                   | 5 - 9                                              | 716           | 733           |
+| Land                                      |                                                    | 6             | 7             |
+| Capital work-in-progress                  |                                                    | 115           | 88            |
+| Leasehold improvements                    | Shorter of the lease term or the life of the asset | 373           | 422           |
+| Sub-total                                 |                                                    | 3,781         | 3,820         |
+| Accumulated depreciation and amortization |                                                    | (2,787)       | (2,772)       |
+| Property and equipment, net               |                                                    | $ 994         | $ 1,048       |
+
+Depreciation  and  amortization  expense  related  to  property  and  equipment  was  $354  million,  $390  million  and  $385 million for the years ended December 31, 2024, 2023 and 2022, respectively. For the years ended December 31, 2024 and 2023, $13  million  and  $36  million,  respectively,  of  our  depreciation  and  amortization  expense  was  reported  in  "Restructuring charges". As of December 31, 2024, we had $9 million of physical assets held for sale reported in "Other current assets". We had no assets held for sale as of December 31, 2023.
+
+The  gross  amount  of  property  and  equipment  recorded  under  finance  leases  was  $30  million  and  $25  million  as  of December 31, 2024 and 2023, respectively. Accumulated amortization for our ROU finance lease assets was $16 million and $13 million as of December 31, 2024 and 2023, respectively. Amortization expense related to our ROU finance lease assets was $5 million, $4 million and $4 million for the years ended December 31, 2024, 2023 and 2022, respectively.
+
+The gross amount of property and equipment recorded for software to be sold, leased or marketed reported in the caption "Computer software" above was $338 million and $279 million as of December 31, 2024 and 2023, respectively. Accumulated amortization for software to be sold, leased or marketed was $210 million and $177 million as of December 31, 2024 and 2023, respectively. Amortization expense for software to be sold, leased or marketed recorded as property and equipment was $36 million,  $37 million, and $37 million for the years ended December 31, 2024,  2023 and 2022, respectively.

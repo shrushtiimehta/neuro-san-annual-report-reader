@@ -1,0 +1,145 @@
+## Note 7 - Leases
+
+The  following  table  provides  information  on  the  components  of  our  operating  and  finance  leases  included  in  our consolidated statement of financial position as of December 31:
+
+| Leases                     | Location on Statement of Financial Position    | 2024   | 2023      |
+|----------------------------|------------------------------------------------|--------|-----------|
+| Assets                     |                                                | (in    | millions) |
+| ROU operating lease assets | Operating lease assets, net                    | 552    | $ 611     |
+| ROU finance lease assets   | Property and equipment, net                    | 14     | 12        |
+|                            | Total                                          | 566    | $ 623     |
+| Liabilities                |                                                |        |           |
+| Current                    |                                                |        |           |
+| Operating lease            | Operating lease liabilities                    | 152    | $ 153     |
+| Finance lease              | Accrued expenses and other current liabilities | 8      | 8         |
+| Noncurrent                 |                                                |        |           |
+| Operating lease            | Operating lease liabilities, noncurrent        | 420    | 523       |
+| Finance lease              | Other noncurrent liabilities                   | 15     | 16        |
+|                            | Total                                          | 595    | $ 700     |
+
+For the years ended December 31, 2024, 2023 and 2022, our operating lease costs were $216 million, $304 million and $256 million, respectively, including variable lease costs of $23 million, $21 million and $17 million, respectively. Our shortterm lease rental expense was $11 million, $15 million and $21 million for the years ended December 31, 2024, 2023 and 2022, respectively. Lease interest expense related to our finance leases for each of the years ended December 31, 2024, 2023 and 2022 was immaterial.
+
+The following table provides information on the weighted average remaining lease term and weighted average discount rate for our operating leases as of December 31:
+
+| Operating Lease Term and Discount Rate   | 2024      | 2023      |
+|------------------------------------------|-----------|-----------|
+| Weighted average remaining lease term    | 5.3 years | 5.6 years |
+| Weighted average discount rate           | 5.5 %     | 5.4 %     |
+
+The following table provides supplemental cash flow and non-cash information related to our operating leases for the years ended December 31:
+
+| (in millions)                                                                    | 2024   | 2023   | 2022   |
+|----------------------------------------------------------------------------------|--------|--------|--------|
+| Cash paid for amounts included in the measurement of operating lease liabilities | $ 251  | $ 240  | $ 241  |
+| ROU assets obtained in exchange for operating lease liabilities                  | 123    | 86     | 164    |
+| Reduction of ROU assets and lease liabilities as a result of our NextGen program | (62)   | (110)  | -      |
+
+Cash paid for amounts included in the measurement of finance lease liabilities and ROU assets obtained in exchange for finance lease liabilities were each immaterial for each of the years ended December 31, 2024, 2023 and 2022.
+
+The  following  table  provides  the  schedule  of  maturities  of  our  operating  lease  liabilities  and  a  reconciliation  of  the undiscounted cash flows to the operating lease liabilities recognized in the statement of financial position as of December 31:
+
+| (in millions)                     | 2024   |
+|-----------------------------------|--------|
+| 2025                              | 179    |
+| 2026                              | 138    |
+| 2027                              | 110    |
+| 2028                              | 84     |
+| 2029                              | 50     |
+| Thereafter                        | 98     |
+| Total operating lease payments    | 659    |
+| Interest                          | (87)   |
+| Total operating lease liabilities | 572    |
+
+As of December 31, 2024, additional obligations related to operating leases whose lease term had yet to commence were immaterial.
+
+## Note 8 - Goodwill and Intangible Assets, net
+
+Changes in goodwill by our reportable business segments were as follows for the years ended December 31, 2024 and 2023:
+
+| (in millions)                        | January 1, 2024   | Goodwill Additions   | Foreign Currency Translation Adjustments   | December 31, 2024   |
+|--------------------------------------|-------------------|----------------------|--------------------------------------------|---------------------|
+| Health Sciences                      | $ 2,840           | $ 68                 | $ (13)                                     | $ 2,895             |
+| Financial Services                   | 1,109             | 48                   | (28)                                       | 1,129               |
+| Products and Resources               | 1,217             | 698                  | (31)                                       | 1,884               |
+| Communications, Media and Technology | 919               | 144                  | (18)                                       | 1,045               |
+| Total goodwill                       | $ 6,085           | $ 958                | $ (90)                                     | $ 6,953             |
+
+| (in millions)                        | January 1, 2023   | Goodwill Additions and Adjustments   | Foreign Currency Translation Adjustments   | December 31, 2023   |
+|--------------------------------------|-------------------|--------------------------------------|--------------------------------------------|---------------------|
+| Health Sciences                      | $ 2,819           | $ 15                                 | $ 6                                        | $ 2,840             |
+| Financial Services                   | 1,073             | 19                                   | 17                                         | 1,109               |
+| Products and Resources               | 1,062             | 137                                  | 18                                         | 1,217               |
+| Communications, Media and Technology | 756               | 148                                  | 15                                         | 919                 |
+| Total goodwill                       | $ 5,710           | $ 319                                | $ 56                                       | $ 6,085             |
+
+Based on our most recent  goodwill  impairment  assessment  performed  as  of  October  31,  2024,  we  concluded  that  the goodwill in each of our reporting units was not at risk of impairment. We have not recognized any impairment losses on our goodwill.
+
+Components of intangible assets were as follows as of December 31:
+
+|                                   | 2024                  | 2024                     | 2024                | 2023                  | 2023                     | 2023                |
+|-----------------------------------|-----------------------|--------------------------|---------------------|-----------------------|--------------------------|---------------------|
+| (in millions)                     | Gross Carrying Amount | Accumulated Amortization | Net Carrying Amount | Gross Carrying Amount | Accumulated Amortization | Net Carrying Amount |
+| Customer relationships            | $ 2,534               | $ (1,068)                | $ 1,466             | $ 1,956               | $ (902)                  | $ 1,054             |
+| Developed technology              | 384                   | (379)                    | 5                   | 384                   | (376)                    | 8                   |
+| Indefinite lived trademarks       | 116                   | -                        | 116                 | 72                    | -                        | 72                  |
+| Finite lived trademarks and other | 81                    | (69)                     | 12                  | 82                    | (67)                     | 15                  |
+| Total intangible assets           | $ 3,115               | $ (1,516)                | $ 1,599             | $ 2,494               | $ (1,345)                | $ 1,149             |
+
+Other  than  certain  trademarks  with  indefinite  lives,  our  intangible  assets  have  finite  lives  and,  as  such,  are  subject  to amortization.  Amortization  of  intangible  assets  totaled  $188  million,  $165  million  and  $184  million  for  the  years  ended December 31, 2024, 2023 and 2022, respectively.
+
+The following table provides the estimated amortization expense related to our existing intangible assets for the next five years.
+
+|   (in millions) |   Estimated Amortization |
+|-----------------|--------------------------|
+|            2025 |                      214 |
+|            2026 |                      211 |
+|            2027 |                      203 |
+|            2028 |                      182 |
+|            2029 |                      165 |
+
+## Note 9 - Accrued Expenses and Other Current Liabilities
+
+Accrued expenses and other current liabilities were as follows as of December 31:
+
+| (in millions)                                        | 2024    | 2023    |
+|------------------------------------------------------|---------|---------|
+| Compensation and benefits                            | $ 1,499 | $ 1,511 |
+| Customer volume and other incentives                 | 247     | 241     |
+| Income taxes                                         | 100     | 27      |
+| Professional fees                                    | 171     | 146     |
+| Other                                                | 593     | 500     |
+| Total accrued expenses and other current liabilities | $ 2,610 | $ 2,425 |
+
+## Note 10 - Debt
+
+We entered into the Credit Agreement providing for a $650 million Term Loan and a $1,850 million unsecured revolving credit facility, which are each due to mature in October 2027. We are required under the Credit Agreement to make scheduled quarterly  principal  payments  on  the  Term  Loan.  During  the  third  quarter  of  2024,  we  borrowed  $600  million  under  our revolving credit facility to partially fund the acquisition of Belcan. We repaid $300 million during the fourth quarter of 2024, leaving $300 million of notes outstanding under the revolving credit facility as of December 31, 2024.
+
+The Credit Agreement requires interest to be paid, at our option, at either the Term Benchmark, Adjusted Daily Simple RFR or the ABR Rate (each as defined in the Credit Agreement), plus, in each case, an Applicable Margin (as defined in the Credit  Agreement).  Initially,  the  Applicable  Margin  is  0.875%  with  respect  to  Term  Benchmark  loans  and  RFR  loans  and 0.00% with respect to ABR loans. Subsequently, the Applicable Margin with respect to Term Benchmark loans and RFR loans will be determined quarterly and may range from 0.75% to 1.125%, depending on our public debt ratings or, if we have not received public debt ratings, from 0.875% to 1.125%, depending on our Leverage Ratio, which is the ratio of indebtedness for borrowed money to Consolidated EBITDA, as defined in the Credit Agreement. Since issuance of the Term Loan, the Term Loan has been a Term Benchmark loan. The Credit Agreement contains customary affirmative and negative covenants as well as a financial covenant. The financial covenant is tested at the end of each fiscal quarter and requires us to maintain a Leverage Ratio not in excess of 3.50:1.00, or for a period of up to four quarters following certain material acquisitions, 3.75:1.00. We were in compliance with all debt covenants and representations of the Credit Agreement as of December 31, 2024.
+
+## Short-term Debt
+
+As of each of December 31, 2024 and 2023, we had $33 million of short-term debt related to current maturities of our Term Loan, with a weighted average interest rate of 5.3% and 6.3%, respectively.
+
+## Long-term Debt
+
+The following table summarizes the long-term debt balances as of December 31:
+
+| (in millions)                                     | 2024   | 2023   |
+|---------------------------------------------------|--------|--------|
+| Notes outstanding under revolving credit facility | $ 300  | $ -    |
+| Term Loan                                         | 610    | 642    |
+| Less:                                             |        |        |
+| Current maturities - Term Loan                    | (33)   | (33)   |
+| Unamortized deferred financing costs              | (2)    | (3)    |
+| Long-term debt, net of current maturities         | $ 875  | $ 606  |
+
+The carrying value of our debt approximated its fair value as of each of December 31, 2024 and 2023.
+
+The following represents the schedule of maturities of our Term Loan:
+
+| Year   | Amounts (in millions)   |
+|--------|-------------------------|
+| 2025   | $ 33                    |
+| 2026   | 33                      |
+| 2027   | 544                     |
+| Total  | $ 610                   |

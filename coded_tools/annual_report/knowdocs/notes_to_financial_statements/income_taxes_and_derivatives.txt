@@ -1,0 +1,151 @@
+## Note 11 - Income Taxes
+
+Income before provision for income taxes shown below is based on the geographic location to which such income was attributed for years ended December 31:
+
+| (in millions)                            | 2024    | 2023    | 2022    |
+|------------------------------------------|---------|---------|---------|
+| United States                            | $ 906   | $ 813   | $ 975   |
+| Foreign                                  | 2,032   | 1,974   | 2,041   |
+| Income before provision for income taxes | $ 2,938 | $ 2,787 | $ 3,016 |
+
+The provision for income taxes consisted of the following components for the years ended December 31:
+
+| (in millions)                       | 2024   | 2023   | 2022   |
+|-------------------------------------|--------|--------|--------|
+| Current:                            |        |        |        |
+| Federal and state                   | $ 426  | $ 522  | $ 492  |
+| Foreign                             | 642    | 485    | 511    |
+| Total current provision             | 1,068  | 1,007  | 1,003  |
+| Deferred:                           |        |        |        |
+| Federal and state                   | (229)  | (354)  | (240)  |
+| Foreign                             | (126)  | 15     | (33)   |
+| Total deferred income tax (benefit) | (355)  | (339)  | (273)  |
+| Total provision for income taxes    | $ 713  | $ 668  | $ 730  |
+
+We are involved in two separate ongoing disputes with the ITD in connection with previously disclosed share repurchase transactions  undertaken  by  CTS  India  in  2013  and  2016  to  repurchase  shares  from  its  shareholders  (non-Indian  Cognizant entities) valued at $523 million and $2.8 billion, respectively.
+
+The 2016 transaction was undertaken pursuant to a plan approved by the High Court in Chennai, India, and resulted in the payment  of  $135  million  in  Indian  income  taxes  -  an  amount  we  believe  includes  all  the  applicable  taxes  owed  for  this transaction  under  Indian  law.  In  March  2018,  the  ITD  asserted  that  it  is  owed  an  additional  33  billion  Indian  rupees ($386  million  at  the  December  31,  2024  exchange  rate)  on  the  2016  transaction.  We  deposited  5  billion  Indian  rupees, representing 15% of the disputed tax amount related to the 2016 transaction, with the ITD. Additionally, certain time deposits of  CTS  India  were  placed  under  lien  in  favor  of  the  ITD,  representing  the  remainder  of  the  disputed  tax  amount.  As  of December 31, 2023, the balance of deposits under lien was 30 billion Indian rupees, including previously earned interest, or $355 million, was presented in "Long-term investments."
+
+In April 2020, we received a formal assessment from the ITD on the 2016 transaction, which is consistent with the ITD's previous assertions. Our appeal was ruled on unfavorably by the CITA in March 2022 and by the ITAT in September 2023. We filed an appeal against the order of the ITAT with the High Court. On January 8, 2024, the SCI ruled that, in order to proceed with  the  appeal,  we  must  deposit  30  billion  Indian  rupees,  representing  the  time  deposits  of  CTS  India  under  lien,  on  the condition that, if CTS India prevails at the High Court, the amount deposited will be returned to CTS India, along with interest accrued,  within  four  weeks  of  the  judgment.  We  made  the  required  deposit  in  January  2024  and,  in  April  2024,  the  case commenced before the High Court.
+
+As  of  December  31,  2024  and  2023,  the  deposit  with  the  ITD  was  $403  million  and  $60  million,  respectively  at December 31, 2024 and 2023 exchange rates, respectively presented in "Other noncurrent assets". As of December 31, 2023, $96 million of the $355 million in deposits under lien were held in time deposits with a maturity of less than 30 days qualifying as cash equivalent instruments and thus were considered restricted cash equivalents as of December 31, 2023.
+
+The dispute in relation to the 2013 share repurchase transaction is also in litigation. At this time, the ITD has not made specific demands with regards to the 2013 transaction.
+
+We continue  to  believe  we  have  paid  all  applicable  taxes  owed  on  both  the  2016  and  the  2013  transactions  and  we continue to defend our positions with respect to both matters. Accordingly, we have not recorded any reserves for these matters as of December 31, 2024.
+
+The reconciliation between the U.S. federal statutory rate and our effective income tax rate were as follows for the years ended December 31:
+
+| (Dollars in millions)                                      | 2024   | %     | 2023   | %     | 2022   | %     |
+|------------------------------------------------------------|--------|-------|--------|-------|--------|-------|
+| Tax expense, at U.S. federal statutory rate                | $ 617  | 21.0  | $ 585  | 21.0  | $ 633  | 21.0  |
+| State and local income taxes, net of federal benefit       | 74     | 2.5   | 55     | 2.0   | 63     | 2.1   |
+| Non-taxable income for Indian tax purposes                 | -      | -     | -      | -     | (6)    | (0.2) |
+| Rate differential on foreign earnings                      | 104    | 3.5   | 95     | 3.4   | 98     | 3.2   |
+| Recognition of benefits related to uncertain tax positions | (15)   | (0.5) | (33)   | (1.2) | (43)   | (1.4) |
+| Credits and other incentives                               | (57)   | (1.9) | (37)   | (1.3) | (17)   | (0.6) |
+| Other                                                      | (10)   | (0.3) | 3      | 0.1   | 2      | 0.1   |
+| Total provision for income taxes                           | $ 713  | 24.3  | $ 668  | 24.0  | $ 730  | 24.2  |
+
+The  significant  components  of  deferred  income  tax  assets  and  liabilities  recorded  on  the  consolidated  statements  of financial position were as follows as of December 31:
+
+| (in millions)                                        | 2024    | 2023   |
+|------------------------------------------------------|---------|--------|
+| Deferred income tax assets:                          |         |        |
+| Net operating losses                                 | $ 50    | $ 52   |
+| Revenue recognition (including intercompany revenue) | 51      | 126    |
+| Compensation and benefits                            | 164     | 172    |
+| Credit carryforwards                                 | 11      | 16     |
+| Expenses not currently deductible                    | 1,189   | 672    |
+|                                                      | 1,465   | 1,038  |
+| Less: valuation allowance                            | (48)    | (53)   |
+| Deferred income tax assets, net                      | 1,417   | 985    |
+| Deferred income tax liabilities:                     |         |        |
+| Depreciation and amortization                        | 298     | 184    |
+| Deferred costs                                       | 24      | 31     |
+| Other                                                | 1       | 3      |
+| Deferred income tax liabilities                      | 323     | 218    |
+| Net deferred income tax assets                       | $ 1,094 | $ 767  |
+
+At December 31, 2024, we had foreign and U.S. net operating loss carryforwards of approximately $131 million and $83 million, respectively. We have recorded valuation allowances on certain net operating loss carryforwards.
+
+We conduct business globally and file income tax returns in the United States, including federal and state, as well as various foreign jurisdictions. Tax years that remain subject to examination by the IRS are 2019 and onward, and years that remain subject to examination by state authorities vary by state. Years under examination by foreign tax authorities are 2003 and onward. In addition, transactions between our affiliated entities are arranged in accordance with applicable transfer pricing laws, regulations and relevant guidelines. As a result, and due to the interpretive nature of certain aspects of these laws and guidelines, we have pending applications for APAs before the taxing authorities in some of our most significant jurisdictions.
+
+Changes in unrecognized income tax benefits were as follows for the years ended December 31:
+
+| (in millions)                                                        | 2024   | 2023   | 2022   |
+|----------------------------------------------------------------------|--------|--------|--------|
+| Balance, beginning of year                                           | $ 260  | $ 269  | $ 194  |
+| Additions based on tax positions related to the current year         | 15     | 31     | 53     |
+| Additions for tax positions of prior years                           | 65     | 22     | 65     |
+| Reductions for tax positions due to lapse of statutes of limitations | (15)   | (15)   | (43)   |
+| Reductions for tax positions related to prior years                  | (6)    | (33)   | -      |
+| Settlements                                                          | -      | (14)   | -      |
+| Balance, end of year                                                 | $ 319  | $ 260  | $ 269  |
+
+In the third quarter of 2022, we recognized an income tax benefit of $36 million related to a specific uncertain tax position that was previously unrecognized in our prior year consolidated financial statements. The recognition of the benefit in the third quarter of 2022 was based on management's reassessment regarding whether this unrecognized tax benefit met the more-likelythan-not threshold in light of the lapse in the statute of limitations as to a portion of such benefit.
+
+The unrecognized income tax benefits would affect  our  effective  income  tax  rate,  if  recognized.  While  the  Company believes uncertain tax positions may be settled or resolved within the next twelve months, it is difficult to estimate the specific timing or the income tax impact of these potential resolutions at this time. We recognize accrued interest and any penalties associated with uncertain tax positions as part of our provision for income taxes. The total amount of accrued net interest and penalties was $35 million and  $33 million as of December 31, 2024 and 2023, respectively, and related to U.S. and foreign tax matters. The total amount of net interest and penalties recorded in the provision for income taxes in each of 2024, 2023 and 2022 was immaterial.
+
+In  the  normal  course  of  business,  we  use  foreign  exchange  forward  and  option  contracts  to  manage  foreign  currency exchange rate risk. Derivatives may give rise to credit risk from the possible non-performance by counterparties. Credit risk is limited to the fair value of those contracts that are favorable to us. We have limited our credit risk by limiting the amount of credit exposure with any one financial institution and conducting ongoing evaluation of the creditworthiness of the financial institutions  with  which  we  do  business.  In  addition,  all  the  assets  and  liabilities  related  to  the  foreign  exchange  derivative contracts  set  forth  in  the  table  below  are  subject  to  master  netting  arrangements,  such  as  the  International  Swaps  and Derivatives  Association  Master  Agreement,  with  each  individual  counterparty.  These  master  netting  arrangements  generally provide for net settlement of all outstanding contracts with the counterparty in the case of an event of default or a termination event. We have presented all the assets and liabilities related to the foreign exchange derivative contracts, as applicable, on a gross basis, with no offsets, in our consolidated statements of financial position. There is no financial collateral (including cash collateral) posted or received by us related to the foreign exchange derivative contracts.
+
+The following table provides information on the location and fair values of derivative financial instruments included in our consolidated statements of financial position as of December 31:
+
+| (in millions)                                                                               |                                                | 2024   | 2024        | 2023   | 2023        |
+|---------------------------------------------------------------------------------------------|------------------------------------------------|--------|-------------|--------|-------------|
+| Designation of Derivatives                                                                  | Location on Statement of Financial Position    | Assets | Liabilities | Assets | Liabilities |
+| Foreign exchange forward and option contracts - Designated as cash flow hedging instruments | Other current assets                           | $ 1    | $ -         | $ 14   | $ -         |
+|                                                                                             | Other noncurrent assets                        | -      | -           | 5      | -           |
+|                                                                                             | Accrued expenses and other current liabilities | -      | 22          | -      | 5           |
+|                                                                                             | Other noncurrent liabilities                   | -      | 13          | -      | 1           |
+|                                                                                             | Total                                          | 1      | 35          | 19     | 6           |
+| Foreign exchange forward contracts - Not designated as hedging instruments                  | Other current assets                           | 1      | -           | 1      | -           |
+|                                                                                             | Accrued expenses and other current liabilities | -      | 2           | -      | 9           |
+|                                                                                             | Total                                          | 1      | 2           | 1      | 9           |
+| Total                                                                                       |                                                | $ 2    | $ 37        | $ 20   | $ 15        |
+
+## Cash Flow Hedges
+
+We have entered and continue to enter into a series of foreign exchange derivative contracts that are designated as cash flow  hedges  of  Indian  rupee  denominated  payments  in  India.  These  contracts  are  intended  to  partially  offset  the  impact  of movement of the Indian rupee against the U.S. dollar on future operating costs and are scheduled to mature each month during 2025 and 2026. The changes in fair value of these contracts are initially reported in "Accumulated other comprehensive income (loss)"  in  our  consolidated  statements  of  financial  position  and  are  subsequently  reclassified  to  earnings  within  "Cost  of revenues" and "Selling, general and administrative expenses" in our consolidated statements of operations in the same period that the forecasted Indian rupee denominated payments are recorded in earnings. As of December 31, 2024, we estimate that $16 million,  net  of  tax,  of  net  losses  related  to  derivatives  designated  as  cash  flow  hedges  reported  in  "Accumulated  other comprehensive income (loss)" in our consolidated statements of financial position is expected to be reclassified into earnings within the next 12 months.
+
+The notional value of the outstanding contracts by year of maturity was as follows as of December 31:
+
+| (in millions)                                     | 2024    | 2023    |
+|---------------------------------------------------|---------|---------|
+| 2024                                              | $ -     | $ 1,878 |
+| 2025                                              | 2,010   | 1,020   |
+| 2026                                              | 920     | -       |
+| Total notional value of contracts outstanding (1) | $ 2,930 | $ 2,898 |
+
+(1) Includes $45 million notional value of option contracts as of December 31, 2023, with the remaining notional value related to forward contracts. There were no option contracts outstanding as of December 31, 2024.
+
+The  following  table  provides  information  on  the  location  and  amounts  of  pre-tax  gains  and  losses  on  our  cash  flow hedges for the year ended December 31:
+
+| (in millions)                                                                               | Change in Derivative Gains and Losses Recognized in Accumulated Other Comprehensive Income (Loss) (effective portion)   | Change in Derivative Gains and Losses Recognized in Accumulated Other Comprehensive Income (Loss) (effective portion)   | Location of Net Gains (Losses) Reclassified from Accumulated Other Comprehensive Income (Loss) into Income (effective portion)   | Net Gains (Losses) Reclassified from Accumulated Other Comprehensive Income (Loss) into Income (effective portion)   | Net Gains (Losses) Reclassified from Accumulated Other Comprehensive Income (Loss) into Income (effective portion)   |
+|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+|                                                                                             | 2024                                                                                                                    | 2023                                                                                                                    |                                                                                                                                  | 2024                                                                                                                 | 2023                                                                                                                 |
+| Foreign exchange forward and option contracts - Designated as cash flow hedging instruments | $ (35)                                                                                                                  | $ 55                                                                                                                    | Cost of revenues                                                                                                                 | $ 11                                                                                                                 | $ (23)                                                                                                               |
+|                                                                                             |                                                                                                                         |                                                                                                                         | SG&A expenses                                                                                                                    | 1                                                                                                                    | (3)                                                                                                                  |
+|                                                                                             |                                                                                                                         |                                                                                                                         | Total                                                                                                                            | $ 12                                                                                                                 | $ (26)                                                                                                               |
+
+The activity related to the change in net unrealized gains and losses on the cash flow hedges included in "Accumulated other comprehensive income (loss)" in our consolidated statements of stockholders' equity is presented in Note 14.
+
+## Other Derivatives
+
+We use foreign exchange forward contracts to provide an economic hedge against balance sheet exposures to certain monetary assets and liabilities denominated in currencies other than the functional currency of our foreign subsidiaries. We entered into foreign exchange forward contracts that are scheduled to mature in the first quarter of 2025. Realized gains or losses and changes in the estimated fair value of these derivative financial instruments are recorded in the caption "Foreign currency exchange gains (losses), net" in our consolidated statements of operations.
+
+Additional  information  related  to  the  outstanding  foreign  exchange  forward  contracts  not  designated  as  hedging instruments was as follows as of December 31:
+
+| (in millions)         | 2024     | 2024       | 2023     | 2023       |
+|-----------------------|----------|------------|----------|------------|
+|                       | Notional | Fair Value | Notional | Fair Value |
+| Contracts outstanding | $ 489    | $ (1)      | $ 1,317  | $ (8)      |
+
+The following table provides information on the location and amounts of realized and unrealized pre-tax gains and losses on the other derivative financial instruments for the year ended December 31:
+
+| (in millions)                                                              | Location of Net Gain (Losses) on Derivative Instruments   | Amount of Net Gains (Losses) on Derivative Instruments   | Amount of Net Gains (Losses) on Derivative Instruments   |
+|----------------------------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+|                                                                            |                                                           | 2024                                                     | 2023                                                     |
+| Foreign exchange forward contracts - Not designated as hedging instruments | Foreign currency exchange gains (losses), net             | $ 10                                                     | $ (40)                                                   |
+
+The related cash flow impacts of all the derivative activities are reflected as cash flows from operating activities.

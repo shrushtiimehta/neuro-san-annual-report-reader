@@ -1,0 +1,102 @@
+## Liquidity and Capital Resources
+
+Cash generated from operations has historically been our primary source of liquidity to fund operations and investments to grow our business. As of December 31, 2024, we had cash, cash equivalents and short-term investments of $2,243 million. Additionally, as of December 31, 2024, we had available capacity under our credit facilities of approximately $1.55 billion.
+
+The following table provides a summary of our cash flows for the years ended December 31:
+
+| (in millions)                   | 2024    | 2023    | Increase / Decrease   |
+|---------------------------------|---------|---------|-----------------------|
+| Net cash provided by (used in): |         |         |                       |
+| Operating activities            | $ 2,124 | $ 2,330 | $ (206)               |
+| Investing activities            | (1,646) | (331)   | (1,315)               |
+| Financing activities            | (915)   | (1,609) | 694                   |
+| Other Cash Flow Information 6   |         |         |                       |
+| Free cash flow                  | 1,827   | 2,013   | (186)                 |
+
+## Operating activities
+
+The decrease in cash provided by operating activities in 2024 compared to 2023 was primarily driven by the $360 million payment made in relation to our dispute with the ITD in January 2024 (see Note 11 to our consolidated financial statements).
+
+We  monitor  turnover,  aging  and  the  collection  of  accounts  receivable  by  client.  Our  DSO  calculation  includes receivables, net of allowance for doubtful accounts, and contract assets, reduced by the uncollected portion of deferred revenue. Our DSO was 78 days as of December 31, 2024, 77 days as of December 31, 2023 and 74 days as of December 31, 2022.
+
+## Investing activities
+
+The increase in cash used in investing activities in 2024 compared to 2023 was primarily driven by higher payments for business combinations as well as lower net maturities of investments in 2024.
+
+## Financing activities
+
+The decrease in cash used in financing activities in 2024 compared to 2023 was primarily driven by lower repurchases of common stock and net borrowings under the revolving credit facility to finance the Belcan acquisition.
+
+We have a Credit Agreement providing for a $650 million Term Loan and a $1,850 million unsecured revolving credit facility,  which are each due to mature in October 2027. As of December 31, 2024, we had $300 million outstanding on the revolving  credit  facility,  consisting  of  a  Term  Benchmark  loan  with  a  maturity  of  October  2027  and  an  Interest  Period  (as defined  in  the  Credit  Agreement)  of  one  month.  We  are  required  under  the  Credit  Agreement  to  make  scheduled  quarterly
+
+6 Free cash flow is not a measurement of financial performance prepared in accordance with GAAP. See 'Non-GAAP Financial Measures' for more information.
+
+principal payments on the Term Loan. We believe that we currently meet all conditions set forth in the Credit Agreement to borrow thereunder, and we are not aware of any conditions that would prevent us from borrowing part or all of the remaining available capacity under the revolving credit facility as of December 31, 2024 and through the date of this filing. See Note 10 to our consolidated financial statements.
+
+## Capital Allocation Framework
+
+Bar chart
+
+|   Year |   Acquisitions |   Share Repurchases |   Dividend Payments |   Total |
+|--------|----------------|---------------------|---------------------|---------|
+|   2023 |            409 |                1064 |                 591 |    2064 |
+|   2024 |           1615 |                 605 |                 600 |    2820 |
+
+[IMAGE DESCRIPTION: ## Chart Analysis: Capital Return to Shareholders (Stacked Bar Chart)
+
+### Chart Title
+No explicit title shown, but the chart depicts **capital allocation/shareholder returns** broken down by category.
+
+### Periods Shown on X-Axis
+- **2023**
+- **2024**
+
+### Unit
+All values are in **millions (M) of dollars**.
+
+---
+
+### Detailed Breakdown
+
+#### 2023 — Total: **$2,064M**
+| Component | Value |
+|---|---|
+| Dividend payments | **$591M** |
+| Share repurchases | **$1,064M** |
+| Acquisitions | **$409M** |
+
+#### 2024 — Total: **$2,820M**
+| Component | Value |
+|---|---|
+| Dividend payments | **$600M** |
+| Share repurchases | **$605M** |
+| Acquisitions | **$1,615M** |
+
+---
+
+### Year-over-Year Trends
+
+- **Total capital deployed: Up ~36.6%** ($2,064M → $2,820M), a significant increase of **$756M**.
+- **Dividend payments:** Slightly increased from $591M to $600M (+1.5%) — **essentially stable**.
+- **Share repurchases:** Declined sharply from $1,064M to $605M (**-43.1%**) — a notable drop.
+- **Acquisitions:** Nearly quadrupled from $409M to $1,615M (**+295%**) — the most dramatic change.
+
+---
+
+### Key Insights
+
+1. **Major pivot in capital allocation strategy**: The company shifted heavily from share repurchases toward acquisitions in 2024, signaling an emphasis on inorganic growth.
+2. **Acquisitions became the dominant use of capital** in 2024, representing ~57% of total deployment vs. only ~20% in 2023.
+3. **Share repurchases dropped from the largest category** (52% in 2023) to a secondary one (21% in 2024).
+4. **Dividend payments remained steady**, suggesting the company maintained its commitment to consistent dividend returns regardless of the strategic shift.
+5. The **overall increase in total capital deployed** suggests strong cash generation or balance sheet capacity to fund both growth and returns simultaneously.]
+
+Our capital allocation framework anticipates the deployment of approximately 50% of our free cash flow 7 for acquisitions and 50% for share repurchases and dividend payments. We review our  capital  allocation  on  an  ongoing  basis,  considering  our financial performance and liquidity position, investments required to execute our strategic plans and initiatives, acquisition  opportunities,  the  economic  outlook,  regulatory changes  and  other  relevant  factors.  As  these  factors  may change  over  time,  the  actual  amounts  expended  on  stock repurchase activity, dividends, and acquisitions, if any, during any  particular  period  cannot  be  predicted  and  may  fluctuate from time to time.
+
+## Other Liquidity and Capital Resources Information
+
+We  seek  to  ensure  that  our  cash  is  available  in  the  locations  in  which  it  is  needed.  As  part  of  our  ongoing  liquidity assessments, we regularly monitor the mix of our domestic and international cash flows and cash balances. We evaluate on an ongoing basis what portion of the non-U.S. cash, cash equivalents and short-term investments is needed locally to execute our strategic plans and what amount is available for repatriation back to the United States.
+
+We expect operating cash flows, cash and short-term investment balances, together with the available capacity under our revolving credit facilities, to be sufficient to meet our operating requirements, including purchase commitments, tax payments, including the Tax Reform Act transition tax payment, and servicing our debt for the next twelve months. Our remaining Tax Reform Act transition tax payment of $157 million is due in the second quarter of 2025. In 2024, our Tax Reform Act transition tax payment was $123 million. Additionally, we have purchase commitments of approximately $1.1 billion that will be paid over the next four years, of which approximately $440 million will be paid during the next twelve months. In addition, see Note 7 to our consolidated financial statements for a description of our operating lease obligations.
+
+The ability to expand and grow our business in accordance with current plans, make acquisitions, meet long-term capital requirements beyond a twelve-month period and execute our capital return plan will depend on many factors, including the rate, if any, at which cash flow increases, our ability and willingness to pay for acquisitions with capital stock and the availability of public and private debt, including the ability to extend the maturity of or refinance our existing debt, and equity financing. We cannot be certain that additional financing, if required, will be available on terms and conditions acceptable to us, if at all.

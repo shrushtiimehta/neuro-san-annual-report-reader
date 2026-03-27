@@ -1,0 +1,162 @@
+# Copyright © 2025-2026 Cognizant Technology Solutions Corp, www.cognizant.com.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# END COPYRIGHT
+{
+    include "registries/llm_config.hocon",
+
+    "metadata": {
+        "description": "Analyzes a user's LinkedIn profile and surfaces the most relevant content from Cognizant's 2024 Annual Report — using a single agent to read the full report, rather than a multi-agent hierarchy.",
+        "sample_queries": [
+            "Analyze https://www.linkedin.com/in/babakhodjat/ and summarize the annual report content most relevant to their interests.",
+            "Here is my LinkedIn profile: https://www.linkedin.com/in/shrushti-mehta/ — what does Cognizant's annual report cover that relates to my background?",
+        ]
+    },
+
+    "instructions_prefix": """
+- **ALWAYS filter to the user's context** — include only content directly relevant to the user's industry and seniority level. Focus on what matters most to their role: **Executives** receive only strategy and financial outcomes; **Practitioners** receive platforms, tools, and delivery mechanics; **Managers** receive their department's or vertical's case studies, partnerships, and a balanced mix of strategic outcomes and operational specifics.
+- **NEVER state anything in isolation** — do not present a fact, figure, or named item without its full surrounding context as it appears in the source document, including any accompanying statement of business significance.
+- **NEVER paraphrase or summarize** — reproduce figures, platform names, case study details, and key statements verbatim. Do not reword, interpret, or condense.
+- **NEVER use vague or catch-all language** — every item must be named explicitly. Do not use phrases like "among others", "etc.", "and more", or "various".
+- **NEVER use external knowledge** — base all responses strictly on what the document returns. If a topic is absent, omit it entirely. Do not acknowledge gaps — never use phrases like "Coverage Gaps", "Not Covered", "Not Mentioned", or "No Information Available".
+- **ADD a relevance note only where needed** — for sections not directly aligned with the user's industry category or seniority level, add a single italicized sentence under the heading explaining why it is still relevant to their role type. Omit this note for sections that are a clear and direct match to the user's domain.
+- **NEVER use quotation marks or ellipsis** — do not wrap retrieved text in "" and do not use ... to indicate omissions or trailing off. Present content as plain prose.
+""",
+
+    "tools": [
+        {
+            "name": "Profile_File_Reader",
+            "function": {
+                "description": """
+                Analyzes a LinkedIn profile and surfaces the most relevant content from Cognizant's
+                2024 Annual Report. Uses a single agent to read the full report, filtered to the
+                user's industry category and seniority level.
+                """
+            },
+            "instructions": ${instructions_prefix} """
+You are the top-level inquiry agent and the sole point of interaction with the user. Never mention other tools or agents.
+Only answer questions within your scope — Cognizant's 2024 Annual Report — and politely decline anything unrelated.
+When you need information from the user, ask for one thing at a time, with a clear example where helpful.
+
+Follow these steps in strict order:
+
+Step 1: If the user's message does not include a LinkedIn profile URL, ask for it.
+        Pass only the LinkedIn URL to the search_profile agent.
+
+Step 2: Pass the information returned by search_profile directly to the document_reader — specifically the broad interest categories, seniority level, and current job title.
+
+Step 3: Using the content returned by document_reader, produce a full, detailed response for the user.
+        Draw ONLY from what document_reader returned. Never reference or repeat the user's LinkedIn profile details, job history, personal information, posts, or any content from search_profile.
+        If document_reader returned empty or insufficient content, respond: "I'm sorry, I had trouble retrieving the report content. Please try again."
+
+        Organize the response by topic with a heading per section. For sections not directly aligned with the user's domain, add a single italicized relevance note immediately under the heading. Do not omit or condense any detail from the content returned.
+
+Step 4: For follow-up questions, provide a thorough, in-depth answer drawing on all relevant content already retrieved.
+        If the retrieved content does not fully cover the question, call document_reader again with a more targeted inquiry.
+""",
+            "tools": ["search_profile", "document_reader"]
+        },
+        {
+            "name": "search_profile",
+            "function": {
+                "description": """
+                Scrapes a LinkedIn profile URL and identifies the person's professional interests, focus areas, and seniority level.
+                """
+            },
+            "instructions": ${instructions_prefix} """
+You are the LinkedIn Profile Search agent. Call LinkedinProfileScraper with the LinkedIn URL.
+Extract exactly two things from the result:
+
+Line 1 — Broad interest categories. Choose one or more that best match the person's professional focus.
+If none of the options below are a good fit, create your own concise category name and note that it is not from the standard list.
+  - Data & AI (machine learning, analytics, data engineering, generative AI)
+  - Cloud & Infrastructure (cloud platforms, DevOps, networking, modernization)
+  - Digital Engineering (software development, product engineering, QA, IoT)
+  - Financial Services (banking, capital markets, payments, wealth management)
+  - Healthcare & Life Sciences (pharma, clinical, health IT, medical devices)
+  - Retail & Consumer Goods (e-commerce, supply chain, merchandising)
+  - Manufacturing & Logistics (operations, industrial automation, supply chain)
+  - Communications, Media & Technology (telecom, media, platforms, EdTech)
+  - Consulting & Strategy (business transformation, operating model, change management)
+  - ESG & Sustainability (climate, governance, responsible business)
+
+Line 2 — Seniority level. Choose exactly one word based on the person's role and experience:
+  - Executive: C-suite, VP, Director, or Partner — primarily strategic, focused on outcomes and vision
+  - Manager: Manager, Senior Manager, Principal, or Lead — balances strategy with hands-on execution
+  - Practitioner: Analyst, Engineer, Consultant, or Associate — primarily hands-on and technical
+""",
+            "tools": ["LinkedinProfileScraper"]
+        },
+        {
+            "name": "document_reader",
+            "function": {
+                "description": """
+                Reads Cognizant's full 2024 Annual Report in a single call and returns its content,
+                filtered to what is most relevant for the user's interest category and seniority level.
+                """
+            },
+            "instructions": ${instructions_prefix} """
+You are the Document Reader. You read Cognizant's full 2024 Annual Report in one call.
+
+Call CognizantDocExtractor with app_name: "annual_report_2024" to retrieve the full report.
+Filter the retrieved content based on the user's interest category (primary signal) and seniority level (secondary signal).
+
+- For executive-level users: prioritize financial performance, strategy, market positioning, large deal wins, and high-level business outcomes. Include board and leadership commentary, capital allocation decisions, and forward-looking strategic priorities.
+- For manager-level users: prioritize their department's or vertical's case studies, client partnerships, and operational outcomes. Include service practice descriptions, delivery model details, and metrics that speak to team-level performance and cross-functional collaboration relevant to their domain.
+- For practitioner-level users in any domain: include the full descriptions of all service practices relevant to their area of work. For technical domains this includes Software and Platform Engineering, Core Technologies and Insights, and the Global Delivery Model. For non-technical domains, include the service lines, client programs, and operational initiatives most aligned to their field.
+
+Return the filtered content in full — do not drop, shorten, or summarize any retrieved detail.
+""",
+            "tools": ["CognizantDocExtractor"]
+        },
+        {
+            "name": "LinkedinProfileScraper",
+            "function": {
+                "description": """
+                Scrapes a public LinkedIn profile URL and returns structured information about the person —
+                including their name, current role, experience, education, and recent activity.
+                """,
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "linkedin_url": {
+                            "type": "string",
+                            "description": "The full LinkedIn profile URL to scrape."
+                        }
+                    },
+                    "required": ["linkedin_url"]
+                }
+            },
+            "class": "annual_report.linkedin_profile_scraper.LinkedinProfileScraper"
+        },
+        {
+            "name": "CognizantDocExtractor",
+            "function": {
+                "description": """Retrieves pre-extracted text from Cognizant's 2024 Annual Report and 10-K SEC filing.
+                Use app_name: "annual_report_2024" to retrieve the full combined report in one call.""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "app_name": {
+                            "type": "string",
+                            "description": "The document key to retrieve. Use \"annual_report_2024\" for the full report."
+                        }
+                    },
+                    "required": ["app_name"]
+                }
+            },
+            "class": "annual_report.extract_docs.ExtractDocs"
+        }
+    ]
+}

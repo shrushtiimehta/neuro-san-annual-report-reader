@@ -1,0 +1,174 @@
+## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+
+|                                                                                                                                                          | December 31,   | December 31,   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|----------------|
+| (in millions, except par values)                                                                                                                         | 2024           | 2023           |
+| Assets                                                                                                                                                   |                |                |
+| Current assets:                                                                                                                                          |                |                |
+| Cash and cash equivalents                                                                                                                                | $ 2,231        | $ 2,621        |
+| Short-term investments                                                                                                                                   | 12             | 14             |
+| Trade accounts receivable, net                                                                                                                           | 4,059          | 3,849          |
+| Other current assets                                                                                                                                     | 1,202          | 1,022          |
+| Total current assets                                                                                                                                     | 7,504          | 7,506          |
+| Property and equipment, net                                                                                                                              | 994            | 1,048          |
+| Operating lease assets, net                                                                                                                              | 552            | 611            |
+| Goodwill                                                                                                                                                 | 6,953          | 6,085          |
+| Intangible assets, net                                                                                                                                   | 1,599          | 1,149          |
+| Deferred income tax assets, net                                                                                                                          | 1,248          | 993            |
+| Long-term investments                                                                                                                                    | 90             | 435            |
+| Other noncurrent assets                                                                                                                                  | 1,026          | 656            |
+| Total assets                                                                                                                                             | $ 19,966       | $ 18,483       |
+| Liabilities and Stockholders' Equity                                                                                                                     |                |                |
+| Current liabilities:                                                                                                                                     |                |                |
+| Accounts payable                                                                                                                                         | $ 340          | $ 337          |
+| Deferred revenue                                                                                                                                         | 450            | 385            |
+| Short-term debt                                                                                                                                          | 33             | 33             |
+| Operating lease liabilities                                                                                                                              | 152            | 153            |
+| Accrued expenses and other current liabilities                                                                                                           | 2,610          | 2,425          |
+| Total current liabilities                                                                                                                                | 3,585          | 3,333          |
+| Deferred revenue, noncurrent                                                                                                                             | 30             | 42             |
+| Operating lease liabilities, noncurrent                                                                                                                  | 420            | 523            |
+| Deferred income tax liabilities, net                                                                                                                     | 154            | 226            |
+| Long-term debt                                                                                                                                           | 875            | 606            |
+| Long-term income taxes payable                                                                                                                           | -              | 157            |
+| Other noncurrent liabilities                                                                                                                             | 494            | 369            |
+| Total liabilities                                                                                                                                        | 5,558          | 5,256          |
+| Commitments and contingencies (See Note 15)                                                                                                              |                |                |
+| Stockholders' equity:                                                                                                                                    |                |                |
+| Preferred stock, $0.10 par value, 15 shares authorized, none issued                                                                                      | -              | -              |
+| Class A common stock, $0.01 par value, 1,000 shares authorized, 495 and 498 shares issued and outstanding as of December 31, 2024 and 2023, respectively | 5              | 5              |
+| Additional paid-in capital                                                                                                                               | 13             | 15             |
+| Retained earnings                                                                                                                                        | 14,686         | 13,301         |
+| Accumulated other comprehensive income (loss)                                                                                                            | (296)          | (94)           |
+| Total stockholders' equity                                                                                                                               | 14,408         | 13,227         |
+| Total liabilities and stockholders' equity                                                                                                               | $ 19,966       | $ 18,483       |
+
+The accompanying notes are an integral part of the consolidated financial statements.
+
+## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF OPERATIONS
+
+|                                                                                              | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
+|----------------------------------------------------------------------------------------------|---------------------------|---------------------------|---------------------------|
+| (in millions, except per share data)                                                         | 2024                      | 2023                      | 2022                      |
+| Revenues                                                                                     | $ 19,736                  | $ 19,353                  | $ 19,428                  |
+| Operating expenses:                                                                          |                           |                           |                           |
+| Cost of revenues (exclusive of depreciation and amortization expense shown separately below) | 12,958                    | 12,664                    | 12,448                    |
+| Selling, general and administrative expenses                                                 | 3,223                     | 3,252                     | 3,443                     |
+| Restructuring charges                                                                        | 134                       | 229                       | -                         |
+| Depreciation and amortization expense                                                        | 529                       | 519                       | 569                       |
+| Income from operations                                                                       | 2,892                     | 2,689                     | 2,968                     |
+| Other income (expense), net:                                                                 |                           |                           |                           |
+| Interest income                                                                              | 119                       | 126                       | 59                        |
+| Interest expense                                                                             | (54)                      | (41)                      | (19)                      |
+| Foreign currency exchange gains (losses), net                                                | (19)                      | 2                         | 7                         |
+| Other, net                                                                                   | -                         | 11                        | 1                         |
+| Total other income (expense), net                                                            | 46                        | 98                        | 48                        |
+| Income before provision for income taxes                                                     | 2,938                     | 2,787                     | 3,016                     |
+| Provision for income taxes                                                                   | (713)                     | (668)                     | (730)                     |
+| Income (loss) from equity method investments                                                 | 15                        | 7                         | 4                         |
+| Net income                                                                                   | $ 2,240                   | $ 2,126                   | $ 2,290                   |
+| Basic earnings per share                                                                     | $ 4.52                    | $ 4.21                    | $ 4.42                    |
+| Diluted earnings per share                                                                   | $ 4.51                    | $ 4.21                    | $ 4.41                    |
+| Weighted average number of common shares outstanding-Basic                                   | 496                       | 505                       | 518                       |
+| Dilutive effect of shares issuable under stock-based compensation plans                      | 1                         | -                         | 1                         |
+| Weighted average number of common shares outstanding-Diluted                                 | 497                       | 505                       | 519                       |
+
+The accompanying notes are an integral part of the consolidated financial statements.
+
+## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+
+|                                                                      | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
+|----------------------------------------------------------------------|---------------------------|---------------------------|---------------------------|
+| (in millions)                                                        | 2024                      | 2023                      | 2022                      |
+| Net income                                                           | $ 2,240                   | $ 2,126                   | $ 2,290                   |
+| Change in Accumulated other comprehensive income (loss), net of tax: |                           |                           |                           |
+| Foreign currency translation adjustments                             | (150)                     | 144                       | (228)                     |
+| Unrealized gains and losses on cash flow hedges                      | (35)                      | 61                        | (108)                     |
+| Loss on defined benefit plans                                        | (17)                      | -                         | -                         |
+| Other comprehensive income (loss)                                    | (202)                     | 205                       | (336)                     |
+| Comprehensive income                                                 | $ 2,038                   | $ 2,331                   | $ 1,954                   |
+
+The accompanying notes are an integral part of the consolidated financial statements.
+
+## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION
+
+## CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+
+|                                                     | Class A   | Common Stock   | Additional      |                   | Accumulated Other           |          |
+|-----------------------------------------------------|-----------|----------------|-----------------|-------------------|-----------------------------|----------|
+| (in millions, except per share data)                | Shares    | Amount         | Paid-in Capital | Retained Earnings | Comprehensive Income (Loss) | Total    |
+| Balance, December 31, 2021                          | 525       | $ 5            | $ 27            | $ 11,922          | $ 37                        | $ 11,991 |
+| Net income                                          | -         | -              | -               | 2,290             | -                           | 2,290    |
+| Other comprehensive income (loss)                   | -         | -              | -               | -                 | (336)                       | (336)    |
+| Common stock issued, stock-based compensation plans | 4         | -              | 86              | -                 | -                           | 86       |
+| Stock-based compensation expense                    | -         | -              | 261             | -                 | -                           | 261      |
+| Repurchases of common stock                         | (20)      | -              | (359)           | (1,059)           | -                           | (1,418)  |
+| Dividends declared, $1.08 per share                 | -         | -              | -               | (565)             | -                           | (565)    |
+| Balance, December 31, 2022                          | 509       | 5              | 15              | 12,588            | (299)                       | 12,309   |
+| Net income                                          | -         | -              | -               | 2,126             | -                           | 2,126    |
+| Other comprehensive income (loss)                   | -         | -              | -               | -                 | 205                         | 205      |
+| Common stock issued, stock-based compensation plans | 4         | -              | 71              | -                 | -                           | 71       |
+| Stock-based compensation expense                    | -         | -              | 176             | -                 | -                           | 176      |
+| Repurchases of common stock                         | (15)      | -              | (247)           | (823)             | -                           | (1,070)  |
+| Dividends declared, $1.16 per share                 | -         | -              | -               | (590)             | -                           | (590)    |
+| Balance, December 31, 2023                          | 498       | 5              | 15              | 13,301            | (94)                        | 13,227   |
+| Net income                                          | -         | -              | -               | 2,240             | -                           | 2,240    |
+| Other comprehensive income (loss)                   | -         | -              | -               | -                 | (202)                       | (202)    |
+| Common stock issued, stock-based compensation plans | 4         | -              | 63              | -                 | -                           | 63       |
+| Common stock issued, acquisition related            | 1         | -              | 113             | -                 | -                           | 113      |
+| Stock-based compensation expense                    | -         | -              | 175             | -                 | -                           | 175      |
+| Repurchases of common stock                         | (8)       | -              | (353)           | (255)             | -                           | (608)    |
+| Dividends declared, $1.20 per share                 | -         | -              | -               | (600)             | -                           | (600)    |
+| Balance, December 31, 2024                          | 495       | $ 5            | $ 13            | $ 14,686          | $ (296)                     | $ 14,408 |
+
+The accompanying notes are an integral part of the consolidated financial statements.
+
+## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF CASH FLOWS
+
+|                                                                                                    | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
+|----------------------------------------------------------------------------------------------------|---------------------------|---------------------------|---------------------------|
+| (in millions)                                                                                      | 2024                      | 2023                      | 2022                      |
+| Cash flows from operating activities:                                                              |                           |                           |                           |
+| Net income                                                                                         | $ 2,240                   | $ 2,126                   | $ 2,290                   |
+| Adjustments to reconcile net income to net cash provided by operating activities:                  |                           |                           |                           |
+| Depreciation and amortization                                                                      | 542                       | 555                       | 569                       |
+| Deferred income taxes                                                                              | (355)                     | (339)                     | (273)                     |
+| Stock-based compensation expense                                                                   | 175                       | 176                       | 261                       |
+| Other, net                                                                                         | 32                        | 1                         | 45                        |
+| Changes in operating assets and liabilities, net of effects of businesses acquired:                |                           |                           |                           |
+| Trade accounts receivable                                                                          | (49)                      | (43)                      | (238)                     |
+| Other current and noncurrent assets                                                                | (386)                     | 123                       | 343                       |
+| Accounts payable                                                                                   | (23)                      | (23)                      | (11)                      |
+| Deferred revenue, current and noncurrent                                                           | 44                        | (4)                       | (26)                      |
+| Other current and noncurrent liabilities                                                           | (96)                      | (242)                     | (392)                     |
+| Net cash provided by operating activities                                                          | 2,124                     | 2,330                     | 2,568                     |
+| Cash flows from investing activities:                                                              |                           |                           |                           |
+| Purchases of property and equipment                                                                | (297)                     | (317)                     | (332)                     |
+| Purchases of available-for-sale investment securities                                              | -                         | (59)                      | (1,227)                   |
+| Proceeds from maturity of available-for-sale investment securities                                 | -                         | 285                       | 1,315                     |
+| Purchases of held-to-maturity investment securities                                                | -                         | (3)                       | (44)                      |
+| Proceeds from maturity of held-to-maturity investment securities                                   | 3                         | 24                        | 54                        |
+| Purchases of other investments                                                                     | (2)                       | (379)                     | (546)                     |
+| Proceeds from maturity or sale of other investments                                                | 265                       | 527                       | 1,013                     |
+| Proceeds from sales of businesses                                                                  | -                         | -                         | 28                        |
+| Payments for business combinations, net of cash acquired                                           | (1,615)                   | (409)                     | (367)                     |
+| Net cash (used in) investing activities                                                            | (1,646)                   | (331)                     | (106)                     |
+| Cash flows from financing activities:                                                              |                           |                           |                           |
+| Issuance of common stock under stock-based compensation plans                                      | 63                        | 71                        | 86                        |
+| Repurchases of common stock                                                                        | (605)                     | (1,064)                   | (1,422)                   |
+| Repayment of term loan borrowings and earnout obligations and finance leases                       | (73)                      | (25)                      | (686)                     |
+| Proceeds from borrowings under the revolving credit facility                                       | 600                       | -                         | -                         |
+| Repayment of notes outstanding under the revolving credit facility                                 | (300)                     | -                         | -                         |
+| Proceeds from debt refinancing                                                                     | -                         | -                         | 650                       |
+| Debt issuance costs                                                                                | -                         | -                         | (3)                       |
+| Dividends paid                                                                                     | (600)                     | (591)                     | (564)                     |
+| Net cash (used in) financing activities                                                            | (915)                     | (1,609)                   | (1,939)                   |
+| Effect of exchange rate changes on cash, cash equivalents and restricted cash and cash equivalents | (49)                      | 33                        | (21)                      |
+| (Decrease) increase in cash, cash equivalents and restricted cash and cash equivalents             | (486)                     | 423                       | 502                       |
+| Cash, cash equivalents and restricted cash, beginning of year                                      | 2,717                     | 2,294                     | 1,792                     |
+| Cash, cash equivalents, and restricted cash and cash equivalents, end of year                      | $ 2,231                   | $ 2,717                   | $ 2,294                   |
+| Supplemental information:                                                                          |                           |                           |                           |
+| Cash paid for income taxes during the year                                                         | $ 1,120                   | $ 1,245                   | $ 813                     |
+| Cash interest paid during the year                                                                 | $ 53                      | $ 40                      | $ 15                      |
+
+The accompanying notes are an integral part of the consolidated financial statements.
