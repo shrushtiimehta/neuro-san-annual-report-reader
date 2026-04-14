@@ -137,6 +137,19 @@ class ReportNumberValidator(CodedTool):
                 "validated_numbers": [],
             }
 
+        missing, context_mismatches = self._check_numbers(
+            response_text, report_text,
+        )
+        return self._build_result(numbers, missing, context_mismatches)
+
+    @staticmethod
+    def _check_numbers(
+        response_text: str, report_text: str,
+    ) -> tuple:
+        """Check each number for presence and context match in the report.
+
+        Returns (missing, context_mismatches) lists.
+        """
         missing: List[str] = []
         context_mismatches: List[str] = []
         checked: Set[str] = set()
@@ -155,13 +168,11 @@ class ReportNumberValidator(CodedTool):
             # 2. Context check: at least one occurrence of this number in the report
             #    must share a signal word with the response context.
             resp_signals = _signal_words(response_text, m.start(), m.end())
-            if resp_signals:  # skip context check when no meaningful words surround the number
+            if resp_signals:
                 context_ok = False
                 for rm in re.finditer(re.escape(number), report_text):
                     report_signals = _signal_words(report_text, rm.start(), rm.end())
                     if not report_signals:
-                        # No context around this occurrence in the report (e.g. a table cell)
-                        # — inconclusive, so accept it.
                         context_ok = True
                         break
                     if resp_signals & report_signals:
@@ -170,7 +181,15 @@ class ReportNumberValidator(CodedTool):
                 if not context_ok:
                     context_mismatches.append(number)
 
-        # Remove numbers already flagged as missing from the validated set.
+        return missing, context_mismatches
+
+    @staticmethod
+    def _build_result(
+        numbers: List[str],
+        missing: List[str],
+        context_mismatches: List[str],
+    ) -> Dict[str, Any]:
+        """Build the validation result dictionary."""
         flagged = set(missing) | set(context_mismatches)
         validated = [n for n in numbers if n not in flagged]
 
