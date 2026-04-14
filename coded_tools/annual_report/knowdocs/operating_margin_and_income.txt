@@ -1,104 +1,31 @@
 ## Operating Margin and Adjusted Operating Margin 5 - Overall
 
-Bar chart
+[IMAGE DESCRIPTION: Two-panel bar chart comparing Operating Income and Margin (GAAP vs Adjusted), 2023-2024. Units: Millions (M) for income, % for margin.
 
-|   Year |   Operating Income and Margin |   Adjusted Operating Income and Margin |
-|--------|-------------------------------|----------------------------------------|
-|   2023 |                          2689 |                                   2918 |
-|   2024 |                          2892 |                                   3026 |
-
-[IMAGE DESCRIPTION: # Chart Analysis: Operating Income and Margin (Two Panel Comparison)
-
-## Left Panel: Operating Income and Margin
-
-**X-Axis Periods:** 2023, 2024
-
-| Year | Operating Income (Bar) | Operating Margin (Dot/Line) |
+Operating Income and Margin
+| Year | Operating Income | Operating Margin |
 |------|----------------------|---------------------------|
-| 2023 | **2,689M** | **13.9%** |
-| 2024 | **2,892M** | **14.7%** |
+| 2023 | 2,689M | 13.9% |
+| 2024 | 2,892M | 14.7% |
 
-- **Units:** Millions (M) for income; Percentage (%) for margin
-- **YoY Trend:** Growing — Operating income increased by **$203M** (~7.5% growth)
-- **Margin improved** by 0.8 percentage points (13.9% → 14.7%)
-
----
-
-## Right Panel: Adjusted Operating Income and Margin
-
-**X-Axis Periods:** 2023, 2024
-
-| Year | Adjusted Operating Income (Bar) | Adjusted Operating Margin (Dot/Line) |
+Adjusted Operating Income and Margin
+| Year | Adjusted Operating Income | Adjusted Operating Margin |
 |------|-------------------------------|-------------------------------------|
-| 2023 | **2,918M** | **15.1%** |
-| 2024 | **3,026M** | **15.3%** |
-
-- **Units:** Millions (M) for income; Percentage (%) for margin
-- **YoY Trend:** Growing — Adjusted operating income increased by **$108M** (~3.7% growth)
-- **Margin improved** by 0.2 percentage points (15.1% → 15.3%)
-
----
-
-## Key Insights
-
-1. **Both GAAP and adjusted operating income grew year-over-year**, with GAAP growing at a faster rate (7.5%) than adjusted (3.7%), suggesting that some prior-year adjustments/one-time items narrowed in 2024.
-2. **Adjusted figures are higher than GAAP** in both years, indicating the company adjusts out certain expenses (likely restructuring, amortization, or one-time charges).
-3. **The gap between GAAP and adjusted income narrowed** from $229M (2023) to $134M (2024), suggesting improving underlying operational quality.
-4. **Margins expanded across both measures**, indicating improved profitability and operational efficiency.
-5. **2024 adjusted operating income crossed the $3B milestone** at $3,026M — a notable threshold.
-6. **No notable spikes or dips** — both metrics show steady, consistent improvement.]
+| 2023 | 2,918M | 15.1% |
+| 2024 | 3,026M | 15.3% |]
 
 The  increase  in  our  2024  GAAP  operating  margin  and Adjusted  Operating  Margin 5 was  primarily  driven  by  net savings generated from our NextGen program and the beneficial impact of foreign currency exchange rate movements, partially offset by increased compensation costs, primarily as a result of a merit increase cycle, and the dilutive impact of recently completed acquisitions, primarily as a result of transaction and integration related expenses and amortization of acquired intangibles. In addition, our 2024 and 2023 GAAP operating margins were negatively impacted by the NextGen charges, as discussed in Note 4 to our consolidated financial statements, which were excluded from our Adjusted Operating Margin 5 .
 
 5 Adjusted Income From Operations and Adjusted Operating Margin are not measurements of financial performance prepared in accordance with GAAP. See 'Non-GAAP Financial Measures' for more information and reconciliations to the most directly comparable GAAP financial measures, as applicable.
 
-Bar chart
+[IMAGE DESCRIPTION: Bar chart showing a cost/expense metric in dollars and as % of revenues, 2023-2024.
 
-|   Year |   Revenue | Percentage   |
-|--------|-----------|--------------|
-|   2023 |      3252 | 16.8%        |
-|   2024 |      3223 | 16.3%        |
-
-[IMAGE DESCRIPTION: ## Chart Analysis
-
-**Chart Title:** Not explicitly stated (appears to relate to a financial metric, likely a cost or expense item expressed both in dollar terms and as a percentage of revenues)
-
----
-
-### X-Axis Periods:
-- **2023**
-- **2024**
-
----
-
-### Data Points:
-
-| Year | Dollar Value | % of Revenues |
+| Year | Revenue in Dollar Value | % of Revenues |
 |------|-------------|---------------|
-| 2023 | **$3,252M** | **16.8%** |
-| 2024 | **$3,223M** | **16.3%** |
+| 2023 | $3,252M | 16.8% |
+| 2024 | $3,223M | 16.3% |
 
----
-
-### Annotations/KPIs (right side):
-- **↓ $29M** — year-over-year decrease in absolute dollars
-- **↓ 0.5% as a % of revenues** — year-over-year decline in percentage of revenues
-- Legend: **○ % of Revenues** (white/unfilled circles represent the percentage overlay)
-
----
-
-### Trend Analysis:
-- **Declining:** Both the absolute dollar amount and the percentage of revenues decreased from 2023 to 2024
-- Dollar decline: **$3,252M → $3,223M** (a decrease of **$29M**, or approximately **0.9%**)
-- Percentage of revenues decline: **16.8% → 16.3%** (a **50 basis point improvement**)
-
----
-
-### Key Insights:
-- The metric (likely an operating expense or cost category) showed **modest improvement** in both absolute and relative terms
-- The fact that the % of revenues declined more than the absolute dollar amount suggests **revenue growth outpaced this expense category**, indicating improved operational efficiency or leverage
-- The decline is relatively small (~0.9%), suggesting **stability** rather than a dramatic shift
-- The company is demonstrating **margin improvement** on this line item, as it consumes a smaller share of total revenues in 2024 versus 2023]
+Annotations: ↓ $29M YoY decrease; ↓ 0.5% as a % of revenues. Legend: ○ = % of Revenues.]
 
 A predominant portion of our costs in India are denominated in the Indian rupee, representing approximately 24% of our global operating costs during the year ended December 31, 2024. These costs are subject to foreign currency exchange rate fluctuations, which have an impact on our results of operations. We enter into foreign exchange derivative contracts to hedge certain Indian rupee denominated payments in India. These hedges are intended to mitigate the volatility of the changes in the exchange rate between the U.S. dollar and the Indian rupee. Including the impact of the hedges, the depreciation of the Indian rupee positively impacted our operating margin for the year ended December 31, 2024 by 44 basis points as compared to the year ended December 31, 2023.
 
@@ -108,73 +35,31 @@ Excluding the impact of applicable designated cash flow hedges, the depreciation
 
 Segment operating profit and operating margin percentage were as follows:
 
-Bar chart
+[IMAGE DESCRIPTION: Bar chart showing segment operating profit and margin % for 2023-2024. Values in millions USD.
 
-| Category               |   Year |   Value (Millions) | Percentage   |
-|------------------------|--------|--------------------|--------------|
-| Health Sciences        |   2023 |               1352 | 23.8%        |
-| Health Sciences        |   2024 |               1333 | 22.5%        |
-| Financial Services     |   2023 |               1156 | 19.9%        |
-| Financial Services     |   2024 |               1241 | 21.6%        |
-| Products and Resources |   2023 |                984 | 21.3%        |
-| Products and Resources |   2024 |                980 | 20.5%        |
-| CMT                    |   2023 |                625 | 19.3%        |
-| CMT                    |   2024 |                602 | 18.4%        |
-
-Segment operating profit
-
-[IMAGE DESCRIPTION: # Financial Segment Performance Bar Chart Analysis
-
-## Chart Overview
-This image displays **revenue and margin percentages across four business segments** for fiscal years **2023 and 2024**, shown as bar charts with dual metrics (revenue in millions USD and margin percentages).
-
----
-
-## Segment-by-Segment Breakdown
-
-### 1. Health Sciences
+1. Health Sciences
 | Year | Revenue | Margin % |
 |------|---------|----------|
-| 2023 | **$1,352M** | **23.8%** |
-| 2024 | **$1,333M** | **22.5%** |
-- **Trend:** Slight decline in both revenue (-$19M / -1.4%) and margin (-1.3 pp)
+| 2023 | $1,352M | 23.8% |
+| 2024 | $1,333M | 22.5% |
 
-### 2. Financial Services
+2. Financial Services
 | Year | Revenue | Margin % |
 |------|---------|----------|
-| 2023 | **$1,156M** | **19.9%** |
-| 2024 | **$1,241M** | **21.6%** |
-- **Trend:** Growth in both revenue (+$85M / +7.4%) and margin (+1.7 pp)
+| 2023 | $1,156M | 19.9% |
+| 2024 | $1,241M | 21.6% |
 
-### 3. Products and Resources
+3. Products and Resources
 | Year | Revenue | Margin % |
 |------|---------|----------|
-| 2023 | **$984M** | **21.3%** |
-| 2024 | **$980M** | **20.5%** |
-- **Trend:** Essentially flat revenue (-$4M / -0.4%), slight margin decline (-0.8 pp)
+| 2023 | $984M | 21.3% |
+| 2024 | $980M | 20.5% |
 
-### 4. CMT (Communications, Media & Technology)
+4. CMT (Communications, Media & Technology)
 | Year | Revenue | Margin % |
 |------|---------|----------|
-| 2023 | **$625M** | **19.3%** |
-| 2024 | **$602M** | **18.4%** |
-- **Trend:** Decline in both revenue (-$23M / -3.7%) and margin (-0.9 pp)
-
----
-
-## Key Insights
-
-- **Financial Services is the only segment showing growth** in both revenue and margins — the strongest performer year-over-year
-- **Health Sciences remains the largest segment** by revenue despite a modest decline
-- **CMT is the smallest segment** and experienced the steepest percentage revenue decline (-3.7%)
-- **Three out of four segments saw margin compression**, with only Financial Services improving
-- **Products and Resources** was essentially flat, showing the most stability
-- **Overall trend suggests mixed performance**, with organic growth concentrated in Financial Services while other segments face headwinds
-- All margin percentages range between **18.4% and 23.8%**, indicating relatively consistent profitability across segments]
-
-Icon
-
-[IMAGE DESCRIPTION: This image appears to be a decorative element or background graphic with no discernible data content. It shows what appears to be a dark/black rectangular area, possibly a solid background, separator, or redacted section from a financial annual report, containing no visible charts, graphs, numbers, or text to analyze.]
+| 2023 | $625M | 19.3% |
+| 2024 | $602M | 18.4% |]
 
 % Segment operating margin
 
@@ -206,49 +91,12 @@ Total other income (expense), net consists primarily of foreign currency exchang
 
 The  foreign  currency  exchange  losses  were  attributed  to  the  remeasurement  of  net  monetary  assets  and  liabilities denominated  in  currencies  other  than  the  functional  currencies  of  our  subsidiaries.  The  gains  on  foreign  exchange  forward contracts not designated as hedging instruments related to the realized and unrealized gains and losses on contracts entered into to offset our foreign currency exposures. As of December 31, 2024, the notional value of our undesignated hedges was $489 million.  Interest  income  for  the  year  ended  December  31,  2024  decreased  by  $7  million  as  compared  to  2023.  While  our invested balances decreased during the year ended December 31, 2024, primarily due to the required payment related to the ITD dispute in January 2024 (see Note 11 to our consolidated financial statements) and the Belcan acquisition in August 2024, we benefited  from  higher  interest  rates  compared  to  the  year  ended  December  31,  2023.  Interest  expense  for  the  year  ended December 31, 2024 increased by $13 million as compared to 2023 primarily due to the drawdown on our revolving credit facility in connection with the Belcan acquisition.
 
-Bar chart
-
-|   Year |   Provision for Income Taxes (Millions) |   Effective Income Tax Rate (%) |
-|--------|-----------------------------------------|---------------------------------|
-|   2023 |                                     668 |                            24   |
-|   2024 |                                     713 |                            24.3 |
-
-[IMAGE DESCRIPTION: ## Provision for Income Taxes - Bar Chart Analysis
-
-### Chart Title
-**Provision for Income Taxes**
-
-### X-Axis Periods
-- **2023**
-- **2024**
-
-### Data Points
+[IMAGE DESCRIPTION: Bar chart — Provision for Income Taxes, 2023-2024. Values in millions, rates in %.
 
 | Year | Value | Effective Tax Rate |
 |------|-------|--------------------|
-| 2023 | **$668M** | **24.0%** |
-| 2024 | **$713M** | **24.3%** |
-
-### Units
-- Values are in **millions of dollars (M)**
-- Effective tax rates shown as **percentages (%)**
-
-### Year-over-Year Trend
-- **Growing**: Income tax provision increased by **$45M** from 2023 to 2024 (↑ ~6.7% increase)
-- Effective Income Tax Rate increased by **↑ 0.3%** (from 24.0% to 24.3%)
-
-### Key Callouts
-- **Most recent year (2024):** $713M provision at 24.3% effective rate
-- **Prior year (2023):** $668M provision at 24.0% effective rate
-- The **$45M increase** is explicitly annotated on the chart with an upward arrow
-- The **0.3% increase in effective tax rate** is also explicitly noted
-
-### Additional Notes
-- The chart references **Note 11** to the consolidated financial statements for additional information
-- Both the absolute dollar amount and the effective rate moved in the same upward direction, suggesting higher pre-tax income and/or a slightly less favorable tax position in 2024
-
-### Summary Insight
-The company's income tax provision grew moderately year-over-year, driven by both higher pre-tax earnings and a marginally higher effective tax rate (24.3% vs 24.0%). The increase of $45M reflects continued business growth translating into higher tax obligations.]
+| 2023 | $668M | 24.0% |
+| 2024 | $713M | 24.3% |]
 
 In December 2021, the OECD adopted model rules for a global framework to impose a 15% global minimum tax referred to as Pillar Two with a targeted effective date of January 1, 2024. The OECD has continued and is continuing to issue additional guidance on the operation of the model rules. While the United States has not enacted Pillar Two, certain countries in which we operate have adopted their own version of the Pillar Two model rules. Although Management continues to monitor additional guidance from the OECD and countries' implementation of Pillar Two, based on current guidance, our net income, cash flows, or financial condition has not and will not in the future be materially impacted by Pillar Two.
 
@@ -256,37 +104,12 @@ In December 2021, the OECD adopted model rules for a global framework to impose 
 
 The  increase  in  net  income  was  driven  by  the  increase  in income from operations.
 
-Bar chart
-
-|   Year |   Revenue | Percentage of Revenues   |
-|--------|-----------|--------------------------|
-|   2023 |      2126 | 11.0%                    |
-|   2024 |      2240 | 11.3%                    |
-
-[IMAGE DESCRIPTION: ## KPI Tile Analysis
-
-This is a **KPI summary tile** comparing a financial metric across two years.
-
-### Extracted Data:
+[IMAGE DESCRIPTION: Net Income KPI tile, 2023-2024. Legend: bars = dollar amounts, % = % of Revenues.
 
 | Metric | 2023 | 2024 |
 |--------|------|------|
-| **Dollar Value** | **$2,126M** | **$2,240M** |
-| **As a % of Revenues** | **11.0%** | **11.3%** |
-
-### Change Indicators (2023 → 2024):
-- **↑ $114M** increase in absolute dollar terms
-- **↑ 0.3% as a % of revenues** increase
-
-### Legend:
-- Black bars/values represent the **dollar amounts**
-- The percentage figures represent this metric **as a % of Revenues**
-
-### Trend & Insights:
-- **Growing trend**: The metric increased from $2,126M to $2,240M, a **~5.4% year-over-year increase**
-- Not only did the absolute dollar value grow, but it also **grew as a proportion of revenues** (from 11.0% to 11.3%), indicating this cost/investment category is **growing faster than overall revenue**
-- The $114M increase suggests steady expansion in this line item
-- This likely represents a **cost category** (e.g., SG&A, R&D, or similar operating expense) given the "as a % of revenues" framing, and its rising share of revenue could signal either strategic investment or margin pressure]
+| Dollar Value | $2,126M | $2,240M |
+| As a % of Revenues | 11.0% | 11.3% |]
 
 ## Non-GAAP Financial Measures
 
@@ -315,9 +138,8 @@ The  following  table  presents  a  reconciliation  of  each  non-GAAP  financia
 | Free cash flow                                                                | $ 1,827 |                | $ 2,013 |                |
 
 (1) Consists of employee separation, facility exit and other costs incurred in connection with the NextGen program. See Note 4 to our consolidated financial statements for additional information.
-
-- (2) Non-operating foreign currency exchange gains and losses, inclusive of gains and losses on related foreign exchange forward contracts not designated as hedging instruments for accounting purposes, are reported in "Foreign currency exchange gains (losses), net" in our consolidated statements of operations.
-- (3) Presented below are the tax impacts of our non-GAAP adjustments to pre-tax income for the years ended December 31:
+(2) Non-operating foreign currency exchange gains and losses, inclusive of gains and losses on related foreign exchange forward contracts not designated as hedging instruments for accounting purposes, are reported in "Foreign currency exchange gains (losses), net" in our consolidated statements of operations.
+(3) Presented below are the tax impacts of our non-GAAP adjustments to pre-tax income for the years ended December 31:
 
 | (in millions)                                     | 2024   | 2023   |
 |---------------------------------------------------|--------|--------|

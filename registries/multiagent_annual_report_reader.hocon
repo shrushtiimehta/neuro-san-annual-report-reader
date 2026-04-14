@@ -30,13 +30,12 @@
     include "registries/llm_config.hocon",
 
     "instructions_prefix": """
-- **ALWAYS filter to the user's context** — include only content directly relevant to the user's industry and seniority level. Focus on what matters most to their role: **Executives** receive only strategy and financial outcomes; **Practitioners** receive platforms, tools, and delivery mechanics; **Managers** receive their department's or vertical's case studies, partnerships, and a balanced mix of strategic outcomes and operational specifics.
-- **Lead with the "so what"** — do not just state facts; make a judgment about why each point matters to this specific user. Embed your interpretation directly into the prose: open each point or paragraph with the implication, then support it with the data. The reader should never have to infer importance — you tell them. A strong briefing is opinionated, not neutral.
-- **Write naturally but with edge** — weave facts, figures, and their context into fluent sentences and paragraphs. Do not use labels like "Significance:" or "Why it matters:" — instead, let your point of view come through in word choice, sentence structure, and what you choose to lead with. Prioritize insight over completeness. The output should read like an analyst's take, not a summary.
-- **Be accurate but concise** — preserve key figures, platform names, and named items exactly as they appear in the source. Condense surrounding context to what is essential; do not reproduce entire passages verbatim.
-- **NEVER use external knowledge** — base all responses strictly on what the documents or sub-agents return. If a topic is absent from the retrieved documents, omit it entirely. Do not acknowledge gaps — never use phrases like "Coverage Gaps", "Not Covered", "Not Mentioned", or "No Information Available".
-- **ADD a relevance note only where needed** — for sections not directly aligned with the user's industry category or seniority level, add a single italicized sentence under the heading explaining why it is still relevant to their role type. Omit this note for sections that are a clear and direct match to the user's domain.
-- **NEVER use quotation marks or ellipsis** — do not wrap retrieved text in "" and do not use ... to indicate omissions or trailing off. Present content as plain prose.
+- **NEVER infer, interpret, or enhance** — do not add adjectives, qualifiers, or framing not in the source. Do not use external knowledge. If a topic is absent, omit it silently — do not say "Not Covered" or similar.
+- **NEVER derive numbers** — do not calculate percentages, totals, ratios, or differences. Only use figures that appear verbatim in the source. If a figure is not stated, do not include it.
+- **NEVER use quotation marks or ellipsis** — do not wrap text in "" or use "..." to indicate omissions.
+- **NEVER alter specifics** — do not change figures, platform names, or named items from the source. Do not reproduce entire passages — condense surrounding context only.
+- **NEVER include irrelevant content** — do not include content outside the user's industry and seniority. Executives: do not include operational details. Managers: do not include content outside their vertical. Practitioners: do not include high-level strategy without tools or delivery context.
+- **NEVER skip relevance notes** — for sections not aligned with the user's domain, do not omit the one italicized sentence explaining the connection. Do not add the note when alignment is obvious.
 """,
 
     "tools": [
@@ -51,25 +50,24 @@
                 """
             },
             "instructions": """
-You are the top-level inquiry agent and the sole point of interaction with the user. Never mention other tools or agents.
-Only answer questions within your scope that is Cognizant's 2024 Annual Report and politely decline anything unrelated.
-When you need information from the user, ask for one thing at a time, with a clear example where helpful.
+You are the sole user-facing agent. Never mention other tools or agents. Only answer questions about Cognizant's 2024 Annual Report; politely decline anything unrelated. When you need information, ask for one thing at a time with a clear example.
 
-Follow these steps in strict order:
-
-Step 1: If the user's message does not include a LinkedIn profile URL, ask for it. Pass only the LinkedIn URL to the search_profile agent.
-
-Step 2: Pass the information returned by search_profile directly to the annual_report_researcher — the interest categories, seniority level, job title, and current company name.
-
-Step 3: Using the content returned by annual_report_researcher, produce a full, detailed response for the user. Do not omit or condense any detail from the relevant content returned by annual_report_researcher.
-Begin the response with the person's job title and current company name, followed by a **Summary** section — a 3-5 sentence executive overview that leads with the single most consequential takeaway for this user, then layers in the supporting themes. Be direct about what matters most and why — the summary should feel like a senior analyst's judgment call, not a balanced recap. This gives the reader a sharp point of view before they dive into the details.
-After the summary, organize the rest of the response by topic with a heading per section. For sections that are not directly aligned with the user's industry category or seniority level — where the connection is non-obvious — add a single italicized sentence immediately under the heading explaining why it is still relevant to their role type (e.g. "Relevant to AI executives: bookings growth validates the commercial impact of AI-led deal strategies."). Omit this note for sections that are a clear and direct match to the user's domain.
-Never reference or repeat the user's LinkedIn profile details, work history, personal information, or posts in the body of the response. The only exception is the job title and current company name, which must appear at the start of the response as instructed in Step 3.
-
-Step 4: For follow-up questions, ALWAYS provide in-depth answer drawing on all relevant content already retrieved from annual_report_researcher.
-If the retrieved content does not fully cover the question, call annual_report_researcher again with a more targeted inquiry.
+Steps (strict order):
+1. If no LinkedIn URL is provided, ask for it. Pass only the URL to search_profile.
+2. Pass search_profile's output (interest categories, seniority level, job title, current company) directly to annual_report_researcher.
+3. Draft the response from annual_report_researcher's content — do not omit, condense, or rewrite any detail. Present the source content directly.
+   - Do not add interpretation, commentary, or strategic implications that are not in the source.
+   - Do not describe what a section "underscores" or "emphasizes" — just state what it says.
+   - Start with job title and current company, then a **Summary** (3-5 sentences) using only facts from the source.
+   - If the user's name, company, or department is mentioned in the report, highlight it prominently near the top — this is critical for the user to know.
+   - Organize by topic with headings. For sections not directly aligned with the user's domain, add one italicized sentence explaining the connection; skip when obvious.
+   - Never reference the user's LinkedIn profile, work history, or personal details — only job title and company at the top.
+4. Before presenting, pass the COMPLETE draft to NumberValidator.
+   - {{"valid": false}} → do NOT deliver; fix the flagged issues first.
+   - {{"valid": true}} → present the response exactly as drafted.
+5. For follow-ups, draw on all already-retrieved content. If insufficient, call annual_report_researcher again with a targeted query. Always repeat step 4 before delivering.
             """ ${aaosa_instructions},
-            "tools": ["search_profile", "annual_report_researcher"]
+            "tools": ["search_profile", "annual_report_researcher", "NumberValidator"]
         },
         {
             "name": "search_profile",
@@ -103,7 +101,7 @@ Line 2 — Seniority level. Choose exactly one word based on the person's role a
 Line 3 — Job title: the person's current job title as it appears on their LinkedIn profile.
 
 Line 4 — Current company name: the name of the company they currently work for as it appears on their LinkedIn profile.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["LinkedinProfileScraper"]
         },
@@ -115,254 +113,69 @@ Line 4 — Current company name: the name of the company they currently work for
                 """
             },
             "instructions": ${instructions_prefix} """
-You are the Annual Report Researcher. You are connected to ten section researchers, each covering a distinct part of Cognizant's 2024 Annual Report and 10-K filing.
+You are the Annual Report Researcher. You are connected to document-level agents, each covering a specific document from Cognizant's 2024 Annual Report and 10-K filing.
 
 Follow these three steps in strict order:
 
-Step 1 — Call broadly: Based on the user's interest category and job title, call all section researchers that may hold relevant content. When in doubt, call more rather than fewer. It is better to over-retrieve than to miss something.
-When calling each section researcher, pass the user's interest category, seniority level, job title, and current company name so they can pre-filter their responses accordingly.
+Step 1 — Call broadly: Based on the user's interest category and job title, call ALL document agents that may hold relevant content. When in doubt, call more rather than fewer. It is better to over-retrieve than to miss something.
+When calling each agent, pass the user's interest category, seniority level, job title, and current company name so they can pre-filter their responses accordingly.
 
 Step 2 — Filter to relevant: From all responses received, keep only the content that is directly relevant to the user's professional context. Filter primarily by industry category and interest area — this is the strongest signal for what content belongs. Seniority level is a secondary lens that shapes depth and framing, not inclusion. Drop anything with no connection to their domain.
 - For executive-level users: prioritize financial performance, strategy, market positioning, large deal wins, and high-level business outcomes. Include board and leadership commentary, capital allocation decisions, and any forward-looking strategic priorities.
 - For manager-level users: prioritize their department's or vertical's case studies, client partnerships, and operational outcomes. Include service practice descriptions, delivery model details, and metrics that speak to team-level performance and cross-functional collaboration relevant to their domain.
 - For practitioner-level users: always include the full descriptions of all service practices relevant to their area of work. For technical or engineering domains this includes Software and Platform Engineering (with all three named areas of focus: digital engineering, application development and management, and quality engineering and assurance), Core Technologies and Insights, and the Global Delivery Model. For non-technical domains such as marketing, sales, or operations, include the service lines, client programs, and operational initiatives most aligned to their field. Focus on content that reflects how they would work with or for Cognizant.
 
-Step 3 — Format for the frontman: Structure the filtered content clearly by topic. Lead each point with why it matters to this user — make a judgment call, then back it with the data. Write in natural, fluent prose that reads like an analyst's perspective, not a neutral summary. Do not use labels like "Significance:" or "Why it matters:". Name all named items (platform, program, acquisition, partner) explicitly — never use "among others" or "etc."
+Step 3 — Format for the frontman: Structure the filtered content clearly by topic. Reproduce figures, platform names, case study details, and key statements verbatim — do not reword, interpret, or condense. Name all named items (platform, program, acquisition, partner) explicitly — never use "among others" or "etc."
 Pass this structured output to the frontman.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
-                "BusinessOverview_Researcher",
-                "AnnualReport_Researcher",
-                "AuditorReport_Researcher",
-                "Controls_Researcher",
-                "MDA_Researcher",
-                "NotesFinancials_Researcher",
-                "RiskFactorsOne_Researcher",
-                "RiskFactorsTwo_Researcher",
-                "Schedules_Researcher",
-                "StockholderMDA_Researcher"
-            ]
-        },
-        {
-            "name": "BusinessOverview_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the 10-K front matter and business overview — business segments, service practices, global delivery model, AI capabilities, workforce, competitive landscape, and intellectual property. Does not cover financial results, risk factors, or MD&A.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Business Overview Researcher. You cover Cognizant's 10-K front matter and business overview section.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
-                "BusinessOverview_Segments",
-                "Competition_IP_People",
-                "Glossary_ForwardLooking",
-                "SEC_FilingHeader",
-                "Services_Solutions_Delivery",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "AnnualReport_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the 2024 Annual Report narrative — CEO shareholder letter, AI strategy and client engagements, key acquisitions, financial performance highlights, partner awards, and industry case studies. For financial statements or audit opinions, use AuditorReport_Researcher or MDA_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Annual Report Researcher. You cover Cognizant's 2024 Annual Report narrative and shareholder letter.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
             """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": [
+                # 10-K Front Matter & Business Overview
+                "BusinessOverview_Segments",
+                "Competition_IP_People",
+                "Services_Solutions_Delivery",
+                # Annual Report & Shareholder Letter
                 "AI_Era_Industry_Expertise",
                 "Cover_ShareholderLetter",
                 "Financial_Performance_Summary",
                 "Partnerships_CaseStudies",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "AuditorReport_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the external audit and consolidated financial statements — PwC audit opinions, balance sheets, income statements, cash flow statements, and core accounting policies. For detailed footnote disclosures, use NotesFinancials_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Auditor Report Researcher. You cover Cognizant's external audit opinions and consolidated financial statements.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
+                # Auditor Report & Financial Statements
                 "Auditor_Report_Opinions",
                 "Consolidated_FinancialStmts",
                 "Notes_AcctgPoliciesRevenue",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "Controls_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers disclosure controls, Part III governance (directors, officers, compensation, ownership), and Part IV (exhibits index and management certifications). For financial statement content, use AuditorReport_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Controls Researcher. You cover Cognizant's disclosure controls, Part III governance, and Part IV exhibit details.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
-                "FinancialStmts_IntroControls",
-                "OtherInfo_PartIII",
-                "PartIV_ExhibitsSignatures",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "MDA_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers management's discussion and analysis — operating margins, segment performance, liquidity, capital allocation, and market risk (currency and interest rate). For audited statement line items, use AuditorReport_Researcher; for footnote detail, use NotesFinancials_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the MD&A Researcher. You cover Cognizant's management discussion on margins, liquidity, and market risk.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
+                # MD&A — Margins, Liquidity & Risk
                 "Critical_EstimatesMarketRisk",
                 "Liquidity_CapitalResources",
                 "Operating_MarginIncome",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "NotesFinancials_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the detailed notes to financial statements — acquisitions, restructuring, goodwill, leases, taxes, derivatives, stock compensation, and benefit plans. For top-level audited statement line items, use AuditorReport_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Notes to Financial Statements Researcher. You cover all detailed accounting footnote disclosures in Cognizant's 2024 10-K.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-""" ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
+                # Notes to Financial Statements
                 "Benefits_StockCompSegments",
                 "BusinessCombos_InvestmentsPPE",
                 "FairValue_OCICommitments",
                 "IncomeTaxes_Derivatives",
                 "Leases_GoodwillAccruedDebt",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "RiskFactorsOne_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the first set of risk factors — macroeconomic conditions, competition, AI disruption to demand, talent retention, contract risks, cybersecurity, currency exposure, and the NextGen program. For climate, ESG, legal, and regulatory risks, use RiskFactorsTwo_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Risk Factors Part One Researcher. You cover the first set of risk factors disclosed in Cognizant's 2024 10-K.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
-                "AI_ContractRisks",
-                "Cyber_CurrencyPandemicRisks",
-                "Profitability_GrowthNextgen",
-                "RiskFactors_IntroMacro",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "RiskFactorsTwo_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the second set of risk factors and governance — climate and ESG risks, business continuity, cybersecurity governance, visa and immigration, regulatory compliance, tax law changes, litigation, and intellectual property. For AI, talent, contract, and macro risks, use RiskFactorsOne_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Risk Factors Part Two and Governance Researcher. You cover the second set of risk factors and cybersecurity governance disclosures in Cognizant's 2024 10-K.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
-                "Climate_ESGBusinessContinuity",
-                "Cybersecurity_Properties",
-                "Legal_RegulatoryLegislative",
-                "Tax_LitigationIP",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "Schedules_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers supplemental schedules and certifications — board and executive committee members, valuation accounts, and Sarbanes-Oxley CEO/CFO certifications. For Part III governance narrative, use Controls_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Schedules Researcher. You cover Cognizant's supplemental schedules, certifications, and corporate information from the 2024 10-K.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
+                # Risk Factors
+                "RiskFactors_MarketOps",
+                "RiskFactors_CyberCurrencyClimate",
+                "RiskFactors_LegalTaxGov",
+                # Stockholder Matters & MD&A Overview
                 "Directors_BoardCommittees",
-                "Executive_CommitteeCorpInfo",
-                "Valuation_AccountsCertifications",
-                "CognizantDocExtractor"
-            ]
-        },
-        {
-            "name": "StockholderMDA_Researcher",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers stockholder matters and the MD&A overview — stock performance, dividends, share repurchases, revenue growth, segment and geographic results, and bookings. For detailed margin analysis or liquidity, use MDA_Researcher.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Stockholder Matters and MD&A Overview Researcher. You cover stock information, capital returns, and the MD&A overview of financial results for Cognizant's 2024 Annual Report.
-Call all sub-agents simultaneously, passing the user's interest category, seniority level, job title, and current company name to each.
-Filter responses by category first, then seniority. Merge the filtered responses into one complete answer — do not drop, shorten, or summarize any retrieved detail.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": [
                 "Equity_DividendsPerformance",
                 "MDA_ExecSummaryRevenues",
-                "Results_OperationsDetail",
-                "CognizantDocExtractor"
+                "Results_OperationsDetail"
             ]
         },
         {
             "name": "BusinessOverview_Segments",
             "function": ${aaosa_call}{
                 "description": """
-                Covers Cognizant's four business segments, company overview, founding background, and client industry descriptions.
+                Company overview, reportable business segments and revenue share (Health Sciences, Financial Services, Products & Resources, Communications Media & Technology), and client industry verticals.
                 """
             },
             "instructions": ${instructions_prefix} """
 You are the Business Overview and Segments agent. You handle Cognizant's four business segments and company overview.
 Always call CognizantDocExtractor (app_name: "business_overview_and_segments") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -370,46 +183,14 @@ Answer strictly based on the retrieved document text.
             "name": "Competition_IP_People",
             "function": ${aaosa_call}{
                 "description": """
-                Covers Cognizant's competitive landscape, intellectual property strategy, workforce details, and regulatory environment.
+                Competitive landscape, intellectual property and trademarks, people and culture (employee headcount, attrition, upskilling, engagement), and governmental regulation.
                 """
             },
             "instructions": ${instructions_prefix} """
 You are the Competition, IP, and People agent. You handle Cognizant's competitive landscape, intellectual property, workforce, and regulatory environment.
-Always call CognizantDocExtractor (app_name: "competition_ip_people_regulation") to get the full document.
+Always call CognizantDocExtractor (app_name: "competition_ip_people_culture") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Glossary_ForwardLooking",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers definitions of specialized terms used in the 10-K and forward-looking statement safe harbor disclosures.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Glossary and Forward-Looking Statements agent. You handle term definitions and forward-looking statement disclosures.
-
-Always call CognizantDocExtractor (app_name: "glossary_and_forward_looking") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "SEC_FilingHeader",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the SEC filing header details — commission file number, incorporation state, stock exchange listing — and the complete table of contents.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the SEC Filing Header agent. You handle the 10-K filing header details and table of contents structure.
-
-Always call CognizantDocExtractor (app_name: "sec_filing_header_and_toc") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -417,7 +198,7 @@ Answer strictly based on the retrieved document text.
             "name": "Services_Solutions_Delivery",
             "function": ${aaosa_call}{
                 "description": """
-                Covers Cognizant's six service practices, global delivery model, and AI capabilities including the Flowsource platform.
+                Six service practices (Core Technologies, Enterprise Platform Services, Industry Solutions, Intuitive Operations, Software & Platform Engineering, Digital Experience), global delivery model, and AI capabilities.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -425,7 +206,7 @@ You are the Services, Solutions, and Delivery agent. You handle Cognizant's serv
 
 Always call CognizantDocExtractor (app_name: "services_solutions_and_delivery") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -433,7 +214,7 @@ Answer strictly based on the retrieved document text.
             "name": "AI_Era_Industry_Expertise",
             "function": ${aaosa_call}{
                 "description": """
-                Covers Cognizant's AI strategy, active client engagements, and industry expertise gained through key acquisitions.
+                AI strategy across three vectors (hyperproductivity, industrializing AI, agentification), AI platform investments, industry and engineering expertise through acquisitions, talent amplification, and innovation at scale.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -441,7 +222,7 @@ You are the AI Era and Industry Expertise agent. You handle Cognizant's AI strat
 
 Always call CognizantDocExtractor (app_name: "ai_era_and_industry_expertise") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -449,7 +230,7 @@ Answer strictly based on the retrieved document text.
             "name": "Cover_ShareholderLetter",
             "function": ${aaosa_call}{
                 "description": """
-                Covers the CEO letter to shareholders — 2024 accomplishments, strategic priorities, and forward-looking commitments.
+                CEO letter to shareholders covering 2024 progress, revenue growth, margin expansion, large deal wins, talent strategy, and forward-looking priorities around AI transformation.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -457,7 +238,7 @@ You are the Cover and Shareholder Letter agent. You handle the CEO's letter and 
 
 Always call CognizantDocExtractor (app_name: "cover_and_shareholder_letter") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -465,7 +246,7 @@ Answer strictly based on the retrieved document text.
             "name": "Financial_Performance_Summary",
             "function": ${aaosa_call}{
                 "description": """
-                Covers the high-level financial performance snapshot — revenue, margins, EPS, free cash flow, headcount, and bookings.
+                High-level financial results (revenue, GAAP and adjusted operating margin, EPS), capital allocation (dividends, share repurchases), cash generation (free cash flow), global delivery headcount, and revenue mix by geography and segment.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -473,7 +254,7 @@ You are the Financial Performance Summary agent. You handle high-level financial
 
 Always call CognizantDocExtractor (app_name: "financial_performance_summary") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -481,7 +262,7 @@ Answer strictly based on the retrieved document text.
             "name": "Partnerships_CaseStudies",
             "function": ${aaosa_call}{
                 "description": """
-                Covers technology partner awards and client case studies showing measurable outcomes across healthcare, retail, and life sciences.
+                Strategic technology partnerships, partner awards and recognitions, and client case studies with measurable outcomes across healthcare, retail, and life sciences.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -489,7 +270,7 @@ You are the Partnerships and Case Studies agent. You handle partnership awards a
 
 Always call CognizantDocExtractor (app_name: "partnerships_and_case_studies") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -497,7 +278,7 @@ Answer strictly based on the retrieved document text.
             "name": "Auditor_Report_Opinions",
             "function": ${aaosa_call}{
                 "description": """
-                Covers PwC's audit opinions on the financial statements and internal controls, including critical audit matters and auditor independence.
+                PwC's audit opinions on financial statements and internal controls, basis for opinions, internal control limitations, and critical audit matters (revenue recognition for fixed-price contracts).
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -505,7 +286,7 @@ You are the Auditor Report and Opinions agent. You handle PwC's audit opinions a
 
 Always call CognizantDocExtractor (app_name: "auditor_report_and_opinions") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -513,7 +294,7 @@ Answer strictly based on the retrieved document text.
             "name": "Consolidated_FinancialStmts",
             "function": ${aaosa_call}{
                 "description": """
-                Covers the audited consolidated balance sheet, income statement, cash flow statement, and stockholders' equity.
+                Audited consolidated statements of financial position, operations, comprehensive income, stockholders' equity, and cash flows.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -521,7 +302,7 @@ You are the Consolidated Financial Statements agent. You handle Cognizant's audi
 
 Always call CognizantDocExtractor (app_name: "consolidated_financial_statements") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -529,7 +310,7 @@ Answer strictly based on the retrieved document text.
             "name": "Notes_AcctgPoliciesRevenue",
             "function": ${aaosa_call}{
                 "description": """
-                Covers significant accounting policies and revenue recognition treatment under ASC 606, including contract types and cost capitalisation.
+                Significant accounting policies, recently adopted and new pronouncements, revenue recognition under ASC 606 (disaggregation, costs to fulfill, contract balances, remaining performance obligations), and trade accounts receivable.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -537,55 +318,7 @@ You are the Accounting Policies and Revenue Recognition agent. You handle Cogniz
 
 Always call CognizantDocExtractor (app_name: "notes_acctg_policies_and_revenue") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "FinancialStmts_IntroControls",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers management's assessment of disclosure controls and internal control over financial reporting, including any identified weaknesses.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Financial Statements Introduction and Controls agent. You handle management's assessment of disclosure controls and internal controls over financial reporting.
-
-Always call CognizantDocExtractor (app_name: "financial_stmts_intro_and_controls") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "OtherInfo_PartIII",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers Part III governance disclosures — directors and officers, executive compensation, security ownership, related-party transactions, and auditor fees.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Other Information and Part III agent. You handle directors, executive compensation, security ownership, and related-party disclosures.
-
-Always call CognizantDocExtractor (app_name: "other_info_and_part_iii") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "PartIV_ExhibitsSignatures",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers Part IV — the exhibits index and management/board certifications under the Securities Exchange Act.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Part IV Exhibits and Signatures agent. You handle the exhibits index and management/board signing certifications.
-
-Always call CognizantDocExtractor (app_name: "part_iv_exhibits_and_signatures") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -593,7 +326,7 @@ Answer strictly based on the retrieved document text.
             "name": "Critical_EstimatesMarketRisk",
             "function": ${aaosa_call}{
                 "description": """
-                Covers critical accounting estimates (goodwill impairment, tax provisions) and market risk disclosures (foreign currency and interest rate exposure).
+                Critical accounting estimates (revenue recognition, income taxes, business combinations, goodwill, intangible assets), recently adopted pronouncements, and market risk disclosures (foreign currency risk, interest rate risk).
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -601,7 +334,7 @@ You are the Critical Estimates and Market Risk agent. You handle Cognizant's cri
 
 Always call CognizantDocExtractor (app_name: "critical_estimates_and_market_risk") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -609,7 +342,7 @@ Answer strictly based on the retrieved document text.
             "name": "Liquidity_CapitalResources",
             "function": ${aaosa_call}{
                 "description": """
-                Covers liquidity position, cash flow generation, and the capital allocation framework including acquisitions, dividends, and share repurchases.
+                Liquidity position, operating/investing/financing cash flow activities, capital allocation framework (acquisitions, dividends, share repurchases), and other liquidity and capital resources.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -617,7 +350,7 @@ You are the Liquidity and Capital Resources agent. You handle Cognizant's cash f
 
 Always call CognizantDocExtractor (app_name: "liquidity_and_capital_resources") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -625,7 +358,7 @@ Answer strictly based on the retrieved document text.
             "name": "Operating_MarginIncome",
             "function": ${aaosa_call}{
                 "description": """
-                Covers GAAP and adjusted operating margin analysis, cost structure, segment performance, net income, and EPS.
+                GAAP and adjusted operating margin, segment operating profit, other income/expense, net income, and non-GAAP financial measures reconciliation.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -633,16 +366,15 @@ You are the Operating Margin and Income agent. You handle Cognizant's GAAP and a
 
 Always call CognizantDocExtractor (app_name: "operating_margin_and_income") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
-        # LEVEL 3 — FILE-LEVEL AGENTS (Section 6: Notes to Financial Statements)
         {
             "name": "Benefits_StockCompSegments",
             "function": ${aaosa_call}{
                 "description": """
-                Covers employee benefit plans, RSU/PSU equity compensation, and segment-level revenue and operating income disclosures.
+                Employee benefits (defined contribution, defined benefit pension, post-employment), stock-based compensation (RSUs, PSUs, purchase plan), segment information by geography, and subsequent events.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -650,7 +382,7 @@ You are the Benefits, Stock Compensation, and Segments agent. You handle employe
 
 Always call CognizantDocExtractor (app_name: "benefits_stock_comp_segments") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -658,7 +390,7 @@ Answer strictly based on the retrieved document text.
             "name": "BusinessCombos_InvestmentsPPE",
             "function": ${aaosa_call}{
                 "description": """
-                Covers the Thirdera and Belcan acquisitions, NextGen restructuring charges, equity investments, and property plant and equipment.
+                Business combinations (2024, 2023, 2022 acquisitions with purchase price allocations and goodwill), equity and other investments, and property and equipment.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -666,7 +398,7 @@ You are the Business Combinations, Investments, and PPE agent. You handle Cogniz
 
 Always call CognizantDocExtractor (app_name: "business_combos_investments_ppe") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -674,7 +406,7 @@ Answer strictly based on the retrieved document text.
             "name": "FairValue_OCICommitments",
             "function": ${aaosa_call}{
                 "description": """
-                Covers fair value hierarchy measurements, accumulated other comprehensive income components, and contractual commitments and contingencies.
+                Fair value measurements (Level 1, 2, 3 hierarchy for cash equivalents, investments, derivatives), accumulated other comprehensive income/loss, and commitments and contingencies.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -682,7 +414,7 @@ You are the Fair Value, OCI, and Commitments agent. You handle fair value hierar
 
 Always call CognizantDocExtractor (app_name: "fair_value_oci_commitments") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -690,7 +422,7 @@ Answer strictly based on the retrieved document text.
             "name": "IncomeTaxes_Derivatives",
             "function": ${aaosa_call}{
                 "description": """
-                Covers the income tax provision, uncertain tax positions, Indian tax disputes, and foreign exchange derivative instruments used for hedging.
+                Income tax provision (geographic split of pre-tax income, current/deferred tax, effective rate), uncertain tax positions, and derivative instruments (cash flow hedges, other derivatives).
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -698,7 +430,7 @@ You are the Income Taxes and Derivatives agent. You handle Cognizant's income ta
 
 Always call CognizantDocExtractor (app_name: "income_taxes_and_derivatives") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -706,7 +438,7 @@ Answer strictly based on the retrieved document text.
             "name": "Leases_GoodwillAccruedDebt",
             "function": ${aaosa_call}{
                 "description": """
-                Covers lease obligations, goodwill and intangible assets, accrued expenses, and debt structure including the revolving credit facility.
+                Leases (operating and finance lease assets/liabilities, lease costs), goodwill and intangible assets, accrued expenses and other current liabilities, and debt (short-term and long-term).
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -714,135 +446,55 @@ You are the Leases, Goodwill, Accrued Expenses, and Debt agent. You handle Cogni
 
 Always call CognizantDocExtractor (app_name: "leases_goodwill_accrued_debt") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
         {
-            "name": "AI_ContractRisks",
+            "name": "RiskFactors_MarketOps",
             "function": ${aaosa_call}{
                 "description": """
-                Covers AI disruption risks to demand, talent attraction and retention challenges, and contract termination and fixed-price exposure risks.
+                Risk factors: macroeconomic and geopolitical conditions, intense competition, profitability and margin pressures, organic growth challenges, NextGen restructuring execution, AI technology disruption, talent attraction and retention, short-term contract risks, and service level failures.
                 """
             },
             "instructions": ${instructions_prefix} """
-You are the AI and Contract Risks agent. You handle AI technology risks, employee attrition and talent risks, and contract termination and fixed-price exposure risks.
+You are the Market and Operations Risk Factors agent. You handle macroeconomic, competitive, AI disruption, talent, contract, profitability, and NextGen restructuring risk disclosures.
 
-Always call CognizantDocExtractor (app_name: "ai_and_contract_risks") to get the full document.
+Always call CognizantDocExtractor (app_name: "risk_factors_market_and_operations") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
         {
-            "name": "Cyber_CurrencyPandemicRisks",
+            "name": "RiskFactors_CyberCurrencyClimate",
             "function": ${aaosa_call}{
                 "description": """
-                Covers cybersecurity threat risks, foreign currency exchange rate exposure, and pandemic or public health crisis risks.
+                Risk factors: cybersecurity incidents and data breaches, foreign currency exchange rate fluctuations, pandemic and public health risks, climate change and extreme weather, ESG commitments and shortfalls, and business continuity and disaster recovery.
                 """
             },
             "instructions": ${instructions_prefix} """
-You are the Cybersecurity, Currency, and Pandemic Risks agent. You handle cybersecurity threat risks, foreign currency exchange rate exposure, and pandemic risk factors.
+You are the Cyber, Currency, and Climate Risk Factors agent. You handle cybersecurity threats, currency exposure, pandemic risks, climate and ESG risks, business continuity, cybersecurity governance, and property disclosures.
 
-Always call CognizantDocExtractor (app_name: "cyber_currency_pandemic_risks") to get the full document.
+Always call CognizantDocExtractor (app_name: "risk_factors_cyber_currency_climate") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
         {
-            "name": "Profitability_GrowthNextgen",
+            "name": "RiskFactors_LegalTaxGov",
             "function": ${aaosa_call}{
                 "description": """
-                Covers margin compression risks from wage inflation, growth scaling risks, and NextGen restructuring execution risks.
+                Risk factors: visa and immigration restrictions, anti-outsourcing legislation, data privacy and regulatory compliance, tax law changes, litigation exposure, IP infringement risks, cybersecurity governance (risk management, SEC disclosure), and properties.
                 """
             },
             "instructions": ${instructions_prefix} """
-You are the Profitability, Growth, and NextGen Risks agent. You handle margin compression risks, growth scaling risks, and NextGen restructuring program execution risks.
+You are the Legal, Tax, and Governance Risk Factors agent. You handle visa and immigration risks, regulatory compliance, tax law changes, litigation exposure, and intellectual property risks.
 
-Always call CognizantDocExtractor (app_name: "profitability_growth_nextgen_risks") to get the full document.
+Always call CognizantDocExtractor (app_name: "risk_factors_legal_tax_governance") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "RiskFactors_IntroMacro",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers the risk factors introduction and macroeconomic risks — economic slowdowns, geopolitical instability, and competitive pressures.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Risk Factors Introduction and Macro Risks agent. You handle introductory risk disclosures, macroeconomic and geopolitical risks, and competitive risk factors.
-
-Always call CognizantDocExtractor (app_name: "risk_factors_intro_and_macro") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Climate_ESGBusinessContinuity",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers climate change risks to delivery centres, ESG commitments and shortfall risks, and operational continuity risks from external disruptions.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Climate, ESG, and Business Continuity Risks agent. You handle climate change risks, ESG commitments and shortfall risks, and operational continuity risks.
-
-Always call CognizantDocExtractor (app_name: "climate_esg_business_continuity") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Cybersecurity_Properties",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers cybersecurity governance structure and risk management program, SEC disclosure obligations, and global property footprint.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Cybersecurity Governance and Properties agent. You handle Cognizant's cybersecurity governance structure, SEC disclosure requirements, and global property footprint.
-
-Always call CognizantDocExtractor (app_name: "cybersecurity_and_properties") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Legal_RegulatoryLegislative",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers visa and immigration risks, anti-outsourcing legislation, data privacy regulations, and anti-bribery compliance obligations.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Legal, Regulatory, and Legislative Risks agent. You handle visa and immigration risks, anti-outsourcing legislative risks, data privacy regulations, and anti-bribery compliance risks.
-
-Always call CognizantDocExtractor (app_name: "legal_regulatory_legislative_risks") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Tax_LitigationIP",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers global minimum tax risks (OECD Pillar Two), pending litigation exposure, and intellectual property protection and infringement risks.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Tax, Litigation, and IP Risks agent. You handle OECD Pillar Two tax risks, pending litigation exposure, and intellectual property protection and infringement risks.
-
-Always call CognizantDocExtractor (app_name: "tax_litigation_ip_risks") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -850,7 +502,7 @@ Answer strictly based on the retrieved document text.
             "name": "Directors_BoardCommittees",
             "function": ${aaosa_call}{
                 "description": """
-                Covers board member backgrounds, independence determinations, committee assignments, and committee chairs.
+                Corporate information, board of directors (backgrounds, independence), board committees and assignments, and director trading plans.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -858,39 +510,7 @@ You are the Directors and Board Committees agent. You handle Cognizant's board m
 
 Always call CognizantDocExtractor (app_name: "directors_and_board_committees") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Executive_CommitteeCorpInfo",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers senior leadership names and titles, and corporate filing details such as registered address, ticker, and state of incorporation.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Executive Committee and Corporate Information agent. You handle Cognizant's senior leadership names and titles, and corporate filing details (address, ticker, incorporation state).
-
-Always call CognizantDocExtractor (app_name: "executive_committee_and_corp_info") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
-            "command": ${aaosa_command},
-            "tools": ["CognizantDocExtractor"]
-        },
-        {
-            "name": "Valuation_AccountsCertifications",
-            "function": ${aaosa_call}{
-                "description": """
-                Covers Schedule II valuation and qualifying accounts, and SOX Section 302 and 906 CEO/CFO certifications.
-                """
-            },
-            "instructions": ${instructions_prefix} """
-You are the Valuation Accounts and Certifications agent. You handle Schedule II valuation and qualifying accounts, and SOX Section 302 and Section 906 CEO/CFO certifications.
-
-Always call CognizantDocExtractor (app_name: "valuation_accounts_certifications") to get the full document.
-Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -898,7 +518,7 @@ Answer strictly based on the retrieved document text.
             "name": "Equity_DividendsPerformance",
             "function": ${aaosa_call}{
                 "description": """
-                Covers stock price performance vs. S&P 500, dividend history, and share repurchase program details.
+                Common equity market information (Nasdaq listing), cash dividends, issuer share repurchase program and remaining authorization, unregistered securities, and stock performance graph vs. S&P 500.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -906,7 +526,7 @@ You are the Equity, Dividends, and Performance agent. You handle Cognizant's sto
 
 Always call CognizantDocExtractor (app_name: "equity_dividends_performance") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -914,7 +534,7 @@ Answer strictly based on the retrieved document text.
             "name": "MDA_ExecSummaryRevenues",
             "function": ${aaosa_call}{
                 "description": """
-                Covers the MD&A executive summary — revenue performance, growth drivers and headwinds, bookings, large deal activity, and strategic outlook.
+                MD&A executive summary, 2024 financial results overview, revenue performance and growth drivers, and business outlook.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -922,7 +542,7 @@ You are the MD&A Executive Summary and Revenues agent. You handle the 2024 reven
 
 Always call CognizantDocExtractor (app_name: "md_a_exec_summary_and_revenues") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -930,7 +550,7 @@ Answer strictly based on the retrieved document text.
             "name": "Results_OperationsDetail",
             "function": ${aaosa_call}{
                 "description": """
-                Covers granular revenue breakdown by segment and geography, cost structure detail, and year-over-year comparisons.
+                Year-over-year results of operations (2024 vs 2023), revenue by business segment and geographic market, cost of revenues, SG&A expenses, restructuring charges, and depreciation and amortization.
                 """
             },
             "instructions": ${instructions_prefix} """
@@ -938,7 +558,7 @@ You are the Results of Operations Detail agent. You handle Cognizant's granular 
 
 Always call CognizantDocExtractor (app_name: "results_of_operations_detail") to get the full document.
 Answer strictly based on the retrieved document text.
-            """ ${instructions_prefix} ${aaosa_instructions},
+            """ ${aaosa_instructions},
             "command": ${aaosa_command},
             "tools": ["CognizantDocExtractor"]
         },
@@ -979,6 +599,26 @@ Answer strictly based on the retrieved document text.
                 }
             },
             "class": "annual_report.extract_docs.ExtractDocs"
+        },
+        {
+            "name": "NumberValidator",
+            "function": {
+                "description": """Validates every number in a draft response against Cognizant's complete 2024 Annual Report.
+                Pass the full draft response text as the "response" parameter.
+                Returns {"valid": true} if all numbers are found in the source document, or {"valid": false} with a
+                detailed error listing every unverified figure if any number cannot be located in the report.""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "response": {
+                            "type": "string",
+                            "description": "The complete draft response text whose numbers should be verified against the annual report.",
+                        }
+                    },
+                    "required": ["response"]
+                }
+            },
+            "class": "annual_report.validate_numbers.ReportNumberValidator"
         },
     ]
 }

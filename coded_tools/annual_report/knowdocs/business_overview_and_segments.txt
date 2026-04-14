@@ -6,26 +6,6 @@ Cognizant is one of the world's leading professional services companies, enginee
 
 Our purpose, vision and values are central to Cognizant's strategic approach. We have evolved our values to prioritize those that support our vision and enhance our ability to innovate and co-create with our clients.
 
-Icon
-
-[IMAGE DESCRIPTION: This is a **logo or decorative element** — it appears to be a circular icon divided into quadrants (resembling a stylized compass, crosshair, or corporate logo mark), containing no financial data or numeric information.]
-
-Logo
-
-[IMAGE DESCRIPTION: This image appears to be a small decorative element or icon showing three rectangles of increasing height arranged in a step-like pattern, resembling a simplified bar chart icon or graphic design element. It contains no actual data, numeric values, or readable text to extract.]
-
-Icon
-
-[IMAGE DESCRIPTION: This is a decorative icon/pictogram showing a stylized human figure in a running or throwing pose, commonly used as a sports or activity symbol. It contains no financial data, charts, or numeric information.]
-
-Icon
-
-[IMAGE DESCRIPTION: This image appears to be a small icon or decorative element, likely a directional arrow or navigation symbol (an upward arrow with a turning/bent path). It contains no financial data, charts, graphs, or numeric information to extract.]
-
-Icon
-
-[IMAGE DESCRIPTION: This image appears to be a decorative element — specifically a simple line drawing or icon that resembles a stylized stethoscope or a curving line/rope design. It contains no data, charts, graphs, or numerical information to analyze.]
-
 In order to achieve this vision and support our clients, we are focusing on accelerating growth, becoming an employer of choice and simplifying our operations through modernization and an AI-enabled IT roadmap. In executing our strategy, we seek to drive organic growth through investments in our digital and AI capabilities across industries and geographies, including the extensive training and reskilling of our technical teams and the expansion of our local workforces in the United States and other markets around the world. Additionally, we pursue select strategic acquisitions to expand our talent, experience and capabilities in  key  technologies  or  in  particular  geographies  or  industries.  In  2024,  we  acquired  Belcan,  a  leading  global  supplier  of engineering research &amp; development services for the commercial aerospace, defense, space, marine and industrial verticals, and Thirdera,  an  Elite  ServiceNow  Partner  specializing  in  advisory,  implementation  and  optimization  solutions  related  to  the ServiceNow platform. See Note 3 to our consolidated financial statements for additional information.
 
 We  are  focused  on  expanding  our  partner  ecosystem  across  a  broad  range  of  technology  companies,  including hyperscalers, cloud providers, enterprise software companies, best-in-class digital software enterprises and emerging start-ups. We believe this  partner  ecosystem  will  enable  us  to  enhance  our  innovative,  integrated  offerings,  by  combining  third-party products with our service solutions, to deliver enterprise-wide digital transformation.
@@ -62,40 +42,14 @@ process automation, AI adoption, operational efficiency, unified user experience
 
 For the year ended December 31, 2024, the distribution of our revenues across our four reportable business segments was as follows:
 
-Pie chart
-
-[IMAGE DESCRIPTION: ## Chart Analysis: Revenues by Business Segment for 2024
-
-**Chart Type:** Pie chart
-
-**Chart Title:** Revenues by business segment for 2024
-
-**Unit:** Percentages (% of total revenue)
-
----
-
-### Segment Breakdown:
+[IMAGE DESCRIPTION: Pie chart — Revenues by Business Segment, 2024 (% of total revenue).
 
 | Business Segment | Revenue Share |
 |---|---|
 | Health Sciences | 30.1% |
 | Financial Services | 29.1% |
 | Products and Resources | 24.2% |
-| Communications, Media and Technology | 16.6% |
-
----
-
-### Key Insights:
-
-- **Largest segment:** Health Sciences at 30.1%, representing nearly a third of total revenues
-- **Second largest:** Financial Services at 29.1%, virtually neck-and-neck with Health Sciences — together these two segments account for **59.2%** of total revenue (nearly 3/5 of the business)
-- **Third largest:** Products and Resources at 24.2%, representing roughly a quarter of revenues
-- **Smallest segment:** Communications, Media and Technology at 16.6%, the only segment below 20%
-- **Total:** All four segments sum to exactly **100.0%**, confirming these represent the complete revenue composition
-- **Revenue concentration:** The business is moderately diversified, with no single segment exceeding ~30%, though the top two segments dominate with nearly 60% combined
-- **Spread between largest and smallest:** 13.5 percentage points (30.1% vs. 16.6%), indicating some imbalance but no extreme dependency on a single vertical
-
-*Note: This appears to be from Cognizant Technology Solutions' 2024 annual report, based on the characteristic business segment naming conventions.*]
+| Communications, Media and Technology | 16.6% |]
 
 The  services  we  provide  are  distributed  among  a  number  of  clients  in  each  of  our  reportable  business  segments.  The volume of work performed for specific clients may vary significantly from year to year. A loss of a significant client or a few significant clients in a particular segment could materially reduce revenues for that segment. The services we provide to our larger clients are often critical to their operations and termination of our services would typically require an extended transition period with gradually declining revenues.
 

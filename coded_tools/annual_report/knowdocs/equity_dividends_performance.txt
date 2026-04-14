@@ -23,8 +23,6 @@ We regularly purchase shares in connection with our stock-based compensation pla
 
 ## Recent Sales of Unregistered Securities
 
-None.
-
 ## Performance Graph
 
 The following graph compares the cumulative total stockholder return on our Class A common stock with the cumulative total return on the S&amp;P 500 Index and the S&amp;P 500 Information Technology Index for the period beginning December 31, 2019 and ending on the last day of our last completed fiscal year. The stock performance shown on the graph below is not indicative of future price performance.
@@ -33,80 +31,13 @@ COMPARISON OF CUMULATIVE TOTAL RETURN (1)(2)
 
 Among Cognizant, the S&amp;P 500 Index and the S&amp;P 500 Information Technology Index
 
-Line chart
-
-| Date     |   S&P 500 Information Technology Index |   S&P 500 Index |   Cognizant Technology Solutions Corporation |
-|----------|----------------------------------------|-----------------|----------------------------------------------|
-| 12/31/19 |                                    100 |             100 |                                          100 |
-| 12/31/20 |                                    120 |             110 |                                          110 |
-| 12/31/21 |                                    190 |             150 |                                          140 |
-| 12/31/22 |                                    140 |             120 |                                          100 |
-| 12/31/23 |                                    220 |             160 |                                          130 |
-| 12/31/24 |                                    300 |             200 |                                          130 |
-
-[IMAGE DESCRIPTION: # Comparison of Cumulative Five Year Total Return
-
-## Chart Type
-Line graph comparing cumulative total return of $100 invested on 12/31/19 across three indices.
-
-## X-Axis Periods
-12/31/19, 12/31/20, 12/31/21, 12/31/22, 12/31/23, 12/31/24
-
-## Data Points (Approximate Values)
-
-### S&P 500 Information Technology Index (solid line with filled triangles)
-| Date | Value |
-|------|-------|
-| 12/31/19 | $100 |
-| 12/31/20 | $145 |
-| 12/31/21 | $195 |
-| 12/31/22 | $150 |
-| 12/31/23 | $225 |
-| 12/31/24 | **$300** |
-
-### S&P 500 Index (dashed line with open squares)
-| Date | Value |
-|------|-------|
-| 12/31/19 | $100 |
-| 12/31/20 | $118 |
-| 12/31/21 | $150 |
-| 12/31/22 | $123 |
-| 12/31/23 | $155 |
-| 12/31/24 | **$205** |
-
-### Cognizant Technology Solutions Corporation (solid line with filled diamonds)
-| Date | Value |
-|------|-------|
-| 12/31/19 | $100 |
-| 12/31/20 | $130 |
-| 12/31/21 | $140 |
-| 12/31/22 | $90 |
-| 12/31/23 | $120 |
-| 12/31/24 | **$130** |
-
-## Values
-All values represent cumulative return on an initial $100 investment (in dollars).
-
-## Key Trends & Insights
-
-- **S&P 500 IT Index** was the clear outperformer, tripling the initial investment over 5 years (~200% cumulative return), showing strong growth especially in 2023-2024.
-- **S&P 500 Index** roughly doubled the initial investment (~105% cumulative return), performing solidly.
-- **Cognizant significantly underperformed** both benchmarks, returning only ~30% over 5 years.
-- **2022 was a downturn year** for all three, with Cognizant falling below $100 (losing money on the initial investment), while the indices also declined.
-- **Notable dip**: Cognizant dropped to ~$90 by 12/31/22, the only line to fall below the $100 starting point.
-- **Widening gap**: The divergence between Cognizant and the IT index accelerated dramatically from 2022 onward — by 12/31/24, the IT index was at ~$300 vs. Cognizant's ~$130, a ~$170 spread.
-- **Recovery disparity**: While all three recovered from the 2022 dip, Cognizant's recovery was the weakest, barely returning to its 2020 levels by end of 2024.
-- **Most recent year (2024)**: All three showed positive returns, but the IT index surged ~33%, S&P 500 gained ~32%, while Cognizant gained only ~8%.
-
-## Summary
-Cognizant Technology Solutions substantially lagged both the broader S&P 500 and the S&P 500 IT sector over the five-year period, suggesting the company underperformed its sector peers and the general market. An investor in Cognizant would have earned roughly $30 on a $100 investment, compared to $105 in the S&P 500 and $200 in the IT sector index.]
-
 | Company / Index                      | Base Period 12/31/19   | 12/31/20   | 12/31/21   | 12/31/22   | 12/31/23   | 12/31/24   |
 |--------------------------------------|------------------------|------------|------------|------------|------------|------------|
 | Cognizant Technology Solutions Corp  | $ 100                  | $ 133.93   | $ 146.84   | $ 96.12    | $ 129.16   | $ 133.62   |
 | S&P 500 Index                        | 100                    | 118.40     | 152.39     | 124.79     | 157.59     | 197.02     |
 | S&P 500 Information Technology Index | 100                    | 143.89     | 193.58     | 139.00     | 219.40     | 299.72     |
 
-(2) Cumulative total return assumes reinvestment of dividends.
+(1) Graph assumes $100 invested on December 31, 2019 in our Class A common stock, the S&P 500 Index and the S&P
+500 Information Technology Index.
 
-## Item 6. [Reserved]
+(2) Cumulative total return assumes reinvestment of dividends.

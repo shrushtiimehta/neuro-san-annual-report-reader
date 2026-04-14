@@ -35,61 +35,21 @@ principal payments on the Term Loan. We believe that we currently meet all condi
 
 ## Capital Allocation Framework
 
-Bar chart
+[IMAGE DESCRIPTION: Stacked bar chart — Capital Allocation, 2023-2024. Values in millions.
 
-|   Year |   Acquisitions |   Share Repurchases |   Dividend Payments |   Total |
-|--------|----------------|---------------------|---------------------|---------|
-|   2023 |            409 |                1064 |                 591 |    2064 |
-|   2024 |           1615 |                 605 |                 600 |    2820 |
-
-[IMAGE DESCRIPTION: ## Chart Analysis: Capital Return to Shareholders (Stacked Bar Chart)
-
-### Chart Title
-No explicit title shown, but the chart depicts **capital allocation/shareholder returns** broken down by category.
-
-### Periods Shown on X-Axis
-- **2023**
-- **2024**
-
-### Unit
-All values are in **millions (M) of dollars**.
-
----
-
-### Detailed Breakdown
-
-#### 2023 — Total: **$2,064M**
+2023 — Total: $2,064M
 | Component | Value |
 |---|---|
-| Dividend payments | **$591M** |
-| Share repurchases | **$1,064M** |
-| Acquisitions | **$409M** |
+| Dividend payments | $591M |
+| Share repurchases | $1,064M |
+| Acquisitions | $409M |
 
-#### 2024 — Total: **$2,820M**
+2024 — Total: $2,820M
 | Component | Value |
 |---|---|
-| Dividend payments | **$600M** |
-| Share repurchases | **$605M** |
-| Acquisitions | **$1,615M** |
-
----
-
-### Year-over-Year Trends
-
-- **Total capital deployed: Up ~36.6%** ($2,064M → $2,820M), a significant increase of **$756M**.
-- **Dividend payments:** Slightly increased from $591M to $600M (+1.5%) — **essentially stable**.
-- **Share repurchases:** Declined sharply from $1,064M to $605M (**-43.1%**) — a notable drop.
-- **Acquisitions:** Nearly quadrupled from $409M to $1,615M (**+295%**) — the most dramatic change.
-
----
-
-### Key Insights
-
-1. **Major pivot in capital allocation strategy**: The company shifted heavily from share repurchases toward acquisitions in 2024, signaling an emphasis on inorganic growth.
-2. **Acquisitions became the dominant use of capital** in 2024, representing ~57% of total deployment vs. only ~20% in 2023.
-3. **Share repurchases dropped from the largest category** (52% in 2023) to a secondary one (21% in 2024).
-4. **Dividend payments remained steady**, suggesting the company maintained its commitment to consistent dividend returns regardless of the strategic shift.
-5. The **overall increase in total capital deployed** suggests strong cash generation or balance sheet capacity to fund both growth and returns simultaneously.]
+| Dividend payments | $600M |
+| Share repurchases | $605M |
+| Acquisitions | $1,615M |]
 
 Our capital allocation framework anticipates the deployment of approximately 50% of our free cash flow 7 for acquisitions and 50% for share repurchases and dividend payments. We review our  capital  allocation  on  an  ongoing  basis,  considering  our financial performance and liquidity position, investments required to execute our strategic plans and initiatives, acquisition  opportunities,  the  economic  outlook,  regulatory changes  and  other  relevant  factors.  As  these  factors  may change  over  time,  the  actual  amounts  expended  on  stock repurchase activity, dividends, and acquisitions, if any, during any  particular  period  cannot  be  predicted  and  may  fluctuate from time to time.
 

@@ -25,7 +25,11 @@
     },
 
     "instructions_prefix": """
-- **ALWAYS filter to the user's context** — include only content directly relevant to the user's industry and seniority level. Focus on what matters most to their role: **Executives** receive only strategy and financial outcomes; **Practitioners** receive platforms, tools, and delivery mechanics; **Managers** receive their department's or vertical's case studies, partnerships, and a balanced mix of strategic outcomes and operational specifics.
+- **ALWAYS filter to the user's context** — include only content directly relevant to the user's industry and seniority level. Tailor depth and framing by role:
+  - **Executives**: strategy, financial performance, market positioning, capital allocation, and forward-looking priorities. Omit implementation details.
+  - **Managers**: case studies, partnerships, cross-functional initiatives, and operational metrics for their department or vertical. Balance strategic outcomes with delivery specifics.
+  - **Practitioners**: platforms, tools, service practice descriptions, delivery mechanics, and technical detail relevant to their domain.
+- **KEEP THE ANSWER DETAILED AND COMPREHENSIVE** — never truncate or condense retrieved content. Present numerical data in tables rather than inline prose whenever three or more figures appear together.
 - **NEVER state anything in isolation** — do not present a fact, figure, or named item without its full surrounding context as it appears in the source document, including any accompanying statement of business significance.
 - **NEVER paraphrase or summarize** — reproduce figures, platform names, case study details, and key statements verbatim. Do not reword, interpret, or condense.
 - **NEVER use vague or catch-all language** — every item must be named explicitly. Do not use phrases like "among others", "etc.", "and more", or "various".
@@ -56,16 +60,22 @@ Step 1: If the user's message does not include a LinkedIn profile URL, ask for i
 
 Step 2: Pass the information returned by search_profile directly to the document_reader — specifically the broad interest categories, seniority level, and current job title.
 
-Step 3: Using the content returned by document_reader, produce a full, detailed response for the user.
+Step 3: Using the content returned by document_reader, produce a complete draft response for the user.
         Draw ONLY from what document_reader returned. Never reference or repeat the user's LinkedIn profile details, job history, personal information, posts, or any content from search_profile.
         If document_reader returned empty or insufficient content, respond: "I'm sorry, I had trouble retrieving the report content. Please try again."
 
         Organize the response by topic with a heading per section. For sections not directly aligned with the user's domain, add a single italicized relevance note immediately under the heading. Do not omit or condense any detail from the content returned.
+        MAKE SURE THE ANSWER IS DETAILED.
+
+Step 3.5: Before presenting the draft response to the user, pass the COMPLETE draft text to NumberValidator.
+        - If NumberValidator returns {{"valid": false}}, you MUST NOT deliver the response. Instead tell the user: "I was unable to verify one or more figures in this response against Cognizant's 2024 Annual Report. The information may contain inaccuracies. Please try again."
+        - If NumberValidator returns {{"valid": true}}, proceed to present the response exactly as drafted.
 
 Step 4: For follow-up questions, provide a thorough, in-depth answer drawing on all relevant content already retrieved.
         If the retrieved content does not fully cover the question, call document_reader again with a more targeted inquiry.
+        After composing any follow-up answer, repeat Step 3.5 to validate numbers before delivering it.
 """,
-            "tools": ["search_profile", "document_reader"]
+            "tools": ["search_profile", "document_reader", "NumberValidator"]
         },
         {
             "name": "search_profile",
@@ -157,6 +167,26 @@ Return the filtered content in full — do not drop, shorten, or summarize any r
                 }
             },
             "class": "annual_report.extract_docs.ExtractDocs"
+        },
+        {
+            "name": "NumberValidator",
+            "function": {
+                "description": """Validates every number in a draft response against Cognizant's complete 2024 Annual Report.
+                Pass the full draft response text as the "response" parameter.
+                Returns {"valid": true} if all numbers are found in the source document, or {"valid": false} with a
+                detailed error listing every unverified figure if any number cannot be located in the report.""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "response": {
+                            "type": "string",
+                            "description": "The complete draft response text whose numbers should be verified against the annual report."
+                        }
+                    },
+                    "required": ["response"]
+                }
+            },
+            "class": "annual_report.validate_numbers.ReportNumberValidator"
         }
     ]
 }

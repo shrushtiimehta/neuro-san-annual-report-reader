@@ -10,11 +10,7 @@ Cognizant's talented scientists, AI pioneers and PhDs are advancing the science 
 
 including Microsoft's Global Growth Champion Partner of the Year and Google's Breakthrough Partner of the Year
 
-Photograph
-
 Babak Hodjat Chief Technology Officer, Artificial Intelligence
-
-[IMAGE DESCRIPTION: This is a photograph of a man speaking, likely a corporate executive or leader featured in a financial annual report. It contains no data, charts, graphs, or KPI metrics — it is a portrait/headshot image with no quantitative information to extract.]
 
 ## At Cognizant,
 
@@ -32,10 +28,6 @@ Agentifying the enterprise: AI is evolving from an analytical tool to an autonom
 
 ## Case study · Healthcare
 
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph of a hospital corridor featuring a hospital bed/gurney in the foreground with a blurred clinical hallway in the background — it is a decorative/stock image with no data, charts, or numeric information.]
-
 ## Advancing healthcare
 
 ## by streamlining grievance management
@@ -50,8 +42,6 @@ Photograph
 
 Case study · Retail
 
-[IMAGE DESCRIPTION: This is a photograph of a grocery store aisle taken from the perspective of someone pushing a shopping cart. It shows shelves stocked with various packaged food products on both sides of the aisle. This is a decorative/illustrative image with no data, charts, or numerical information to extract.]
-
 ## Driving sales
 
 by revolutionizing in-store shopping experiences
@@ -64,10 +54,6 @@ Now live in over 15 locations, the app is increasing sales through a product sea
 
 ## Case study · Life sciences
 
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph showing an open-plan office environment with cubicle workstations, and it contains no financial data, charts, or numeric information—it is a decorative/illustrative image typically used in annual reports to depict the company's workplace or corporate culture.]
-
 ## Transforming customer support
 
 with intelligent query resolution and ticketing
@@ -77,38 +63,6 @@ A prominent life sciences organization sought to streamline customer support by 
 Cognizant developed a robust, scalable and flexible gen AI solution that automates routine queries and optimizes the ticket-escalation process. Our solution integrates an agentic LLM model and vector databases to provide accurate responses and resolve user queries in real time. When queries require human intervention, the system automates ticket creation through REST API integration, improving support escalation.
 
 Utilizing AWS cloud infrastructure, the solution enables scalable deployment and cost-effective handling of increased user demand. As a result, users are more satisfied, resolutions are more accurate and the whole process is more seamlessfrom automated response to ticket creation.
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a group photograph of approximately 20 people posing together in front of the **UN City** building, making heart shapes with their hands. It is a decorative/illustrative photograph with no financial data, charts, or numerical information.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a group photograph of employees or associates posing together at a **Cognizant** exhibition booth/trade show, and contains no financial data, charts, or KPI metrics.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph of a group of approximately six people posing together in what appears to be Times Square, New York City, with digital billboards visible in the background (including what appears to be a "Godzilla" movie advertisement). It contains no data, charts, or numerical information — it is a decorative/corporate photograph likely depicting company executives or leadership, as commonly included in financial annual reports.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph showing a person taking a selfie in front of what appears to be a United Nations building entrance, identifiable by the UN emblem/logo visible above. It contains no financial data, charts, or numerical information.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph showing a group of people posing together at what appears to be an indoor event or convention venue with purple/blue lighting in the ceiling structure. It is a decorative/editorial photograph with no financial data, charts, or KPI metrics.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph of five people wearing matching dark blue Cognizant-branded t-shirts, posing together on what appears to be a golf course or park setting. It is a decorative/corporate culture image with no data or charts to extract.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph showing a group of people celebrating on stage at the **Cognizant Social Impact Award 2025**, honoring **Bala Prasad Devaragattu & Hyderabad Outreach Team**. It is a ceremonial/recognition photo with no financial data, charts, or numeric information.]
-
-Photograph
-
-[IMAGE DESCRIPTION: This is a photograph of a group of professionals posing together in Times Square, New York City, in front of the Nasdaq building, with a Cognizant logo/signage visible on the digital billboard above. It contains no data, charts, or numeric information.]
 
 As we enter 2025, we do so with a clear vision, strong momentum and an unwavering commitment to our people, clients and communities around the world.
 

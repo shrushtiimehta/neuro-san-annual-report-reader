@@ -42,29 +42,14 @@ Pie chart
 | FS         |    5753 |
 | HS         |    5932 |
 
-[IMAGE DESCRIPTION: ## Chart Analysis: Donut/Pie Chart – Revenue Breakdown by Segment
-
-This is a **donut (ring) chart** showing revenue distribution across four business segments. There is no title visible, but it appears to represent **segment revenue or sales breakdown**.
-
-### Segment Values:
+[IMAGE DESCRIPTION: Donut chart — Revenue by Segment, 2024.
 
 | Segment | Value | Approximate Share |
 |---------|-------|-------------------|
-| **FS** (Financial Services) | **$5,753M** | ~29% |
-| **HS** (Health Services) | **$5,932M** | ~30% |
-| **P&R** (Products & Resources) | **$4,782M** | ~24% |
-| **CMT** (Communications, Media & Technology) | **$3,269M** | ~17% |
-
-### Key Insights:
-
-- **Total implied revenue**: ~$19,736M (~$19.7 billion)
-- **All values are in millions (M)**
-- **HS (Health Services) is the largest segment** at $5,932M, slightly edging out FS ($5,753M)
-- **FS and HS together** account for approximately **59%** of total revenue — representing the dominant revenue drivers
-- **CMT is the smallest segment** at $3,269M (~17% of total)
-- **P&R** sits in the middle at $4,782M (~24%)
-- The distribution is **relatively balanced** between the top three segments, with CMT being notably smaller
-- This segmentation pattern is consistent with companies like **Cognizant Technology Solutions**, which uses these exact segment abbreviations]
+| FS (Financial Services) | $5,753M | ~29% |
+| HS (Health Services) | $5,932M | ~30% |
+| P&R (Products & Resources) | $4,782M | ~24% |
+| CMT (Communications, Media & Technology) | $3,269M | ~17% |]
 
 | 2024 as compared to 2023   | Increase / (Decrease)   | Increase / (Decrease)   | Increase / (Decrease)   |
 |----------------------------|-------------------------|-------------------------|-------------------------|
@@ -97,36 +82,14 @@ Pie chart
 | CE         |    1932 |
 | RoW        |    1279 |
 
-[IMAGE DESCRIPTION: # Pie/Donut Chart Analysis: Revenue by Region
+[IMAGE DESCRIPTION: Donut chart — Revenue by Region, 2024. Total: ~$19,736M.
 
-## Chart Type
-Donut/ring chart showing revenue distribution by geographic region.
-
-## Data Values
-
-| Region | Abbreviation | Revenue |
-|--------|-------------|---------|
-| North America | NA | $14,698M |
-| Central Europe | CE | $1,932M |
-| United Kingdom | UK | $1,827M |
-| Rest of World | RoW | $1,279M |
-
-## Total Implied Revenue
-**~$19,736M** (sum of all segments)
-
-## Regional Breakdown (Approximate Percentages)
-- **NA (North America):** ~74.5% — overwhelmingly dominant segment
-- **CE (Central Europe):** ~9.8%
-- **UK (United Kingdom):** ~9.3%
-- **RoW (Rest of World):** ~6.5%
-
-## Key Insights
-
-1. **North America dominates** the revenue mix, accounting for roughly three-quarters of total revenue — nearly **7.6x larger** than the next largest region (CE).
-2. **International segments are relatively small**: CE, UK, and RoW combined represent only ~$5,038M or about 25.5% of total revenue.
-3. **CE and UK are nearly equal** in size ($1,932M vs $1,827M), suggesting similar market penetration in European markets.
-4. **Rest of World is the smallest segment** at $1,279M, indicating limited global diversification beyond North America and select European markets.
-5. The company is **heavily concentrated in North America**, which presents both a strength (dominant market position) and a risk (geographic concentration).]
+| Region | Abbreviation | Revenue | Approx % |
+|--------|-------------|---------|----------|
+| North America | NA | $14,698M | ~74.5% |
+| Central Europe | CE | $1,932M | ~9.8% |
+| United Kingdom | UK | $1,827M | ~9.3% |
+| Rest of World | RoW | $1,279M | ~6.5% |]
 
 | 2024 as compared to 2023   | Increase / (Decrease)   | Increase / (Decrease)   | Increase / (Decrease)   |
 |----------------------------|-------------------------|-------------------------|-------------------------|
@@ -147,47 +110,14 @@ Bar chart
 |   2023 |                12664 |                         65.4 |
 |   2024 |                12958 |                         65.7 |
 
-[IMAGE DESCRIPTION: # Chart Analysis
+[IMAGE DESCRIPTION: Bar chart — Cost of Revenues, 2023-2024. Values in millions, with % of revenues overlay.
 
-## Chart Type
-Stacked bar chart with supplementary KPI annotations
+| Year | Value | % of Revenues |
+|------|-------|---------------|
+| 2023 | $12,664M | 65.4% |
+| 2024 | $12,958M | 65.7% |
 
-## Title
-Not explicitly titled, but appears to represent **Revenue breakdown** (likely a specific cost or expense category as a percentage of revenues)
-
-## X-Axis Periods
-- **2023**
-- **2024**
-
-## Data Points
-
-### 2023 Bar:
-- **Total value: $12,664M**
-- **Percentage of revenues: 65.4%**
-
-### 2024 Bar:
-- **Total value: $12,958M**
-- **Percentage of revenues: 65.7%**
-
-## Legend / Annotations (Right Side):
-- **→ $294M** (indicating the year-over-year increase)
-- **→ 0.3% as a % of revenues** (indicating the percentage point increase)
-- **○ % of Revenues** (legend for the percentage figures shown on bars)
-
-## Units
-- Values are in **millions of dollars (M)**
-- Percentages represent **% of Revenues**
-
-## Year-over-Year Trend
-- **Growing**: Revenue/cost increased by **$294M** from 2023 to 2024
-- This represents a **~2.3% increase** in absolute dollar terms ($294M / $12,664M)
-- As a percentage of revenues, it increased by **0.3 percentage points** (from 65.4% to 65.7%)
-
-## Key Insights
-1. The metric grew both in **absolute terms** (+$294M) and as a **proportion of revenues** (+0.3 pp)
-2. The increase as a % of revenues suggests this cost/expense category is **growing slightly faster than overall revenue**
-3. The bars are relatively **stable** in magnitude, indicating no dramatic shifts — this is a modest, incremental increase
-4. At ~65.5% of revenues, this likely represents **Cost of Goods Sold (COGS)** or a similar major expense line item, suggesting slight **margin compression** year-over-year]
+Annotations: → $294M YoY increase; → 0.3% increase as % of revenues. Legend: ○ = % of Revenues.]
 
 Our cost  of  revenues  consists  primarily  of  salaries,  incentivebased compensation, stock-based compensation expense, employee  benefits,  project-related  immigration  and  travel  for technical  personnel,  subcontracting  and  costs  of  third-party products  and  services  relating  to  revenues.  The  increase,  as  a percentage of revenues, was due to higher compensation costs, primarily as a result of a merit increase cycle, and the resale of third-party products in connection with our integrated offerings strategy,  partially  offset  by  the  beneficial  impact  of  foreign currency exchange rate movements and operational efficiencies.
 

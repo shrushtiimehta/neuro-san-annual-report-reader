@@ -16,3 +16,6 @@ rich>=14.2.0
 
 # For HTTP requests (used by annual_report_reader tools)
 requests>=2.32.0
+
+# Streamlit UI
+streamlit>=1.40.0

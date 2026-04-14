@@ -10,77 +10,21 @@ At  the  end  of  2024,  we  completed  our  NextGen  program,  which  was  aime
 
 Bar chart
 
-[IMAGE DESCRIPTION: ## Chart Analysis: Bar Chart
-
-**Chart Title:** Not explicitly shown (appears to be a revenue or financial metric comparison)
-
-**Units:** Millions (M) of dollars
-
----
-
-### Data Points:
+[IMAGE DESCRIPTION: Bar chart — Revenue comparison, values in millions.
 
 | Period | Value |
 |--------|-------|
 | FY 23 | $19,353M |
-| FY 24 | $19,736M |
-
----
-
-### Key Insights:
-
-- **Year-over-Year Trend:** Modest **growth** from FY 23 to FY 24
-- **Increase:** $383M, representing approximately **+2.0%** year-over-year growth
-- **Most Recent Year (FY 24):** $19,736M — the higher of the two periods
-- **Visual Representation:** Both bars appear nearly equal in height (dark gray/black), consistent with the relatively small percentage change
-- **No notable spikes or dips** — this reflects stable, incremental growth
-- The metric is likely **total revenue** or a similar top-line financial figure, hovering just under $20 billion in both years]
+| FY 24 | $19,736M |]
 
 Revenue up $383 million or 2.0% from 2023; an increase of 1.9% in constant currency 1
 
-Bar chart
-
-| Fiscal Year   | GAAP   | Adjusted   |
-|---------------|--------|------------|
-| FY '23        | 2.69B  | 2.92B      |
-| FY '24        | 2.89B  | 3.03B      |
-
-[IMAGE DESCRIPTION: ## Chart Analysis: Income from Operations
-
-### Chart Title
-**Income from Operations**
-
-### Chart Type
-Bar chart with two categories: **GAAP** and **Adjusted¹**
-
-### X-Axis Periods
-- **FY '23** and **FY '24** (shown for both GAAP and Adjusted)
-
-### Data Values
+[IMAGE DESCRIPTION: Bar chart — Income from Operations (GAAP vs Adjusted), values in billions.
 
 | Metric | FY '23 | FY '24 |
 |--------|--------|--------|
-| **GAAP** | **$2.69B** | **$2.89B** |
-| **Adjusted¹** | **$2.92B** | **$3.03B** |
-
-*All values are in billions of dollars (B).*
-
-### Year-over-Year Trends
-
-- **GAAP Income from Operations:** Grew from $2.69B to $2.89B, an increase of ~$200M or **~7.4% YoY growth**
-- **Adjusted Income from Operations:** Grew from $2.92B to $3.03B, an increase of ~$110M or **~3.8% YoY growth**
-
-### Key Observations
-
-1. **Both metrics show growth** from FY '23 to FY '24, indicating improving operational performance.
-2. **Adjusted figures exceed GAAP figures** in both years, which is typical as adjustments remove non-recurring or non-cash charges.
-3. **The GAAP-to-Adjusted gap is narrowing**: The difference was ~$230M in FY '23 but shrank to ~$140M in FY '24, suggesting fewer/smaller adjustments were needed.
-4. **GAAP growth rate (7.4%) outpaced Adjusted growth rate (3.8%)**, indicating the underlying GAAP operations improved more significantly.
-5. The most recent year (FY '24) reached **$3.03B on an adjusted basis**, crossing the $3B threshold for the first time shown.
-6. The ¹ footnote on "Adjusted" indicates these are non-GAAP measures with additional disclosures likely provided elsewhere in the report.
-
-### Summary
-The company demonstrated solid operational income growth across both GAAP and adjusted measures, with FY '24 adjusted income from operations surpassing the $3B mark. The converging GAAP and adjusted figures suggest improving quality of earnings.]
+| GAAP | $2.69B | $2.89B |
+| Adjusted¹ | $2.92B | $3.03B |]
 
 Income from Operations up $203 million or 7.5% from 2023
 
@@ -88,107 +32,32 @@ Adjusted Income from Operations 1 up $108 million or 3.7% from 2023
 
 ## Operating Margin
 
-Bar chart
+[IMAGE DESCRIPTION: Bar chart — Operating Margin (GAAP vs Adjusted), values in %.
 
-| Fiscal Year   | Dark Gray   | Darkest Gray   |
-|---------------|-------------|----------------|
-| FY '23        | 13.9%       | 14.7%          |
-| FY '24        | 15.1%       | 15.3%          |
-
-[IMAGE DESCRIPTION: # Chart Analysis
-
-## Chart Type
-Two pairs of bar charts (appears to be two separate metrics shown side by side)
-
-## No visible chart title
-
-## Data Points
-
-### Left Pair:
+GAAP:
 | Period | Value |
 |--------|-------|
-| FY '23 | **13.9%** |
-| FY '24 | **14.7%** |
+| FY '23 | 13.9% |
+| FY '24 | 14.7% |
 
-### Right Pair:
+Adjusted:
 | Period | Value |
 |--------|-------|
-| FY '23 | **15.1%** |
-| FY '24 | **15.3%** |
-
-## Units
-All values are in **percentages (%)**.
-
-## Trends
-
-- **Left metric:** Increased from 13.9% to 14.7% year-over-year — a **+0.8 percentage point increase** (~5.8% growth), showing a **growing trend**.
-
-- **Right metric:** Increased from 15.1% to 15.3% year-over-year — a **+0.2 percentage point increase** (~1.3% growth), showing a **relatively stable/modest growth trend**.
-
-## Key Insights
-
-- Both metrics improved from FY '23 to FY '24, indicating positive momentum.
-- The left metric showed more meaningful improvement compared to the right metric, which was nearly flat.
-- The right pair of bars consistently shows higher percentage values than the left pair, suggesting it may represent a different (or adjusted) version of the same margin/return metric.
-- Without axis labels or titles, these likely represent **margin ratios** (e.g., operating margin, return on equity, or similar profitability metrics) commonly found in financial annual reports.
-- The dark gray/black bar coloring is consistent across both periods, with the percentage labels displayed above each bar.]
-
-GAAP
-
-Adjusted
-
-1
+| FY '23 | 15.1% |
+| FY '24 | 15.3% |]
 
 Operating margin up 80 basis points from 2023
 
 Adjusted Operating Margin 1 up 20 basis points from 2023
 
-Bar chart
-
-| Fiscal Year   |   Diluted EPS |
-|---------------|---------------|
-| FY '23        |          4.21 |
-| FY '24        |          4.51 |
-| FY '23        |          4.55 |
-| FY '24        |          4.75 |
-
 GAAP Adjusted 1
 
-[IMAGE DESCRIPTION: ## Chart Analysis: Diluted EPS
+[IMAGE DESCRIPTION: Bar chart — Diluted EPS (GAAP vs Adjusted), dollars per share.
 
-**Chart Title:** Diluted EPS
-
-**Chart Type:** Bar chart with two pairs of bars (appears to compare two different metrics or entities across two fiscal years)
-
----
-
-### X-Axis Periods:
-- **FY '23** (first pair)
-- **FY '24** (first pair)
-- **FY '23** (second pair)
-- **FY '24** (second pair)
-
-### Data Values:
-
-| Period | Left Pair | Right Pair |
+| Period | GAAP | Adjusted |
 |--------|-----------|------------|
-| FY '23 | **$4.21** | **$4.55** |
-| FY '24 | **$4.51** | **$4.75** |
-
-**Units:** Dollars per share (EPS)
-
----
-
-### Trend Analysis:
-- **Left pair (FY '23 → FY '24):** Increased from $4.21 to $4.51 — a **$0.30 increase (~7.1% growth)**
-- **Right pair (FY '23 → FY '24):** Increased from $4.55 to $4.75 — a **$0.20 increase (~4.4% growth)**
-- **Overall trend:** Growing in both categories year-over-year
-
-### Key Insights:
-- The two pairs likely represent **GAAP vs. Adjusted (non-GAAP) Diluted EPS**, with the right pair (higher values) being the adjusted figures
-- **Most recent FY '24 values** are $4.51 and $4.75, both representing record highs
-- Consistent upward trajectory in earnings per share demonstrates **steady profitability improvement**
-- The spread between the two metrics narrowed slightly from $0.34 in FY '23 to $0.24 in FY '24, suggesting GAAP results are converging closer to adjusted results]
+| FY '23 | $4.21 | $4.55 |
+| FY '24 | $4.51 | $4.75 |]
 
 Diluted EPS up $0.30 or 7.1% from 2023
 

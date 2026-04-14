@@ -84,7 +84,7 @@ class NeuroSanRunner:
         """Load .env file from project root and set variables."""
         env_path = os.path.join(self.root_dir, ".env")
         if os.path.exists(env_path):
-            load_dotenv(env_path)
+            load_dotenv(env_path, override=True)
             print(f"Loaded environment variables from: {env_path}")
         else:
             print(f"No .env file found at {env_path}. \nUsing defaults.\n")

@@ -1,8 +1,7 @@
 ## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
 
-|                                                                                                                                                          | December 31,   | December 31,   |
+| (in millions, except par values)                                                                                                                         | December 31, 2024| December 31, 2023|
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|----------------|
-| (in millions, except par values)                                                                                                                         | 2024           | 2023           |
 | Assets                                                                                                                                                   |                |                |
 | Current assets:                                                                                                                                          |                |                |
 | Cash and cash equivalents                                                                                                                                | $ 2,231        | $ 2,621        |
@@ -47,9 +46,8 @@ The accompanying notes are an integral part of the consolidated financial statem
 
 ## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF OPERATIONS
 
-|                                                                                              | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
+| (in millions, except per share data)                                                         | Year Ended December 31, 2024| Year Ended December 31,2023| Year Ended December 31,2022|
 |----------------------------------------------------------------------------------------------|---------------------------|---------------------------|---------------------------|
-| (in millions, except per share data)                                                         | 2024                      | 2023                      | 2022                      |
 | Revenues                                                                                     | $ 19,736                  | $ 19,353                  | $ 19,428                  |
 | Operating expenses:                                                                          |                           |                           |                           |
 | Cost of revenues (exclusive of depreciation and amortization expense shown separately below) | 12,958                    | 12,664                    | 12,448                    |
@@ -77,9 +75,8 @@ The accompanying notes are an integral part of the consolidated financial statem
 
 ## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
 
-|                                                                      | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
+|(in millions)                                                         | Year Ended December 31, 2024| Year Ended December 31, 2023| Year Ended December 31, 2022|
 |----------------------------------------------------------------------|---------------------------|---------------------------|---------------------------|
-| (in millions)                                                        | 2024                      | 2023                      | 2022                      |
 | Net income                                                           | $ 2,240                   | $ 2,126                   | $ 2,290                   |
 | Change in Accumulated other comprehensive income (loss), net of tax: |                           |                           |                           |
 | Foreign currency translation adjustments                             | (150)                     | 144                       | (228)                     |
@@ -94,9 +91,9 @@ The accompanying notes are an integral part of the consolidated financial statem
 
 ## CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
 
-|                                                     | Class A   | Common Stock   | Additional      |                   | Accumulated Other           |          |
+|    (in millions, except per share data)             |     Class A Common Stock   | Additional Paid-in Capital |  Retained Earnings  | Accumulated Other Comprehensive Income (Loss) |  Total   |
 |-----------------------------------------------------|-----------|----------------|-----------------|-------------------|-----------------------------|----------|
-| (in millions, except per share data)                | Shares    | Amount         | Paid-in Capital | Retained Earnings | Comprehensive Income (Loss) | Total    |
+|                                                     | Shares    | Amount         |                 |                   |            |                |          |
 | Balance, December 31, 2021                          | 525       | $ 5            | $ 27            | $ 11,922          | $ 37                        | $ 11,991 |
 | Net income                                          | -         | -              | -               | 2,290             | -                           | 2,290    |
 | Other comprehensive income (loss)                   | -         | -              | -               | -                 | (336)                       | (336)    |
@@ -125,9 +122,8 @@ The accompanying notes are an integral part of the consolidated financial statem
 
 ## COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION CONSOLIDATED STATEMENTS OF CASH FLOWS
 
-|                                                                                                    | Year Ended December 31,   | Year Ended December 31,   | Year Ended December 31,   |
+|   (in millions)                                                                                    | Year Ended December 31, 2024| Year Ended December 31, 2023| Year Ended December 31, 2022|
 |----------------------------------------------------------------------------------------------------|---------------------------|---------------------------|---------------------------|
-| (in millions)                                                                                      | 2024                      | 2023                      | 2022                      |
 | Cash flows from operating activities:                                                              |                           |                           |                           |
 | Net income                                                                                         | $ 2,240                   | $ 2,126                   | $ 2,290                   |
 | Adjustments to reconcile net income to net cash provided by operating activities:                  |                           |                           |                           |
